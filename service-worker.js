@@ -1,4 +1,4 @@
-const CACHE_NAME = "fis-crt-layout-v2-t250";
+const CACHE_NAME = "fis-crt-layout-v2-adapter-ref";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -7,10 +7,11 @@ const APP_SHELL = [
   "./data/club_specs.json",
   "./data/data_version.json",
   "./data/heads.json",
-  "./data/titleist_t250_clubspecs_delta.json",
-  "./data/titleist_t250_head_delta.json",
   "./styles.css",
   "./app.js",
+  "./data/adapter_data.json",
+  "./adapter.js",
+  "./adapter.html",
   "./service-worker.js"
 ];
 
