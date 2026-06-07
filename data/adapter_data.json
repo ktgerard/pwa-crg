@@ -1,0 +1,3713 @@
+{
+  "adapters": [
+    {
+      "title": "Adams FastFit",
+      "manufacturer": "Callaway",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "S",
+          "0",
+          "Neutral",
+          "Neutral"
+        ],
+        [
+          "N",
+          "0",
+          "Neutral",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Draw",
+          "Higher/draw"
+        ],
+        [
+          "-1",
+          "-1",
+          "Neutral",
+          "Lower launch"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "S",
+          "0",
+          "Neutral",
+          "Standard neutral"
+        ],
+        [
+          "N",
+          "0",
+          "Neutral",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "1",
+          "Draw",
+          "Add launch + draw"
+        ],
+        [
+          "-1",
+          "-1",
+          "Neutral",
+          "Lower flight"
+        ]
+      ],
+      "notes": [
+        "Early/straight-fit Callaway reference. Verify head generation before install."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Adams_FastFit",
+      "tab": "Adams_FastFit",
+      "linkText": "Adapter",
+      "oem": "Adams",
+      "yearsStart": "2012",
+      "yearsEnd": "2015",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Callaway OptiFit 1",
+      "manufacturer": "Callaway",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "S",
+          "0",
+          "Neutral",
+          "Neutral"
+        ],
+        [
+          "N",
+          "0",
+          "Neutral",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Draw",
+          "Higher/draw"
+        ],
+        [
+          "-1",
+          "-1",
+          "Neutral",
+          "Lower launch"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "S",
+          "0",
+          "Neutral",
+          "Standard neutral"
+        ],
+        [
+          "N",
+          "0",
+          "Neutral",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "1",
+          "Draw",
+          "Add launch + draw"
+        ],
+        [
+          "-1",
+          "-1",
+          "Neutral",
+          "Lower flight"
+        ]
+      ],
+      "notes": [
+        "Early/straight-fit Callaway reference. Verify head generation before install."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Callaway_OptiFit1",
+      "tab": "Callaway_OptiFit1",
+      "linkText": "Adapter",
+      "oem": "Callaway",
+      "yearsStart": "2012",
+      "yearsEnd": "2014",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Callaway OptiFit 2",
+      "manufacturer": "Callaway",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Delta",
+        "Lie",
+        "Fitting Note"
+      ],
+      "matrix": [
+        [
+          "Loft cog",
+          "Delta",
+          "Meaning",
+          ""
+        ],
+        [
+          "-1",
+          "-1",
+          "Subtracts 1 from stated loft",
+          ""
+        ],
+        [
+          "S",
+          "0",
+          "Stated loft",
+          ""
+        ],
+        [
+          "+1",
+          "+1",
+          "Adds 1 to stated loft",
+          ""
+        ],
+        [
+          "+2",
+          "+2",
+          "Adds 2 to stated loft",
+          ""
+        ],
+        [
+          "Lie cog",
+          "N/D",
+          "Neutral / Draw",
+          ""
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Delta",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "-1/N",
+          "-1",
+          "Neutral",
+          "Loft -1; neutral lie"
+        ],
+        [
+          "-1/D",
+          "-1",
+          "Draw",
+          "Loft -1; draw lie"
+        ],
+        [
+          "S/N",
+          "0",
+          "Neutral",
+          "Stated loft; neutral lie"
+        ],
+        [
+          "S/D",
+          "0",
+          "Draw",
+          "Stated loft; draw lie"
+        ],
+        [
+          "+1/N",
+          "+1",
+          "Neutral",
+          "Loft +1; neutral lie"
+        ],
+        [
+          "+1/D",
+          "+1",
+          "Draw",
+          "Loft +1; draw lie"
+        ],
+        [
+          "+2/N",
+          "+2",
+          "Neutral",
+          "Loft +2; neutral lie"
+        ],
+        [
+          "+2/D",
+          "+2",
+          "Draw",
+          "Loft +2; draw lie"
+        ]
+      ],
+      "notes": [
+        "OptiFit 2 uses independent loft and lie cogs. Right-side table is the novice-friendly view."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Callaway_OptiFit2",
+      "tab": "Callaway_OptiFit2",
+      "linkText": "Adapter",
+      "oem": "Callaway",
+      "yearsStart": "2014",
+      "yearsEnd": "2024",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Callaway OptiFit 4 Hybrid",
+      "manufacturer": "Callaway",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "N",
+          "0",
+          "Neutral",
+          "Baseline"
+        ],
+        [
+          "D",
+          "0",
+          "Draw",
+          "Draw"
+        ],
+        [
+          "+1",
+          "+1",
+          "Draw",
+          "Higher/draw"
+        ],
+        [
+          "-1",
+          "-1",
+          "Neutral",
+          "Lower"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "N",
+          "0",
+          "Neutral",
+          "Standard fairway setting"
+        ],
+        [
+          "D",
+          "0",
+          "Draw",
+          "Add draw bias"
+        ],
+        [
+          "+1",
+          "1",
+          "Draw",
+          "Higher launch + draw"
+        ],
+        [
+          "-1",
+          "-1",
+          "Neutral",
+          "Lower flight"
+        ]
+      ],
+      "notes": [
+        "Callaway fairway-specific OptiFit reference. Handy when the sleeve looks similar but the use case is not driver."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Callaway_OptiFit_Hybrid",
+      "tab": "Callaway_OptiFit_Hybrid",
+      "linkText": "Adapter",
+      "oem": "Callaway",
+      "yearsStart": "2014",
+      "yearsEnd": "2024",
+      "currentFlag": "0",
+      "clubTypes": "Hybrid"
+    },
+    {
+      "title": "Callaway OptiFit 4",
+      "manufacturer": "Callaway",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "N",
+          "0",
+          "Neutral",
+          "Baseline"
+        ],
+        [
+          "D",
+          "0",
+          "Draw",
+          "Draw"
+        ],
+        [
+          "+1",
+          "+1",
+          "Draw",
+          "Higher/draw"
+        ],
+        [
+          "-1",
+          "-1",
+          "Neutral",
+          "Lower"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "N",
+          "0",
+          "Neutral",
+          "Standard fairway setting"
+        ],
+        [
+          "D",
+          "0",
+          "Draw",
+          "Add draw bias"
+        ],
+        [
+          "+1",
+          "1",
+          "Draw",
+          "Higher launch + draw"
+        ],
+        [
+          "-1",
+          "-1",
+          "Neutral",
+          "Lower flight"
+        ]
+      ],
+      "notes": [
+        "Callaway fairway-specific OptiFit reference. Handy when the sleeve looks similar but the use case is not driver."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Callaway_OptiFit4_Fairway",
+      "tab": "Callaway_OptiFit4",
+      "linkText": "Adapter",
+      "oem": "Callaway",
+      "yearsStart": "2025",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Fairway"
+    },
+    {
+      "title": "Callaway_OptiFit_4_Hybrid",
+      "manufacturer": "",
+      "matrix": [],
+      "quick": [],
+      "notes": [],
+      "workflow": [],
+      "family": "Callaway_OptiFit4_Hybrid",
+      "tab": "Callaway_OptiFit_4_Hybrid",
+      "linkText": "Adapter",
+      "oem": "Callaway",
+      "yearsStart": "2025",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Hybrid"
+    },
+    {
+      "title": "Callaway OptiFit 4 FW",
+      "manufacturer": "Callaway",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "N",
+          "0",
+          "Neutral",
+          "Baseline"
+        ],
+        [
+          "D",
+          "0",
+          "Draw",
+          "Draw"
+        ],
+        [
+          "+1",
+          "+1",
+          "Draw",
+          "Higher/draw"
+        ],
+        [
+          "-1",
+          "-1",
+          "Neutral",
+          "Lower"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "N",
+          "0",
+          "Neutral",
+          "Standard fairway setting"
+        ],
+        [
+          "D",
+          "0",
+          "Draw",
+          "Add draw bias"
+        ],
+        [
+          "+1",
+          "1",
+          "Draw",
+          "Higher launch + draw"
+        ],
+        [
+          "-1",
+          "-1",
+          "Neutral",
+          "Lower flight"
+        ]
+      ],
+      "notes": [
+        "Callaway fairway-specific OptiFit reference. Handy when the sleeve looks similar but the use case is not driver."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Cleveland_Launcher_Adjustable",
+      "tab": "Cleveland_Adjustable",
+      "linkText": "Adapter",
+      "oem": "Cleveland",
+      "yearsStart": "2012",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Cobra MyFly",
+      "manufacturer": "Cobra",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "STD",
+          "0",
+          "Std",
+          "Neutral"
+        ],
+        [
+          "+1",
+          "+1",
+          "Std",
+          "Higher"
+        ],
+        [
+          "+1D",
+          "+1",
+          "Std",
+          "Draw"
+        ],
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "STD",
+          "0",
+          "Std",
+          "Standard"
+        ],
+        [
+          "+1",
+          "1",
+          "Std",
+          "Higher launch"
+        ],
+        [
+          "+1D",
+          "1",
+          "Draw",
+          "Help turn over"
+        ],
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower flight"
+        ]
+      ],
+      "notes": [
+        "Older Cobra MyFly family. Good quick-reference page for common used-club builds."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Cobra_MyFly8_2014_2018",
+      "tab": "Cobra_MyFly_PreF9",
+      "linkText": "Adapter",
+      "oem": "Cobra",
+      "yearsStart": "2014",
+      "yearsEnd": "2018",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Cobra MyFly",
+      "manufacturer": "Cobra",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Delta",
+        "Lie",
+        "Fitting Note"
+      ],
+      "matrix": [
+        [
+          "System",
+          "Settings",
+          "Use",
+          ""
+        ],
+        [
+          "MyFly8",
+          "8",
+          "Loft/draw settings vary by head loft label",
+          ""
+        ],
+        [
+          "SmartPad",
+          "Sole aid",
+          "Helps sole square through settings",
+          ""
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Delta",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "-1.0",
+          "-1",
+          "Std",
+          "Lower launch/spin"
+        ],
+        [
+          "-1.0D",
+          "-1",
+          "Draw",
+          "Lower with draw bias"
+        ],
+        [
+          "Std",
+          "0",
+          "Std",
+          "Baseline loft stamped on head"
+        ],
+        [
+          "Std D",
+          "0",
+          "Draw",
+          "Baseline loft, draw setting"
+        ],
+        [
+          "+1.0",
+          "+1",
+          "Std",
+          "Higher launch"
+        ],
+        [
+          "+1.0D",
+          "+1",
+          "Draw",
+          "Higher with draw bias"
+        ],
+        [
+          "+1.5",
+          "+1.5",
+          "Std",
+          "Max higher setting where available"
+        ],
+        [
+          "+1.5D",
+          "+1.5",
+          "Draw",
+          "Max higher draw setting where available"
+        ]
+      ],
+      "notes": [
+        "Older Cobra MyFly family. Good quick-reference page for common used-club builds."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Cobra_MyFly8_2019_2024",
+      "tab": "Cobra_MyFly",
+      "linkText": "Adapter",
+      "oem": "Cobra",
+      "yearsStart": "2019",
+      "yearsEnd": "2024",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Cobra FutureFit33",
+      "manufacturer": "Cobra",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Delta",
+        "Lie",
+        "Fitting Note"
+      ],
+      "matrix": [
+        [
+          "System",
+          "Range",
+          "Positions",
+          ""
+        ],
+        [
+          "FutureFit33",
+          "+/-2 loft",
+          "+/-2 lie",
+          "33 unique combinations"
+        ],
+        [
+          "Coverage",
+          "DS-ADAPT / OPTM metals",
+          "Driver/Fairway/ Hybrid",
+          ""
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Delta",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "A1",
+          "0",
+          "0",
+          "Baseline"
+        ],
+        [
+          "Loft +",
+          "up to +2",
+          "varies",
+          "Higher launch"
+        ],
+        [
+          "Loft -",
+          "down to -2",
+          "varies",
+          "Lower launch"
+        ],
+        [
+          "Lie +",
+          "varies",
+          "up to +2 upright",
+          "More draw/start-left tendency"
+        ],
+        [
+          "Lie -",
+          "varies",
+          "up to -2 flat",
+          "More fade/start-right tendency"
+        ],
+        [
+          "33 positions",
+          "+/-2",
+          "+/-2",
+          "Full grid in existing FF33 visual tab"
+        ]
+      ],
+      "notes": [
+        "This is a print-friendly FF33 orientation sheet. For edge cases, confirm against Cobra's full interactive chart."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Cobra_FutureFit33_DriverFairway",
+      "tab": "Cobra_FutureFit33",
+      "linkText": "Adapter",
+      "oem": "Cobra",
+      "yearsStart": "2025",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Cobra FutureFit33 Full",
+      "manufacturer": "Cobra",
+      "matrixHeaders": [
+        "Example",
+        "Loft Δ",
+        "Lie Δ",
+        ""
+      ],
+      "matrix": [
+        [
+          "Loft +2 / Lie 0",
+          "+2",
+          "0",
+          ""
+        ],
+        [
+          "Loft 0 / Lie +2",
+          "0",
+          "+2",
+          ""
+        ],
+        [
+          "Loft 0 / Lie -2",
+          "0",
+          "-2",
+          ""
+        ],
+        [
+          "Loft -2 / Lie 0",
+          "-2",
+          "0",
+          ""
+        ],
+        [
+          "Workflow: identify by photo → confirm direction with OEM matrix → use full 33-setting table for exact FF33 loft/lie combinations.",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Δ (°)",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "A1",
+          "0",
+          "0",
+          "Standard"
+        ],
+        [
+          "A2",
+          "-0.7",
+          "-0.3",
+          "Lower / slight fade"
+        ],
+        [
+          "A3",
+          "-1",
+          "-1",
+          "Lower / fade"
+        ],
+        [
+          "A4",
+          "-0.7",
+          "-1.7",
+          "Lower / strong fade"
+        ],
+        [
+          "A5",
+          "0",
+          "-2",
+          "Standard loft / max fade"
+        ],
+        [
+          "A6",
+          "0.7",
+          "-1.7",
+          "Higher / fade"
+        ],
+        [
+          "A7",
+          "1",
+          "-1",
+          "Higher / slight fade"
+        ],
+        [
+          "A8",
+          "0.7",
+          "-0.3",
+          "Higher / slight fade"
+        ],
+        [
+          "B1",
+          "0.7",
+          "0.3",
+          "Higher / slight draw"
+        ],
+        [
+          "B3",
+          "-0.3",
+          "-0.7",
+          "Lower / fade"
+        ],
+        [
+          "B4",
+          "0",
+          "-1.4",
+          "Standard loft / fade"
+        ],
+        [
+          "C1",
+          "1",
+          "1",
+          "Higher / draw"
+        ],
+        [
+          "C2",
+          "0.3",
+          "0.7",
+          "Slightly higher / draw"
+        ],
+        [
+          "C7",
+          "2",
+          "0",
+          "Max loft"
+        ],
+        [
+          "C8",
+          "1.7",
+          "0.7",
+          "Higher / draw"
+        ],
+        [
+          "D1",
+          "0.7",
+          "1.7",
+          "Higher / strong draw"
+        ],
+        [
+          "D2",
+          "0",
+          "1.4",
+          "Standard loft / draw"
+        ],
+        [
+          "D3",
+          "-0.3",
+          "0.7",
+          "Lower / slight draw"
+        ],
+        [
+          "D6",
+          "1.4",
+          "0",
+          "Higher"
+        ],
+        [
+          "D8",
+          "1.4",
+          "1.4",
+          "Higher / draw"
+        ],
+        [
+          "E1",
+          "0",
+          "2",
+          "Standard loft / max draw"
+        ],
+        [
+          "E2",
+          "-0.7",
+          "1.7",
+          "Lower / strong draw"
+        ],
+        [
+          "E3",
+          "-1",
+          "1",
+          "Lower / draw"
+        ],
+        [
+          "E4",
+          "-0.7",
+          "0.3",
+          "Lower / slight draw"
+        ],
+        [
+          "F2",
+          "-1.4",
+          "1.4",
+          "Lower / draw"
+        ],
+        [
+          "F3",
+          "-1.7",
+          "0.7",
+          "Lower / slight draw"
+        ],
+        [
+          "F4",
+          "-1.4",
+          "0",
+          "Lower"
+        ]
+      ],
+      "notes": [],
+      "workflow": [
+        "Workflow: identify by photo → confirm direction with OEM matrix → use full 33-setting table for exact FF33 loft/lie combinations."
+      ],
+      "family": "Cobra_FutureFit33_Hybrid",
+      "tab": "Cobra_FF33_Hybrid",
+      "linkText": "Adapter",
+      "oem": "Cobra",
+      "yearsStart": "2025",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Hybrid"
+    },
+    {
+      "title": "Mizuno Quick Switch",
+      "manufacturer": "Mizuno",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Std",
+          "Higher"
+        ],
+        [
+          "+2",
+          "+2",
+          "Std",
+          "Max launch"
+        ],
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "1",
+          "Std",
+          "Higher launch"
+        ],
+        [
+          "+2",
+          "2",
+          "Std",
+          "Maximum launch"
+        ],
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower flight"
+        ]
+      ],
+      "notes": [
+        "Mizuno sleeves vary by generation; use this as a shop reference and verify sleeve engraving."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Honma_NonRotating",
+      "tab": "Honma_NonRotating",
+      "linkText": "Adapter",
+      "oem": "Honma",
+      "yearsStart": "2018",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Mizuno Quick Switch",
+      "manufacturer": "Mizuno",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Std",
+          "Higher"
+        ],
+        [
+          "+2",
+          "+2",
+          "Std",
+          "Max launch"
+        ],
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "1",
+          "Std",
+          "Higher launch"
+        ],
+        [
+          "+2",
+          "2",
+          "Std",
+          "Maximum launch"
+        ],
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower flight"
+        ]
+      ],
+      "notes": [
+        "Mizuno sleeves vary by generation; use this as a shop reference and verify sleeve engraving."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Mizuno_FastTrack_Legacy",
+      "tab": "Mizuno_FastTrack",
+      "linkText": "Adapter",
+      "oem": "Mizuno",
+      "yearsStart": "2007",
+      "yearsEnd": "2011",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Mizuno Quick Switch",
+      "manufacturer": "Mizuno",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Std",
+          "Higher"
+        ],
+        [
+          "+2",
+          "+2",
+          "Std",
+          "Max launch"
+        ],
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "1",
+          "Std",
+          "Higher launch"
+        ],
+        [
+          "+2",
+          "2",
+          "Std",
+          "Maximum launch"
+        ],
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower flight"
+        ]
+      ],
+      "notes": [
+        "Mizuno sleeves vary by generation; use this as a shop reference and verify sleeve engraving."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Mizuno_QuickSwitch_ST180Plus",
+      "tab": "Mizuno_ST",
+      "linkText": "Adapter",
+      "oem": "Mizuno",
+      "yearsStart": "2018",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "PING G400",
+      "manufacturer": "PING",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Std",
+          "Higher"
+        ],
+        [
+          "+1 Flat",
+          "+1",
+          "Flat",
+          "Anti-left"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower flight"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "1",
+          "Std",
+          "Higher launch"
+        ],
+        [
+          "+1 Flat",
+          "1",
+          "Flat",
+          "Higher + anti-left"
+        ]
+      ],
+      "notes": [
+        "PING flat settings are especially useful as quick anti-left references."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Nike_STR8FIT",
+      "tab": "Nike_STR8FIT",
+      "linkText": "Adapter",
+      "oem": "Nike",
+      "yearsStart": "2009",
+      "yearsEnd": "2012",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "PING G400",
+      "manufacturer": "PING",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Std",
+          "Higher"
+        ],
+        [
+          "+1 Flat",
+          "+1",
+          "Flat",
+          "Anti-left"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower flight"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "1",
+          "Std",
+          "Higher launch"
+        ],
+        [
+          "+1 Flat",
+          "1",
+          "Flat",
+          "Higher + anti-left"
+        ]
+      ],
+      "notes": [
+        "PING flat settings are especially useful as quick anti-left references."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Nike_FlexLoft_Covert",
+      "tab": "Nike_FlexLoft",
+      "linkText": "Adapter",
+      "oem": "Nike",
+      "yearsStart": "2013",
+      "yearsEnd": "2016",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "PING G400",
+      "manufacturer": "PING",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Std",
+          "Higher"
+        ],
+        [
+          "+1 Flat",
+          "+1",
+          "Flat",
+          "Anti-left"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower flight"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "1",
+          "Std",
+          "Higher launch"
+        ],
+        [
+          "+1 Flat",
+          "1",
+          "Flat",
+          "Higher + anti-left"
+        ]
+      ],
+      "notes": [
+        "PING flat settings are especially useful as quick anti-left references."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Ping_Anser_G25",
+      "tab": "PING_Anser_G25",
+      "linkText": "Adapter",
+      "oem": "PING",
+      "yearsStart": "2012",
+      "yearsEnd": "2014",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "PING G430",
+      "manufacturer": "PING",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Delta",
+        "Lie",
+        "Fitting Note"
+      ],
+      "matrix": [
+        [
+          "Position",
+          "Loft Delta",
+          "Lie",
+          "Fitting Note"
+        ],
+        [
+          "Big +",
+          "+1.5",
+          "Std",
+          "Highest loft"
+        ],
+        [
+          "Small +",
+          "+1",
+          "Std",
+          "Slight loft add"
+        ],
+        [
+          "Std",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "Small -",
+          "-1",
+          "Std",
+          "Slight loft reduce"
+        ],
+        [
+          "Big -",
+          "-1.5",
+          "Std",
+          "Lowest loft"
+        ],
+        [
+          "Flat positions",
+          "Varies",
+          "Flat",
+          "Use Flat variants for fade/start-right bias"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Delta",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "Std",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "Small +",
+          "+1",
+          "Std",
+          "Slightly higher launch"
+        ],
+        [
+          "Big +",
+          "+1.5",
+          "Std",
+          "Higher launch"
+        ],
+        [
+          "Small -",
+          "-1",
+          "Std",
+          "Slightly lower launch"
+        ],
+        [
+          "Big -",
+          "-1.5",
+          "Std",
+          "Lower launch"
+        ],
+        [
+          "Std Flat",
+          "0",
+          "Flat",
+          "Fade/start-right bias"
+        ],
+        [
+          "Small + Flat",
+          "+1",
+          "Flat",
+          "Higher while flatter"
+        ],
+        [
+          "Small - Flat",
+          "-1",
+          "Flat",
+          "Lower while flatter"
+        ]
+      ],
+      "notes": [
+        "PING flat settings are especially useful as quick anti-left references."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Ping_TrajectoryTuning_G30_G_G400",
+      "tab": "PING_G30Plus",
+      "linkText": "Adapter",
+      "oem": "PING",
+      "yearsStart": "2014",
+      "yearsEnd": "2018",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "PING G400",
+      "manufacturer": "PING",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Std",
+          "Higher"
+        ],
+        [
+          "+1 Flat",
+          "+1",
+          "Flat",
+          "Anti-left"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower flight"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "1",
+          "Std",
+          "Higher launch"
+        ],
+        [
+          "+1 Flat",
+          "1",
+          "Flat",
+          "Higher + anti-left"
+        ]
+      ],
+      "notes": [
+        "PING flat settings are especially useful as quick anti-left references."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Ping_TrajectoryTuning_G400_Alias",
+      "tab": "PING_G400",
+      "linkText": "Adapter",
+      "oem": "PING",
+      "yearsStart": "2017",
+      "yearsEnd": "2018",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "PING G400",
+      "manufacturer": "PING",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Std",
+          "Higher"
+        ],
+        [
+          "+1 Flat",
+          "+1",
+          "Flat",
+          "Anti-left"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower flight"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "1",
+          "Std",
+          "Higher launch"
+        ],
+        [
+          "+1 Flat",
+          "1",
+          "Flat",
+          "Higher + anti-left"
+        ]
+      ],
+      "notes": [
+        "PING flat settings are especially useful as quick anti-left references."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Ping_TrajectoryTuning2_G410Plus",
+      "tab": "PING_G410Plus",
+      "linkText": "Adapter",
+      "oem": "PING",
+      "yearsStart": "2019",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Driver;Fairway;Hybrid"
+    },
+    {
+      "title": "PXG Adapter",
+      "manufacturer": "PXG",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "Lower",
+          "-1.5",
+          "Std",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "Higher",
+          "+1.5",
+          "Std",
+          "Higher"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "Lower",
+          "-1.5",
+          "Std",
+          "Lower launch/spin"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "Higher",
+          "1.5",
+          "Std",
+          "Add launch"
+        ]
+      ],
+      "notes": [
+        "PXG generations can differ slightly. Verify sleeve marks if working on uncommon heads."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "PXG_Gen1_Gen3_DriverFairway",
+      "tab": "PXG_Gen1_Gen3",
+      "linkText": "Adapter",
+      "oem": "PXG",
+      "yearsStart": "2016",
+      "yearsEnd": "2020",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "PXG Adapter",
+      "manufacturer": "PXG",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "Lower",
+          "-1.5",
+          "Std",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "Higher",
+          "+1.5",
+          "Std",
+          "Higher"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "Lower",
+          "-1.5",
+          "Std",
+          "Lower launch/spin"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "Higher",
+          "1.5",
+          "Std",
+          "Add launch"
+        ]
+      ],
+      "notes": [
+        "PXG generations can differ slightly. Verify sleeve marks if working on uncommon heads."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "PXG_Hybrid",
+      "tab": "PXG_Hybrid",
+      "linkText": "Adapter",
+      "oem": "PXG",
+      "yearsStart": "2016",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Hybrid"
+    },
+    {
+      "title": "PXG Adapter",
+      "manufacturer": "PXG",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "Lower",
+          "-1.5",
+          "Std",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "Higher",
+          "+1.5",
+          "Std",
+          "Higher"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "Lower",
+          "-1.5",
+          "Std",
+          "Lower launch/spin"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "Higher",
+          "1.5",
+          "Std",
+          "Add launch"
+        ]
+      ],
+      "notes": [
+        "PXG generations can differ slightly. Verify sleeve marks if working on uncommon heads."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "PXG_Gen4Plus_DriverFairway",
+      "tab": "PXG_Adapter",
+      "linkText": "Adapter",
+      "oem": "PXG",
+      "yearsStart": "2021",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Srixon ZX",
+      "manufacturer": "Srixon",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "-1",
+          "-1",
+          "Neutral",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Neutral",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Neutral",
+          "Higher"
+        ],
+        [
+          "+1 Upright",
+          "+1",
+          "Upright",
+          "Draw help"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "-1",
+          "-1",
+          "Neutral",
+          "Lower flight"
+        ],
+        [
+          "STD",
+          "0",
+          "Neutral",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "1",
+          "Neutral",
+          "Higher launch"
+        ],
+        [
+          "+1 Upright",
+          "1",
+          "Upright",
+          "Higher + draw help"
+        ]
+      ],
+      "notes": [
+        "QTS-style references vary by ZX generation; confirm sleeve labeling on the actual club."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Srixon_QTS_Hybrid_ZX_MkII",
+      "tab": "Srixon_ZX_Hybrid",
+      "linkText": "Adapter",
+      "oem": "Srixon",
+      "yearsStart": "2015",
+      "yearsEnd": "2024",
+      "currentFlag": "0",
+      "clubTypes": "Hybrid"
+    },
+    {
+      "title": "Srixon ZX",
+      "manufacturer": "Srixon",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "-1",
+          "-1",
+          "Neutral",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Neutral",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Neutral",
+          "Higher"
+        ],
+        [
+          "+1 Upright",
+          "+1",
+          "Upright",
+          "Draw help"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "-1",
+          "-1",
+          "Neutral",
+          "Lower flight"
+        ],
+        [
+          "STD",
+          "0",
+          "Neutral",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "1",
+          "Neutral",
+          "Higher launch"
+        ],
+        [
+          "+1 Upright",
+          "1",
+          "Upright",
+          "Higher + draw help"
+        ]
+      ],
+      "notes": [
+        "QTS-style references vary by ZX generation; confirm sleeve labeling on the actual club."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Srixon_QTS_Z355_to_ZX_MkII",
+      "tab": "Srixon_ZX",
+      "linkText": "Adapter",
+      "oem": "Srixon",
+      "yearsStart": "2015",
+      "yearsEnd": "2024",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Srixon ZXi",
+      "manufacturer": "Srixon",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Delta",
+        "Lie",
+        "Fitting Note"
+      ],
+      "matrix": [
+        [
+          "Primary Mark",
+          "Loft Delta",
+          "Lie",
+          ""
+        ],
+        [
+          "STD LOFT",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "-1.5 LOFT",
+          "-1.5",
+          "Varies",
+          "Lower"
+        ],
+        [
+          "+1.5 LOFT",
+          "+1.5",
+          "Varies",
+          "Higher"
+        ],
+        [
+          "STD FL",
+          "0",
+          "Flat",
+          "Flatter"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Delta",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "STD LOFT",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1.5 LOFT",
+          "+1.5",
+          "varies",
+          "Higher launch"
+        ],
+        [
+          "-1.5 LOFT",
+          "-1.5",
+          "varies",
+          "Lower launch"
+        ],
+        [
+          "STD FL",
+          "0",
+          "Flat",
+          "Baseline loft, flatter lie"
+        ],
+        [
+          "Intermediate",
+          "varies",
+          "varies",
+          "12-position sleeve includes intermediate settings"
+        ]
+      ],
+      "notes": [
+        "ZXi update of the Srixon hosel family. Very similar quick-reference use case to ZX."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Srixon_ZXi_DriverFairway",
+      "tab": "Srixon_ZXi",
+      "linkText": "Adapter",
+      "oem": "Srixon",
+      "yearsStart": "2025",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Srixon_ZXi_Hybrid",
+      "manufacturer": "",
+      "matrix": [],
+      "quick": [],
+      "notes": [],
+      "workflow": [],
+      "family": "Srixon_ZXi_Hybrid",
+      "tab": "Srixon_ZXi_Hybrid",
+      "linkText": "Adapter",
+      "oem": "Srixon",
+      "yearsStart": "2025",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Hybrid"
+    },
+    {
+      "title": "TaylorMade R9 Tour Offset",
+      "manufacturer": "TaylorMade",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Sleeve",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "Lower",
+          "-1",
+          "Lower",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "Higher",
+          "+1",
+          "Higher",
+          "Higher"
+        ],
+        [
+          "Upright",
+          "0",
+          "Upright",
+          "Draw help"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie/Face",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "Lower",
+          "-1",
+          "More open",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Standard"
+        ],
+        [
+          "Higher",
+          "1",
+          "More closed",
+          "Higher"
+        ],
+        [
+          "Upright",
+          "0",
+          "Upright",
+          "Draw help"
+        ]
+      ],
+      "notes": [
+        "Very useful oddball reference for older TaylorMade builds."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "TaylorMade_R9_R11_RBZ",
+      "tab": "TaylorMade_R9_R11_RBZ",
+      "linkText": "Adapter",
+      "oem": "TaylorMade",
+      "yearsStart": "2009",
+      "yearsEnd": "2012",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "TaylorMade JetSpeed RBZ Stage 2",
+      "manufacturer": "TaylorMade",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Sleeve",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "Lower",
+          "-1.5",
+          "Lower",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "Higher",
+          "+1.5",
+          "Higher",
+          "Higher"
+        ],
+        [
+          "Upright",
+          "0",
+          "Upright",
+          "Draw help"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie/Face",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "Lower",
+          "-1.5",
+          "More open",
+          "Lower flight"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Standard"
+        ],
+        [
+          "Higher",
+          "1.5",
+          "More closed",
+          "Higher launch"
+        ],
+        [
+          "Upright",
+          "0",
+          "Upright",
+          "Draw help"
+        ]
+      ],
+      "notes": [
+        "Useful legacy TaylorMade page for older adjustable heads still seen in trade-ins and repairs."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "TaylorMade_JetSpeed_RBZ_Stage_2",
+      "tab": "TaylorMade_JetSpeed_RBZ_Stage_2",
+      "linkText": "Adapter",
+      "oem": "TaylorMade",
+      "yearsStart": "2013",
+      "yearsEnd": "2014",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "TaylorMade R1",
+      "manufacturer": "TaylorMade",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Sleeve",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "Lower",
+          "-1.5",
+          "Lower",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "Higher",
+          "+1.5",
+          "Higher",
+          "Higher"
+        ],
+        [
+          "Upright",
+          "0",
+          "Upright",
+          "Draw help"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie/Face",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "Lower",
+          "-1.5",
+          "More open",
+          "Lower flight"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Standard"
+        ],
+        [
+          "Higher",
+          "1.5",
+          "More closed",
+          "Higher launch"
+        ],
+        [
+          "Upright",
+          "0",
+          "Upright",
+          "Draw help"
+        ]
+      ],
+      "notes": [
+        "Legacy TaylorMade R1-family visual reference."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "TaylorMade_R1_SLDR_R15",
+      "tab": "TaylorMade_R1",
+      "linkText": "Adapter",
+      "oem": "TaylorMade",
+      "yearsStart": "2013",
+      "yearsEnd": "2015",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "TaylorMade 2013 Plus",
+      "manufacturer": "TaylorMade",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Sleeve",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "LOW",
+          "-2",
+          "Lower",
+          "Lower/spin down"
+        ],
+        [
+          "-1",
+          "-1",
+          "Lower",
+          "Slightly lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Higher",
+          "Higher launch"
+        ],
+        [
+          "+2",
+          "+2",
+          "Higher",
+          "Max launch"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie/Face",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "LOW",
+          "-2",
+          "Open",
+          "Lower spin"
+        ],
+        [
+          "-1",
+          "-1",
+          "Slightly open",
+          "Slightly lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "1",
+          "Slightly closed",
+          "Higher"
+        ],
+        [
+          "+2",
+          "2",
+          "More closed",
+          "Max launch"
+        ]
+      ],
+      "notes": [
+        "Modern TaylorMade loft sleeve logic. Loft changes also influence face angle and spin."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "TaylorMade_2013Plus",
+      "tab": "TaylorMade_2013_Plus",
+      "linkText": "Adapter",
+      "oem": "TaylorMade",
+      "yearsStart": "2015",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "TaylorMade SIM",
+      "manufacturer": "TaylorMade",
+      "matrixHeaders": [
+        "Position",
+        "Loft Δ",
+        "Lie",
+        ""
+      ],
+      "matrix": [
+        [
+          "LOW -2.0",
+          "-2.0",
+          "Upright",
+          ""
+        ],
+        [
+          "STD",
+          "0",
+          "Square",
+          ""
+        ],
+        [
+          "HI +2.0",
+          "+2.0",
+          "Upright",
+          ""
+        ],
+        [
+          "UPRT",
+          "0",
+          "Most Upright",
+          ""
+        ]
+      ],
+      "quickHeaders": [
+        "Position",
+        "Loft Δ (°)",
+        "Lie vs STD (°)",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "UPRT",
+          "0",
+          "4",
+          "Highest lie / anti-right"
+        ],
+        [
+          "HI +0.75",
+          "0.75",
+          "3.5",
+          "Higher loft"
+        ],
+        [
+          "HI +1.5",
+          "1.5",
+          "2.75",
+          "Higher loft"
+        ],
+        [
+          "HI +2.0",
+          "2",
+          "2",
+          "Max loft"
+        ],
+        [
+          "HI +1.5 FLAT",
+          "1.5",
+          "1.25",
+          "Higher loft, less upright"
+        ],
+        [
+          "HI +0.75 FLAT",
+          "0.75",
+          "0.5",
+          "Higher loft, flatter"
+        ],
+        [
+          "STD",
+          "0",
+          "0",
+          "Stamped loft, standard lie"
+        ],
+        [
+          "LOW -0.75 FLAT",
+          "-0.75",
+          "0.5",
+          "Lower loft, slightly flat"
+        ],
+        [
+          "LOW -1.5 FLAT",
+          "-1.5",
+          "1.25",
+          "Lower loft"
+        ],
+        [
+          "LOW -2.0",
+          "-2",
+          "2",
+          "Min loft"
+        ],
+        [
+          "LOW -1.5",
+          "-1.5",
+          "2.75",
+          "Lower loft"
+        ],
+        [
+          "LOW -0.75",
+          "-0.75",
+          "3.5",
+          "Lower loft, upright"
+        ]
+      ],
+      "notes": [
+        "TaylorMade sleeve adjustments also change face angle. Use the full table instead of relying on loft alone."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "TaylorMade_SIM_DisplayAlias",
+      "tab": "TaylorMade_SIM",
+      "linkText": "Adapter",
+      "oem": "TaylorMade",
+      "yearsStart": "2020",
+      "yearsEnd": "2021",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Titleist SureFit",
+      "manufacturer": "Titleist",
+      "matrixHeaders": [
+        "",
+        "1",
+        "2",
+        "3"
+      ],
+      "matrix": [
+        [
+          "A",
+          "Std",
+          "+0.75",
+          "+1.5"
+        ],
+        [
+          "B",
+          "+1.5",
+          "+2.25",
+          "+3"
+        ],
+        [
+          "C",
+          "+0.75",
+          "+1.5",
+          "+2.25"
+        ],
+        [
+          "D",
+          "-0.75",
+          "0",
+          "+0.75"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "A1",
+          "0",
+          "Std",
+          "Neutral baseline"
+        ],
+        [
+          "A2",
+          "0",
+          "Upright",
+          "More draw/start left"
+        ],
+        [
+          "A3",
+          "1.5",
+          "Upright",
+          "+ loft + draw"
+        ],
+        [
+          "A4",
+          "1.5",
+          "Std",
+          "+ loft"
+        ],
+        [
+          "B1",
+          "0",
+          "Flat",
+          "Fade bias/start right"
+        ],
+        [
+          "B2",
+          "0",
+          "Upright",
+          "Slight draw bias"
+        ],
+        [
+          "B3",
+          "1.5",
+          "Upright",
+          "+ loft + slight draw"
+        ],
+        [
+          "B4",
+          "1.5",
+          "Flat",
+          "+ loft + slight fade"
+        ],
+        [
+          "C1",
+          "-0.75",
+          "Flat",
+          "Lower/fade"
+        ],
+        [
+          "C2",
+          "-0.75",
+          "Upright",
+          "Lower/slight draw"
+        ],
+        [
+          "C3",
+          "0.75",
+          "Upright",
+          "Higher/slight draw"
+        ],
+        [
+          "C4",
+          "0.75",
+          "Flat",
+          "Higher/slight fade"
+        ],
+        [
+          "D1",
+          "-0.75",
+          "Std",
+          "Lower launch"
+        ],
+        [
+          "D2",
+          "-0.75",
+          "Upright",
+          "Lower + draw"
+        ],
+        [
+          "D3",
+          "0.75",
+          "Upright",
+          "Higher + draw"
+        ],
+        [
+          "D4",
+          "0.75",
+          "Std",
+          "Higher launch"
+        ]
+      ],
+      "notes": [
+        "Driver/fairway SureFit reference. Use the left matrix if you know the system; use the right table if you want every setting spelled out."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Titleist_SureFit_Driver_910Plus",
+      "tab": "Titleist_SureFit_Driver",
+      "linkText": "Adapter",
+      "oem": "Titleist",
+      "yearsStart": "2010",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Driver"
+    },
+    {
+      "title": "Titleist SureFit",
+      "manufacturer": "Titleist",
+      "matrixHeaders": [
+        "",
+        "1",
+        "2",
+        "3"
+      ],
+      "matrix": [
+        [
+          "A",
+          "Std",
+          "+0.75",
+          "+1.5"
+        ],
+        [
+          "B",
+          "+1.5",
+          "+2.25",
+          "+3"
+        ],
+        [
+          "C",
+          "+0.75",
+          "+1.5",
+          "+2.25"
+        ],
+        [
+          "D",
+          "-0.75",
+          "0",
+          "+0.75"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "A1",
+          "0",
+          "Std",
+          "Neutral baseline"
+        ],
+        [
+          "A2",
+          "0",
+          "Upright",
+          "More draw/start left"
+        ],
+        [
+          "A3",
+          "1.5",
+          "Upright",
+          "+ loft + draw"
+        ],
+        [
+          "A4",
+          "1.5",
+          "Std",
+          "+ loft"
+        ],
+        [
+          "B1",
+          "0",
+          "Flat",
+          "Fade bias/start right"
+        ],
+        [
+          "B2",
+          "0",
+          "Upright",
+          "Slight draw bias"
+        ],
+        [
+          "B3",
+          "1.5",
+          "Upright",
+          "+ loft + slight draw"
+        ],
+        [
+          "B4",
+          "1.5",
+          "Flat",
+          "+ loft + slight fade"
+        ],
+        [
+          "C1",
+          "-0.75",
+          "Flat",
+          "Lower/fade"
+        ],
+        [
+          "C2",
+          "-0.75",
+          "Upright",
+          "Lower/slight draw"
+        ],
+        [
+          "C3",
+          "0.75",
+          "Upright",
+          "Higher/slight draw"
+        ],
+        [
+          "C4",
+          "0.75",
+          "Flat",
+          "Higher/slight fade"
+        ],
+        [
+          "D1",
+          "-0.75",
+          "Std",
+          "Lower launch"
+        ],
+        [
+          "D2",
+          "-0.75",
+          "Upright",
+          "Lower + draw"
+        ],
+        [
+          "D3",
+          "0.75",
+          "Upright",
+          "Higher + draw"
+        ],
+        [
+          "D4",
+          "0.75",
+          "Std",
+          "Higher launch"
+        ]
+      ],
+      "notes": [
+        "Driver/fairway SureFit reference. Use the left matrix if you know the system; use the right table if you want every setting spelled out."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Titleist_SureFit_Fairway_910",
+      "tab": "Titleist_910_Fairway",
+      "linkText": "Adapter",
+      "oem": "Titleist",
+      "yearsStart": "2010",
+      "yearsEnd": "2012",
+      "currentFlag": "0",
+      "clubTypes": "Fairway"
+    },
+    {
+      "title": "Titleist SureFit-Hybrid",
+      "manufacturer": "Titleist",
+      "matrixHeaders": [
+        "Loft rows",
+        "Lie columns",
+        "Settings",
+        "RH chart"
+      ],
+      "matrix": [
+        [
+          "+2",
+          "2 Upr / 1 Upr / Std / 1 Flat",
+          "A3 B3 A4 B4",
+          "Highest row"
+        ],
+        [
+          "+1",
+          "2 Upr / 1 Upr / Std / 1 Flat",
+          "D3 C3 D4 C4",
+          "Higher row"
+        ],
+        [
+          "0",
+          "2 Upr / 1 Upr / Std / 1 Flat",
+          "A2 B2 A1 B1",
+          "A1 baseline"
+        ],
+        [
+          "-1",
+          "2 Upr / 1 Upr / Std / 1 Flat",
+          "D2 C2 D1 C1",
+          "Lowest row"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "A1",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "A2",
+          "0",
+          "+2 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "A3",
+          "+2",
+          "+2 Upright",
+          "Most draw"
+        ],
+        [
+          "A4",
+          "+2",
+          "Std",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "B1",
+          "0",
+          "-1 Flat",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "B2",
+          "0",
+          "+1 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "B3",
+          "+2",
+          "+1 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "B4",
+          "+2",
+          "-1 Flat",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "C1",
+          "-1",
+          "-1 Flat",
+          "Most fade"
+        ],
+        [
+          "C2",
+          "-1",
+          "+1 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "C3",
+          "+1",
+          "+1 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "C4",
+          "+1",
+          "-1 Flat",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "D1",
+          "-1",
+          "Std",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "D2",
+          "-1",
+          "+2 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "D3",
+          "+1",
+          "+2 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "D4",
+          "+1",
+          "Std",
+          "Higher/draw leftward; lower/fade rightward"
+        ]
+      ],
+      "notes": [
+        "Driver/fairway SureFit reference. Use the left matrix if you know the system; use the right table if you want every setting spelled out."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Titleist_SureFit_Hybrid_910_915",
+      "tab": "Titleist_Hybrid_910_915",
+      "linkText": "Adapter",
+      "oem": "Titleist",
+      "yearsStart": "2011",
+      "yearsEnd": "2015",
+      "currentFlag": "0",
+      "clubTypes": "Hybrid"
+    },
+    {
+      "title": "Titleist_SureFit_Fairway",
+      "manufacturer": "",
+      "matrix": [],
+      "quick": [],
+      "notes": [],
+      "workflow": [],
+      "family": "Titleist_SureFit_Fairway_913Plus",
+      "tab": "Titleist_SureFit_Fairway",
+      "linkText": "Adapter",
+      "oem": "Titleist",
+      "yearsStart": "2013",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Fairway"
+    },
+    {
+      "title": "Titleist SureFit",
+      "manufacturer": "Titleist",
+      "matrixHeaders": [
+        "",
+        "1",
+        "2",
+        "3"
+      ],
+      "matrix": [
+        [
+          "A",
+          "Std",
+          "+0.75",
+          "+1.5"
+        ],
+        [
+          "B",
+          "+1.5",
+          "+2.25",
+          "+3"
+        ],
+        [
+          "C",
+          "+0.75",
+          "+1.5",
+          "+2.25"
+        ],
+        [
+          "D",
+          "-0.75",
+          "0",
+          "+0.75"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "A1",
+          "0",
+          "Std",
+          "Neutral baseline"
+        ],
+        [
+          "A2",
+          "0",
+          "Upright",
+          "More draw/start left"
+        ],
+        [
+          "A3",
+          "1.5",
+          "Upright",
+          "+ loft + draw"
+        ],
+        [
+          "A4",
+          "1.5",
+          "Std",
+          "+ loft"
+        ],
+        [
+          "B1",
+          "0",
+          "Flat",
+          "Fade bias/start right"
+        ],
+        [
+          "B2",
+          "0",
+          "Upright",
+          "Slight draw bias"
+        ],
+        [
+          "B3",
+          "1.5",
+          "Upright",
+          "+ loft + slight draw"
+        ],
+        [
+          "B4",
+          "1.5",
+          "Flat",
+          "+ loft + slight fade"
+        ],
+        [
+          "C1",
+          "-0.75",
+          "Flat",
+          "Lower/fade"
+        ],
+        [
+          "C2",
+          "-0.75",
+          "Upright",
+          "Lower/slight draw"
+        ],
+        [
+          "C3",
+          "0.75",
+          "Upright",
+          "Higher/slight draw"
+        ],
+        [
+          "C4",
+          "0.75",
+          "Flat",
+          "Higher/slight fade"
+        ],
+        [
+          "D1",
+          "-0.75",
+          "Std",
+          "Lower launch"
+        ],
+        [
+          "D2",
+          "-0.75",
+          "Upright",
+          "Lower + draw"
+        ],
+        [
+          "D3",
+          "0.75",
+          "Upright",
+          "Higher + draw"
+        ],
+        [
+          "D4",
+          "0.75",
+          "Std",
+          "Higher launch"
+        ]
+      ],
+      "notes": [
+        "Driver/fairway SureFit reference. Use the left matrix if you know the system; use the right table if you want every setting spelled out."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Titleist_SureFit_Hybrid_816Plus",
+      "tab": "Titleist_Hybrid_816Plus",
+      "linkText": "Adapter",
+      "oem": "Titleist",
+      "yearsStart": "2016",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Hybrid"
+    },
+    {
+      "title": "Wilson Dynapwr",
+      "manufacturer": "Wilson",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Std",
+          "Higher"
+        ],
+        [
+          "+2",
+          "+2",
+          "Std",
+          "Max launch"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower flight"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Standard"
+        ],
+        [
+          "+1",
+          "1",
+          "Std",
+          "Higher launch"
+        ],
+        [
+          "+2",
+          "2",
+          "Std",
+          "Max launch"
+        ]
+      ],
+      "notes": [
+        "Useful modern Wilson reference. Verify sleeve etching if you see uncommon hybrid versions."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "TourEdge_Exotics_EXS_CE721Plus",
+      "tab": "TourEdge_Exotics",
+      "linkText": "Adapter",
+      "oem": "Tour Edge",
+      "yearsStart": "2019",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Driver"
+    },
+    {
+      "title": "Wilson Dynapwr",
+      "manufacturer": "Wilson",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Std",
+          "Higher"
+        ],
+        [
+          "+2",
+          "+2",
+          "Std",
+          "Max launch"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower flight"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Standard"
+        ],
+        [
+          "+1",
+          "1",
+          "Std",
+          "Higher launch"
+        ],
+        [
+          "+2",
+          "2",
+          "Std",
+          "Max launch"
+        ]
+      ],
+      "notes": [
+        "Useful modern Wilson reference. Verify sleeve etching if you see uncommon hybrid versions."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Wilson_FastFit",
+      "tab": "Wilson_FastFit",
+      "linkText": "Adapter",
+      "oem": "Wilson",
+      "yearsStart": "2015",
+      "yearsEnd": "2021",
+      "currentFlag": "0",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Wilson Dynapwr",
+      "manufacturer": "Wilson",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie",
+        "Bias"
+      ],
+      "matrix": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "+1",
+          "+1",
+          "Std",
+          "Higher"
+        ],
+        [
+          "+2",
+          "+2",
+          "Std",
+          "Max launch"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "-1",
+          "-1",
+          "Std",
+          "Lower flight"
+        ],
+        [
+          "STD",
+          "0",
+          "Std",
+          "Standard"
+        ],
+        [
+          "+1",
+          "1",
+          "Std",
+          "Higher launch"
+        ],
+        [
+          "+2",
+          "2",
+          "Std",
+          "Max launch"
+        ]
+      ],
+      "notes": [
+        "Useful modern Wilson reference. Verify sleeve etching if you see uncommon hybrid versions."
+      ],
+      "workflow": [
+        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
+      ],
+      "family": "Wilson_Dynapower_OneClick",
+      "tab": "Wilson_Dynapwr",
+      "linkText": "Adapter",
+      "oem": "Wilson",
+      "yearsStart": "2023",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Driver"
+    },
+    {
+      "family": "XXIO_Adjustable",
+      "tab": "",
+      "linkText": "Adapter",
+      "oem": "XXIO",
+      "yearsStart": "",
+      "yearsEnd": "",
+      "currentFlag": "1",
+      "clubTypes": "Driver;Fairway;Hybrid",
+      "title": "XXIO Adjustable Adapter",
+      "manufacturer": "XXIO",
+      "matrixHeaders": [
+        "Setting",
+        "Loft Delta",
+        "Lie",
+        "Fitting Note"
+      ],
+      "matrix": [],
+      "quickHeaders": [
+        "Setting",
+        "Loft Delta",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [],
+      "notes": [
+        "AdapterFamily is present in HeadDB, but no normalized XXIO adapter chart is included in the current Adapter Reference workbook. No alternate OEM chart is shown."
+      ],
+      "workflow": [
+        "Workflow: verify generation visually before adjustment."
+      ]
+    }
+  ],
+  "aliases": {
+    "Callaway_OptiFit4": "Callaway_OptiFit4_Fairway",
+    "Cobra_FutureFit33": "Cobra_FutureFit33_DriverFairway",
+    "TaylorMade 2 deg loft sleeve": "TaylorMade_2013Plus",
+    "TaylorMade 4 deg loft sleeve": "TaylorMade_2013Plus",
+    "TaylorMade Loft Sleeve": "TaylorMade_2013Plus",
+    "TaylorMade fairway loft sleeve": "TaylorMade_2013Plus",
+    "TaylorMade Rescue Sleeve": "TaylorMade_2013Plus",
+    "TaylorMade Rescue 3 deg loft sleeve": "TaylorMade_2013Plus",
+    "TaylorMade 3 deg hybrid sleeve": "TaylorMade_2013Plus",
+    "PING Trajectory Tuning 2.0": "Ping_TrajectoryTuning_G30_G_G400",
+    "Titleist_SureFit_Driver": "Titleist_SureFit_Driver_910Plus",
+    "Titleist_SureFit_Fairway_910": "Titleist_910_Fairway",
+    "Titleist_SureFit_Fairway": "Titleist_SureFit_Fairway_913Plus",
+    "Srixon_QTS": "Srixon_QTS_Z355_to_ZX_MkII",
+    "Srixon ZXi/Z Series 1.5° sleeve": "Srixon_ZXi_DriverFairway",
+    "None": "NoAdapter",
+    "Callaway_OptiFit_FW where adjustable": "Callaway_OptiFit2",
+    "Cobra_MyFly": "Cobra_MyFly8_2019_2024",
+    "PING_Trajectory_Tuning": "Ping_TrajectoryTuning_G30_G_G400",
+    "Ping_TrajectoryTuning2": "Ping_TrajectoryTuning2_G410Plus",
+    "PXG_Adjustable": "PXG_Gen4Plus_DriverFairway",
+    "TaylorMade hybrid/rescue loft sleeve": "TaylorMade_2013Plus",
+    "Titleist_910Plus": "Titleist_SureFit_Driver_910Plus",
+    "Titleist_SureFit_Hybrid": "Titleist_SureFit_Hybrid_816Plus"
+  },
+  "generatedFrom": "Club Reference Guide v1.9.xlsm"
+}
