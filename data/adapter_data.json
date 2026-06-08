@@ -2773,638 +2773,6 @@
       "clubTypes": "Driver;Fairway"
     },
     {
-      "title": "Titleist SureFit",
-      "manufacturer": "Titleist",
-      "matrixHeaders": [
-        "",
-        "1",
-        "2",
-        "3"
-      ],
-      "matrix": [
-        [
-          "A",
-          "Std",
-          "+0.75",
-          "+1.5"
-        ],
-        [
-          "B",
-          "+1.5",
-          "+2.25",
-          "+3"
-        ],
-        [
-          "C",
-          "+0.75",
-          "+1.5",
-          "+2.25"
-        ],
-        [
-          "D",
-          "-0.75",
-          "0",
-          "+0.75"
-        ]
-      ],
-      "quickHeaders": [
-        "Setting",
-        "Loft Δ (°)",
-        "Lie Label",
-        "Fitting Note"
-      ],
-      "quick": [
-        [
-          "A1",
-          "0",
-          "Std",
-          "Neutral baseline"
-        ],
-        [
-          "A2",
-          "0",
-          "Upright",
-          "More draw/start left"
-        ],
-        [
-          "A3",
-          "1.5",
-          "Upright",
-          "+ loft + draw"
-        ],
-        [
-          "A4",
-          "1.5",
-          "Std",
-          "+ loft"
-        ],
-        [
-          "B1",
-          "0",
-          "Flat",
-          "Fade bias/start right"
-        ],
-        [
-          "B2",
-          "0",
-          "Upright",
-          "Slight draw bias"
-        ],
-        [
-          "B3",
-          "1.5",
-          "Upright",
-          "+ loft + slight draw"
-        ],
-        [
-          "B4",
-          "1.5",
-          "Flat",
-          "+ loft + slight fade"
-        ],
-        [
-          "C1",
-          "-0.75",
-          "Flat",
-          "Lower/fade"
-        ],
-        [
-          "C2",
-          "-0.75",
-          "Upright",
-          "Lower/slight draw"
-        ],
-        [
-          "C3",
-          "0.75",
-          "Upright",
-          "Higher/slight draw"
-        ],
-        [
-          "C4",
-          "0.75",
-          "Flat",
-          "Higher/slight fade"
-        ],
-        [
-          "D1",
-          "-0.75",
-          "Std",
-          "Lower launch"
-        ],
-        [
-          "D2",
-          "-0.75",
-          "Upright",
-          "Lower + draw"
-        ],
-        [
-          "D3",
-          "0.75",
-          "Upright",
-          "Higher + draw"
-        ],
-        [
-          "D4",
-          "0.75",
-          "Std",
-          "Higher launch"
-        ]
-      ],
-      "notes": [
-        "Driver/fairway SureFit reference. Use the left matrix if you know the system; use the right table if you want every setting spelled out."
-      ],
-      "workflow": [
-        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
-      ],
-      "family": "Titleist_SureFit_Driver_910Plus",
-      "tab": "Titleist_SureFit_Driver",
-      "linkText": "Adapter",
-      "oem": "Titleist",
-      "yearsStart": "2010",
-      "yearsEnd": "2026",
-      "currentFlag": "1",
-      "clubTypes": "Driver"
-    },
-    {
-      "title": "Titleist SureFit",
-      "manufacturer": "Titleist",
-      "matrixHeaders": [
-        "",
-        "1",
-        "2",
-        "3"
-      ],
-      "matrix": [
-        [
-          "A",
-          "Std",
-          "+0.75",
-          "+1.5"
-        ],
-        [
-          "B",
-          "+1.5",
-          "+2.25",
-          "+3"
-        ],
-        [
-          "C",
-          "+0.75",
-          "+1.5",
-          "+2.25"
-        ],
-        [
-          "D",
-          "-0.75",
-          "0",
-          "+0.75"
-        ]
-      ],
-      "quickHeaders": [
-        "Setting",
-        "Loft Δ (°)",
-        "Lie Label",
-        "Fitting Note"
-      ],
-      "quick": [
-        [
-          "A1",
-          "0",
-          "Std",
-          "Neutral baseline"
-        ],
-        [
-          "A2",
-          "0",
-          "Upright",
-          "More draw/start left"
-        ],
-        [
-          "A3",
-          "1.5",
-          "Upright",
-          "+ loft + draw"
-        ],
-        [
-          "A4",
-          "1.5",
-          "Std",
-          "+ loft"
-        ],
-        [
-          "B1",
-          "0",
-          "Flat",
-          "Fade bias/start right"
-        ],
-        [
-          "B2",
-          "0",
-          "Upright",
-          "Slight draw bias"
-        ],
-        [
-          "B3",
-          "1.5",
-          "Upright",
-          "+ loft + slight draw"
-        ],
-        [
-          "B4",
-          "1.5",
-          "Flat",
-          "+ loft + slight fade"
-        ],
-        [
-          "C1",
-          "-0.75",
-          "Flat",
-          "Lower/fade"
-        ],
-        [
-          "C2",
-          "-0.75",
-          "Upright",
-          "Lower/slight draw"
-        ],
-        [
-          "C3",
-          "0.75",
-          "Upright",
-          "Higher/slight draw"
-        ],
-        [
-          "C4",
-          "0.75",
-          "Flat",
-          "Higher/slight fade"
-        ],
-        [
-          "D1",
-          "-0.75",
-          "Std",
-          "Lower launch"
-        ],
-        [
-          "D2",
-          "-0.75",
-          "Upright",
-          "Lower + draw"
-        ],
-        [
-          "D3",
-          "0.75",
-          "Upright",
-          "Higher + draw"
-        ],
-        [
-          "D4",
-          "0.75",
-          "Std",
-          "Higher launch"
-        ]
-      ],
-      "notes": [
-        "Driver/fairway SureFit reference. Use the left matrix if you know the system; use the right table if you want every setting spelled out."
-      ],
-      "workflow": [
-        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
-      ],
-      "family": "Titleist_SureFit_Fairway_910",
-      "tab": "Titleist_910_Fairway",
-      "linkText": "Adapter",
-      "oem": "Titleist",
-      "yearsStart": "2010",
-      "yearsEnd": "2012",
-      "currentFlag": "0",
-      "clubTypes": "Fairway"
-    },
-    {
-      "title": "Titleist SureFit-Hybrid",
-      "manufacturer": "Titleist",
-      "matrixHeaders": [
-        "Loft rows",
-        "Lie columns",
-        "Settings",
-        "RH chart"
-      ],
-      "matrix": [
-        [
-          "+2",
-          "2 Upr / 1 Upr / Std / 1 Flat",
-          "A3 B3 A4 B4",
-          "Highest row"
-        ],
-        [
-          "+1",
-          "2 Upr / 1 Upr / Std / 1 Flat",
-          "D3 C3 D4 C4",
-          "Higher row"
-        ],
-        [
-          "0",
-          "2 Upr / 1 Upr / Std / 1 Flat",
-          "A2 B2 A1 B1",
-          "A1 baseline"
-        ],
-        [
-          "-1",
-          "2 Upr / 1 Upr / Std / 1 Flat",
-          "D2 C2 D1 C1",
-          "Lowest row"
-        ]
-      ],
-      "quickHeaders": [
-        "Setting",
-        "Loft Δ (°)",
-        "Lie Label",
-        "Fitting Note"
-      ],
-      "quick": [
-        [
-          "A1",
-          "0",
-          "Std",
-          "Baseline"
-        ],
-        [
-          "A2",
-          "0",
-          "+2 Upright",
-          "Higher/draw leftward; lower/fade rightward"
-        ],
-        [
-          "A3",
-          "+2",
-          "+2 Upright",
-          "Most draw"
-        ],
-        [
-          "A4",
-          "+2",
-          "Std",
-          "Higher/draw leftward; lower/fade rightward"
-        ],
-        [
-          "B1",
-          "0",
-          "-1 Flat",
-          "Higher/draw leftward; lower/fade rightward"
-        ],
-        [
-          "B2",
-          "0",
-          "+1 Upright",
-          "Higher/draw leftward; lower/fade rightward"
-        ],
-        [
-          "B3",
-          "+2",
-          "+1 Upright",
-          "Higher/draw leftward; lower/fade rightward"
-        ],
-        [
-          "B4",
-          "+2",
-          "-1 Flat",
-          "Higher/draw leftward; lower/fade rightward"
-        ],
-        [
-          "C1",
-          "-1",
-          "-1 Flat",
-          "Most fade"
-        ],
-        [
-          "C2",
-          "-1",
-          "+1 Upright",
-          "Higher/draw leftward; lower/fade rightward"
-        ],
-        [
-          "C3",
-          "+1",
-          "+1 Upright",
-          "Higher/draw leftward; lower/fade rightward"
-        ],
-        [
-          "C4",
-          "+1",
-          "-1 Flat",
-          "Higher/draw leftward; lower/fade rightward"
-        ],
-        [
-          "D1",
-          "-1",
-          "Std",
-          "Higher/draw leftward; lower/fade rightward"
-        ],
-        [
-          "D2",
-          "-1",
-          "+2 Upright",
-          "Higher/draw leftward; lower/fade rightward"
-        ],
-        [
-          "D3",
-          "+1",
-          "+2 Upright",
-          "Higher/draw leftward; lower/fade rightward"
-        ],
-        [
-          "D4",
-          "+1",
-          "Std",
-          "Higher/draw leftward; lower/fade rightward"
-        ]
-      ],
-      "notes": [
-        "Driver/fairway SureFit reference. Use the left matrix if you know the system; use the right table if you want every setting spelled out."
-      ],
-      "workflow": [
-        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
-      ],
-      "family": "Titleist_SureFit_Hybrid_910_915",
-      "tab": "Titleist_Hybrid_910_915",
-      "linkText": "Adapter",
-      "oem": "Titleist",
-      "yearsStart": "2011",
-      "yearsEnd": "2015",
-      "currentFlag": "0",
-      "clubTypes": "Hybrid"
-    },
-    {
-      "title": "Titleist_SureFit_Fairway",
-      "manufacturer": "",
-      "matrix": [],
-      "quick": [],
-      "notes": [],
-      "workflow": [],
-      "family": "Titleist_SureFit_Fairway_913Plus",
-      "tab": "Titleist_SureFit_Fairway",
-      "linkText": "Adapter",
-      "oem": "Titleist",
-      "yearsStart": "2013",
-      "yearsEnd": "2026",
-      "currentFlag": "1",
-      "clubTypes": "Fairway"
-    },
-    {
-      "title": "Titleist SureFit",
-      "manufacturer": "Titleist",
-      "matrixHeaders": [
-        "",
-        "1",
-        "2",
-        "3"
-      ],
-      "matrix": [
-        [
-          "A",
-          "Std",
-          "+0.75",
-          "+1.5"
-        ],
-        [
-          "B",
-          "+1.5",
-          "+2.25",
-          "+3"
-        ],
-        [
-          "C",
-          "+0.75",
-          "+1.5",
-          "+2.25"
-        ],
-        [
-          "D",
-          "-0.75",
-          "0",
-          "+0.75"
-        ]
-      ],
-      "quickHeaders": [
-        "Setting",
-        "Loft Δ (°)",
-        "Lie Label",
-        "Fitting Note"
-      ],
-      "quick": [
-        [
-          "A1",
-          "0",
-          "Std",
-          "Neutral baseline"
-        ],
-        [
-          "A2",
-          "0",
-          "Upright",
-          "More draw/start left"
-        ],
-        [
-          "A3",
-          "1.5",
-          "Upright",
-          "+ loft + draw"
-        ],
-        [
-          "A4",
-          "1.5",
-          "Std",
-          "+ loft"
-        ],
-        [
-          "B1",
-          "0",
-          "Flat",
-          "Fade bias/start right"
-        ],
-        [
-          "B2",
-          "0",
-          "Upright",
-          "Slight draw bias"
-        ],
-        [
-          "B3",
-          "1.5",
-          "Upright",
-          "+ loft + slight draw"
-        ],
-        [
-          "B4",
-          "1.5",
-          "Flat",
-          "+ loft + slight fade"
-        ],
-        [
-          "C1",
-          "-0.75",
-          "Flat",
-          "Lower/fade"
-        ],
-        [
-          "C2",
-          "-0.75",
-          "Upright",
-          "Lower/slight draw"
-        ],
-        [
-          "C3",
-          "0.75",
-          "Upright",
-          "Higher/slight draw"
-        ],
-        [
-          "C4",
-          "0.75",
-          "Flat",
-          "Higher/slight fade"
-        ],
-        [
-          "D1",
-          "-0.75",
-          "Std",
-          "Lower launch"
-        ],
-        [
-          "D2",
-          "-0.75",
-          "Upright",
-          "Lower + draw"
-        ],
-        [
-          "D3",
-          "0.75",
-          "Upright",
-          "Higher + draw"
-        ],
-        [
-          "D4",
-          "0.75",
-          "Std",
-          "Higher launch"
-        ]
-      ],
-      "notes": [
-        "Driver/fairway SureFit reference. Use the left matrix if you know the system; use the right table if you want every setting spelled out."
-      ],
-      "workflow": [
-        "Workflow: identify by photo → confirm with OEM matrix → make adjustment from quick-reference table."
-      ],
-      "family": "Titleist_SureFit_Hybrid_816Plus",
-      "tab": "Titleist_Hybrid_816Plus",
-      "linkText": "Adapter",
-      "oem": "Titleist",
-      "yearsStart": "2016",
-      "yearsEnd": "2026",
-      "currentFlag": "1",
-      "clubTypes": "Hybrid"
-    },
-    {
       "title": "Wilson Dynapwr",
       "manufacturer": "Wilson",
       "matrixHeaders": [
@@ -3681,6 +3049,477 @@
       "workflow": [
         "Workflow: verify generation visually before adjustment."
       ]
+    },
+    {
+      "title": "Titleist SureFit Driver/Fairway",
+      "manufacturer": "Titleist",
+      "matrixHeaders": [
+        "Ring",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "matrix": [
+        [
+          "A",
+          "A1: Std / Std",
+          "A2: Std / 1.5° Upr",
+          "A3: +1.5° / 1.5° Upr",
+          "A4: +1.5° / Std"
+        ],
+        [
+          "B",
+          "B1: Std / 0.75° Flat",
+          "B2: Std / 0.75° Upr",
+          "B3: +1.5° / 0.75° Upr",
+          "B4: +1.5° / 0.75° Flat"
+        ],
+        [
+          "C",
+          "C1: -0.75° / 0.75° Flat",
+          "C2: -0.75° / 0.75° Upr",
+          "C3: +0.75° / 0.75° Upr",
+          "C4: +0.75° / 0.75° Flat"
+        ],
+        [
+          "D",
+          "D1: -0.75° / Std",
+          "D2: -0.75° / 1.5° Upr",
+          "D3: +0.75° / 1.5° Upr",
+          "D4: +0.75° / Std"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "A1",
+          "0",
+          "Standard",
+          "Standard loft / standard lie"
+        ],
+        [
+          "B1",
+          "0",
+          "0.75° flat",
+          "Standard loft / 0.75° flat"
+        ],
+        [
+          "C1",
+          "-0.75",
+          "0.75° flat",
+          "-0.75° loft / 0.75° flat"
+        ],
+        [
+          "D1",
+          "-0.75",
+          "Standard",
+          "-0.75° loft / standard lie"
+        ],
+        [
+          "A2",
+          "0",
+          "1.5° upright",
+          "Standard loft / 1.5° upright"
+        ],
+        [
+          "B2",
+          "0",
+          "0.75° upright",
+          "Standard loft / 0.75° upright"
+        ],
+        [
+          "C2",
+          "-0.75",
+          "0.75° upright",
+          "-0.75° loft / 0.75° upright"
+        ],
+        [
+          "D2",
+          "-0.75",
+          "1.5° upright",
+          "-0.75° loft / 1.5° upright"
+        ],
+        [
+          "A3",
+          "+1.5",
+          "1.5° upright",
+          "+1.5° loft / 1.5° upright"
+        ],
+        [
+          "B3",
+          "+1.5",
+          "0.75° upright",
+          "+1.5° loft / 0.75° upright"
+        ],
+        [
+          "C3",
+          "+0.75",
+          "0.75° upright",
+          "+0.75° loft / 0.75° upright"
+        ],
+        [
+          "D3",
+          "+0.75",
+          "1.5° upright",
+          "+0.75° loft / 1.5° upright"
+        ],
+        [
+          "A4",
+          "+1.5",
+          "Standard",
+          "+1.5° loft / standard lie"
+        ],
+        [
+          "B4",
+          "+1.5",
+          "0.75° flat",
+          "+1.5° loft / 0.75° flat"
+        ],
+        [
+          "C4",
+          "+0.75",
+          "0.75° flat",
+          "+0.75° loft / 0.75° flat"
+        ],
+        [
+          "D4",
+          "+0.75",
+          "Standard",
+          "+0.75° loft / standard lie"
+        ]
+      ],
+      "notes": [
+        "Titleist driver and fairway SureFit hosels use the same service chart for FIS purposes.",
+        "Driver/fairway SureFit adjusts loft and lie in 0.75° increments. Hybrid SureFit uses a separate 1.0° chart.",
+        "Start at A1 for right-handed heads; left-handed orientation should be verified against the OEM chart."
+      ],
+      "workflow": [
+        "Workflow: confirm Titleist driver/fairway adapter → set ring letter and sleeve number → torque until wrench clicks."
+      ],
+      "family": "TITLEIST_SUREFIT_DRIVER_FW",
+      "tab": "Titleist_SureFit_Driver_FW",
+      "linkText": "Adapter Settings",
+      "oem": "Titleist",
+      "yearsStart": "2010",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Driver;Fairway"
+    },
+    {
+      "title": "Titleist SureFit Hybrid 910–915",
+      "manufacturer": "Titleist",
+      "matrixHeaders": [
+        "Loft rows",
+        "Lie columns",
+        "Settings",
+        "RH chart"
+      ],
+      "matrix": [
+        [
+          "+2",
+          "2 Upr / 1 Upr / Std / 1 Flat",
+          "A3 B3 A4 B4",
+          "Highest row"
+        ],
+        [
+          "+1",
+          "2 Upr / 1 Upr / Std / 1 Flat",
+          "D3 C3 D4 C4",
+          "Higher row"
+        ],
+        [
+          "0",
+          "2 Upr / 1 Upr / Std / 1 Flat",
+          "A2 B2 A1 B1",
+          "A1 baseline"
+        ],
+        [
+          "-1",
+          "2 Upr / 1 Upr / Std / 1 Flat",
+          "D2 C2 D1 C1",
+          "Lowest row"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "A1",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "A2",
+          "0",
+          "+2 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "A3",
+          "+2",
+          "+2 Upright",
+          "Most draw"
+        ],
+        [
+          "A4",
+          "+2",
+          "Std",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "B1",
+          "0",
+          "-1 Flat",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "B2",
+          "0",
+          "+1 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "B3",
+          "+2",
+          "+1 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "B4",
+          "+2",
+          "-1 Flat",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "C1",
+          "-1",
+          "-1 Flat",
+          "Most fade"
+        ],
+        [
+          "C2",
+          "-1",
+          "+1 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "C3",
+          "+1",
+          "+1 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "C4",
+          "+1",
+          "-1 Flat",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "D1",
+          "-1",
+          "Std",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "D2",
+          "-1",
+          "+2 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "D3",
+          "+1",
+          "+2 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "D4",
+          "+1",
+          "Std",
+          "Higher/draw leftward; lower/fade rightward"
+        ]
+      ],
+      "notes": [
+        "Legacy Titleist hybrid SureFit family for 910H/913H/915H-era hybrids.",
+        "Hybrid SureFit uses 1.0° loft/lie increments, not the 0.75° driver/fairway chart."
+      ],
+      "workflow": [
+        "Workflow: confirm legacy Titleist hybrid adapter → set ring letter and sleeve number → torque until wrench clicks."
+      ],
+      "family": "TITLEIST_SUREFIT_HYBRID_910_915",
+      "tab": "Titleist_Hybrid_910_915",
+      "linkText": "Adapter Settings",
+      "oem": "Titleist",
+      "yearsStart": "2011",
+      "yearsEnd": "2015",
+      "currentFlag": "0",
+      "clubTypes": "Hybrid"
+    },
+    {
+      "title": "Titleist SureFit Hybrid 816+",
+      "manufacturer": "Titleist",
+      "matrixHeaders": [
+        "Loft rows",
+        "Lie columns",
+        "Settings",
+        "RH chart"
+      ],
+      "matrix": [
+        [
+          "+2",
+          "2 Upr / 1 Upr / Std / 1 Flat",
+          "A3 B3 A4 B4",
+          "Highest row"
+        ],
+        [
+          "+1",
+          "2 Upr / 1 Upr / Std / 1 Flat",
+          "D3 C3 D4 C4",
+          "Higher row"
+        ],
+        [
+          "0",
+          "2 Upr / 1 Upr / Std / 1 Flat",
+          "A2 B2 A1 B1",
+          "A1 baseline"
+        ],
+        [
+          "-1",
+          "2 Upr / 1 Upr / Std / 1 Flat",
+          "D2 C2 D1 C1",
+          "Lowest row"
+        ]
+      ],
+      "quickHeaders": [
+        "Setting",
+        "Loft Δ (°)",
+        "Lie Label",
+        "Fitting Note"
+      ],
+      "quick": [
+        [
+          "A1",
+          "0",
+          "Std",
+          "Baseline"
+        ],
+        [
+          "A2",
+          "0",
+          "+2 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "A3",
+          "+2",
+          "+2 Upright",
+          "Most draw"
+        ],
+        [
+          "A4",
+          "+2",
+          "Std",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "B1",
+          "0",
+          "-1 Flat",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "B2",
+          "0",
+          "+1 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "B3",
+          "+2",
+          "+1 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "B4",
+          "+2",
+          "-1 Flat",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "C1",
+          "-1",
+          "-1 Flat",
+          "Most fade"
+        ],
+        [
+          "C2",
+          "-1",
+          "+1 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "C3",
+          "+1",
+          "+1 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "C4",
+          "+1",
+          "-1 Flat",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "D1",
+          "-1",
+          "Std",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "D2",
+          "-1",
+          "+2 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "D3",
+          "+1",
+          "+2 Upright",
+          "Higher/draw leftward; lower/fade rightward"
+        ],
+        [
+          "D4",
+          "+1",
+          "Std",
+          "Higher/draw leftward; lower/fade rightward"
+        ]
+      ],
+      "notes": [
+        "Modern Titleist hybrid SureFit family for 816H/818H/TS/TSi/TSR/GT-era hybrids.",
+        "Hybrid SureFit adjusts loft and lie in 1.0° increments. Do not use the driver/fairway 0.75° chart."
+      ],
+      "workflow": [
+        "Workflow: confirm modern Titleist hybrid adapter → set ring letter and sleeve number → torque until wrench clicks."
+      ],
+      "family": "TITLEIST_SUREFIT_HYBRID_816_PLUS",
+      "tab": "Titleist_Hybrid_816Plus",
+      "linkText": "Adapter Settings",
+      "oem": "Titleist",
+      "yearsStart": "2016",
+      "yearsEnd": "2026",
+      "currentFlag": "1",
+      "clubTypes": "Hybrid"
     }
   ],
   "aliases": {
@@ -3694,9 +3533,9 @@
     "TaylorMade Rescue 3 deg loft sleeve": "TaylorMade_2013Plus",
     "TaylorMade 3 deg hybrid sleeve": "TaylorMade_2013Plus",
     "PING Trajectory Tuning 2.0": "Ping_TrajectoryTuning_G30_G_G400",
-    "Titleist_SureFit_Driver": "Titleist_SureFit_Driver_910Plus",
-    "Titleist_SureFit_Fairway_910": "Titleist_910_Fairway",
-    "Titleist_SureFit_Fairway": "Titleist_SureFit_Fairway_913Plus",
+    "Titleist_SureFit_Driver": "TITLEIST_SUREFIT_DRIVER_FW",
+    "Titleist_SureFit_Fairway_910": "TITLEIST_SUREFIT_DRIVER_FW",
+    "Titleist_SureFit_Fairway": "TITLEIST_SUREFIT_DRIVER_FW",
     "Srixon_QTS": "Srixon_QTS_Z355_to_ZX_MkII",
     "Srixon ZXi/Z Series 1.5° sleeve": "Srixon_ZXi_DriverFairway",
     "None": "NoAdapter",
@@ -3706,8 +3545,24 @@
     "Ping_TrajectoryTuning2": "Ping_TrajectoryTuning2_G410Plus",
     "PXG_Adjustable": "PXG_Gen4Plus_DriverFairway",
     "TaylorMade hybrid/rescue loft sleeve": "TaylorMade_2013Plus",
-    "Titleist_910Plus": "Titleist_SureFit_Driver_910Plus",
-    "Titleist_SureFit_Hybrid": "Titleist_SureFit_Hybrid_816Plus"
+    "Titleist_910Plus": "TITLEIST_SUREFIT_DRIVER_FW",
+    "Titleist_SureFit_Hybrid": "TITLEIST_SUREFIT_HYBRID_816_PLUS",
+    "Titleist_SureFit_Driver_910Plus": "TITLEIST_SUREFIT_DRIVER_FW",
+    "Titleist_SureFit_Fairway_913Plus": "TITLEIST_SUREFIT_DRIVER_FW",
+    "Titleist_910_Fairway": "TITLEIST_SUREFIT_DRIVER_FW",
+    "Titleist_SureFit_Fairway_910Plus": "TITLEIST_SUREFIT_DRIVER_FW",
+    "Titleist_SureFit_Driver_FW": "TITLEIST_SUREFIT_DRIVER_FW",
+    "TITLEIST_SUREFIT_DRIVER_FAIRWAY": "TITLEIST_SUREFIT_DRIVER_FW",
+    "Titleist_SureFit": "TITLEIST_SUREFIT_DRIVER_FW",
+    "SureFit": "TITLEIST_SUREFIT_DRIVER_FW",
+    "Titleist_SureFit_Hybrid_910_915": "TITLEIST_SUREFIT_HYBRID_910_915",
+    "Titleist_Hybrid_910_915": "TITLEIST_SUREFIT_HYBRID_910_915",
+    "Titleist_910_915": "TITLEIST_SUREFIT_HYBRID_910_915",
+    "Titleist_SureFit_Hybrid_816Plus": "TITLEIST_SUREFIT_HYBRID_816_PLUS",
+    "Titleist_Hybrid_816Plus": "TITLEIST_SUREFIT_HYBRID_816_PLUS",
+    "Titleist_816Plus": "TITLEIST_SUREFIT_HYBRID_816_PLUS",
+    "Titleist_816plus": "TITLEIST_SUREFIT_HYBRID_816_PLUS",
+    "TITLEIST_SUREFIT_HYBRID_816PLUS": "TITLEIST_SUREFIT_HYBRID_816_PLUS"
   },
   "generatedFrom": "Club Reference Guide v1.9.xlsm"
 }
