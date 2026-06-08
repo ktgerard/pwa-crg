@@ -1,4 +1,4 @@
-const CACHE_NAME = "fis-crt-layout-v2-adapter-ref";
+const CACHE_NAME = "fis-crt-layout-v3-adapter-link-blue";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -34,4 +34,4 @@ self.addEventListener("fetch", event => {
   );
 });
 
-// Layout refinement v2: sticky selector bar and two-column workspace.
+// Layout refinement v3: blue Adapter Settings deep-link styling.
