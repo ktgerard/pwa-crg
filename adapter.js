@@ -6,7 +6,22 @@ function table(headers, rows){
   if(!rows || !rows.length) return '<div class="empty-adapter">No settings table found for this adapter family.</div>';
   return `<table><thead><tr>${headers.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${headers.map((_,i)=>`<td>${esc(r[i]||'')}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
 }
-function normalizeFamily(data, family){return (data.aliases && data.aliases[family]) || family;}
+
+function normalizeFamily(data, family){
+  const raw = String(family || '').trim();
+  if(!raw) return raw;
+  const aliases = data.aliases || {};
+  if(aliases[raw]) return aliases[raw];
+  const compact = raw.replace(/[\s-]+/g, '_');
+  if(aliases[compact]) return aliases[compact];
+  const lower = raw.toLowerCase();
+  const key = Object.keys(aliases).find(k => k.toLowerCase() === lower || k.replace(/[\s-]+/g, '_').toLowerCase() === compact.toLowerCase());
+  if(key) return aliases[key];
+  // Safety fallback: never show a driver/fairway chart for an explicitly hybrid Titleist request.
+  if(lower.includes('titleist') && lower.includes('hybrid')) return 'TITLEIST_SUREFIT_HYBRID_816_PLUS';
+  if(lower.includes('titleist') && lower.includes('surefit')) return 'TITLEIST_SUREFIT_DRIVER_FW';
+  return raw;
+}
 async function loadAdapter(){
   const data = await fetch('data/adapter_data.json').then(r=>r.json());
   const canonical = normalizeFamily(data, requestedFamily);
