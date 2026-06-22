@@ -1,6 +1,7 @@
 const state={heads:[],specs:[],filtered:[],selected:null};
 const els={clubType:document.getElementById('clubTypeSelect'),brand:document.getElementById('brandSelect'),model:document.getElementById('modelSelect'),variant:document.getElementById('variantSelect'),year:document.getElementById('yearSelect'),search:document.getElementById('searchInput'),reset:document.getElementById('resetBtn'),cards:document.getElementById('headCards'),count:document.getElementById('resultCount'),selectedLabel:document.getElementById('selectedHeadLabel'),detail:document.getElementById('headDetail'),thead:document.querySelector('#specTable thead'),tbody:document.querySelector('#specTable tbody'),version:document.getElementById('versionBadge')};
 const fields=['Club','Loft','Lie','Length','SwingWeight','Bounce','Offset','HoselSize','Dexterity','Notes'];
+const tipNum = v => { const n = num(v); return n > 1 ? n/1000 : n; };
 const cleanTip = v => { const n = tipNum(v); return n ? n.toFixed(3).replace(/^0/,'0') : ''; };
 function uniq(arr){return [...new Set(arr.filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b),undefined,{numeric:true}))}
 function setOptions(select,values,label='All'){const old=select.value;select.innerHTML='';select.append(new Option(label,''));values.forEach(v=>select.append(new Option(v,v)));if(values.includes(old))select.value=old}
