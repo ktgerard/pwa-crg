@@ -1,8 +1,24 @@
-# Print Specifications enhancement
-
-- Select a club head, then choose **Print Specifications**.
-- Customer, ticket, requested adjustments, and Current/Final measurement cells are editable in the preview.
-- Factory Standard values populate from `club_specs.json`.
-- Only populated specification records are rendered; blank club rows are suppressed.
-- Browser printing is configured for US Letter, portrait, with margins matching the Excel Specifications_Form sheet.
-- The service-worker cache name was changed so the updated app shell replaces older cached files.
+{
+  "name": "FIS Club Reference",
+  "short_name": "FIS",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "scope": "./"
+}
