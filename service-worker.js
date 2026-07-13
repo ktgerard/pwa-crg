@@ -1,37 +1,8 @@
-const CACHE_NAME = "fis-crt-layout-v3-adapter-link-blue";
-const APP_SHELL = [
-  "./",
-  "./index.html",
-  "./manifest.json",
-  "./icons/icon.svg",
-  "./data/club_specs.json",
-  "./data/data_version.json",
-  "./data/heads.json",
-  "./styles.css",
-  "./app.js",
-  "./data/adapter_data.json",
-  "./adapter.js",
-  "./adapter.html",
-  "./service-worker.js"
-];
+# Print Specifications enhancement
 
-self.addEventListener("install", event => {
-  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)).then(() => self.skipWaiting()));
-});
-
-self.addEventListener("activate", event => {
-  event.waitUntil(caches.keys().then(keys => Promise.all(keys.map(key => key === CACHE_NAME ? null : caches.delete(key)))).then(() => self.clients.claim()));
-});
-
-self.addEventListener("fetch", event => {
-  if (event.request.method !== "GET") return;
-  event.respondWith(
-    caches.match(event.request).then(cached => cached || fetch(event.request).then(response => {
-      const clone = response.clone();
-      caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
-      return response;
-    }).catch(() => caches.match("./index.html")))
-  );
-});
-
-// Layout refinement v3: blue Adapter Settings deep-link styling.
+- Select a club head, then choose **Print Specifications**.
+- Customer, ticket, requested adjustments, and Current/Final measurement cells are editable in the preview.
+- Factory Standard values populate from `club_specs.json`.
+- Only populated specification records are rendered; blank club rows are suppressed.
+- Browser printing is configured for US Letter, portrait, with margins matching the Excel Specifications_Form sheet.
+- The service-worker cache name was changed so the updated app shell replaces older cached files.

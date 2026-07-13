@@ -1,25 +1,39 @@
-const state={heads:[],specs:[],filtered:[],selected:null};
-const els={clubType:document.getElementById('clubTypeSelect'),brand:document.getElementById('brandSelect'),model:document.getElementById('modelSelect'),variant:document.getElementById('variantSelect'),year:document.getElementById('yearSelect'),search:document.getElementById('searchInput'),reset:document.getElementById('resetBtn'),cards:document.getElementById('headCards'),count:document.getElementById('resultCount'),selectedLabel:document.getElementById('selectedHeadLabel'),detail:document.getElementById('headDetail'),thead:document.querySelector('#specTable thead'),tbody:document.querySelector('#specTable tbody'),version:document.getElementById('versionBadge')};
-const fields=['Club','Loft','Lie','Length','SwingWeight','Bounce','Offset','HoselSize','Dexterity','Notes'];
-function norm(v){return String(v ?? '').trim()}
-function same(a,b){return norm(a)===norm(b)}
-function uniq(arr){return [...new Set(arr.map(norm).filter(Boolean))].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}))}
-function setOptions(select,values,label='All'){const old=norm(select.value);const normalized=uniq(values);select.innerHTML='';select.append(new Option(label,''));normalized.forEach(v=>select.append(new Option(v,v)));select.value=normalized.includes(old)?old:''}
-async function loadData(){const [heads,specs,version]=await Promise.all([fetch('data/heads.json').then(r=>r.json()),fetch('data/club_specs.json').then(r=>r.json()),fetch('data/data_version.json').then(r=>r.json())]);state.heads=heads;state.specs=specs;els.version.textContent=`${version.poc || version.version || 'FIS CRT'} • ${version.head_records ?? version.headRows ?? state.heads.length} heads / ${version.spec_records ?? version.clubSpecRows ?? state.specs.length} specs`;populateFilters();applyFilters();}
-function populateFilters(){setOptions(els.clubType,uniq(state.heads.map(h=>h.ClubType)),'All club types');setOptions(els.brand,uniq(state.heads.map(h=>h.OEM)),'All brands');updateDependentFilters();}
-function updateDependentFilters(){let rows=state.heads.filter(h=>(!els.clubType.value||same(h.ClubType,els.clubType.value))&&(!els.brand.value||same(h.OEM,els.brand.value)));setOptions(els.model,rows.map(h=>h.Model),'All models');rows=rows.filter(h=>!els.model.value||same(h.Model,els.model.value));setOptions(els.variant,rows.map(h=>h.Variant),'All variants');rows=rows.filter(h=>!els.variant.value||same(h.Variant,els.variant.value));setOptions(els.year,rows.map(h=>h.ReleaseYear),'All years');}
-function applyFilters(){updateDependentFilters();const q=norm(els.search.value).toLowerCase();state.filtered=state.heads.filter(h=>{const basic=(!els.clubType.value||same(h.ClubType,els.clubType.value))&&(!els.brand.value||same(h.OEM,els.brand.value))&&(!els.model.value||same(h.Model,els.model.value))&&(!els.variant.value||same(h.Variant,els.variant.value))&&(!els.year.value||same(h.ReleaseYear,els.year.value));const text=!q||Object.values(h).join(' ').toLowerCase().includes(q);return basic&&text});renderCards();if(state.selected&&!state.filtered.some(h=>h.HeadID===state.selected.HeadID)){selectHead(null)}}
-function escapeHtml(v){return String(v ?? '').replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]));}
-function formatHoselSize(v){const s=norm(v);if(!s)return '';const n=Number(s);return Number.isFinite(n)?n.toFixed(3):s;}
-function hasAdapterFamily(h){const v=String(h?.AdapterFamily ?? '').trim();return v && v.toLowerCase() !== 'none' && v !== '—';}
-function adapterLinkFor(h){return `adapter.html?family=${encodeURIComponent(String(h.AdapterFamily).trim())}`;}
-function hoselDetailFor(h){const hosel=`${h.HoselType||''} ${formatHoselSize(h.HoselSizeDefault)}`.trim() || '—';if(!hasAdapterFamily(h)) return escapeHtml(hosel);return `${escapeHtml(hosel)}<br><a class="detail-link adapter-link" href="${adapterLinkFor(h)}" target="_blank" rel="noopener">Adapter Settings</a><div class="subtle">${escapeHtml(h.AdapterFamily)}</div>`;}
-function titleFor(h){return `${h.OEM||''} ${h.Model||''}${h.Variant&&h.Variant!=='Standard'?' '+h.Variant:''}`.replace(/\s+/g,' ').trim()}
-function renderCards(){els.count.textContent=`${state.filtered.length} result${state.filtered.length===1?'':'s'}`;els.cards.innerHTML='';state.filtered.forEach(h=>{const div=document.createElement('div');div.className='card'+(state.selected?.HeadID===h.HeadID?' selected':'');div.innerHTML=`<div class="card-title">${titleFor(h)}</div><div class="card-meta">${h.ReleaseYear||''} • ${h.ClubType||''} • ${h.ModelCategory||''}<br>${h.HeadID}</div><div class="tags"><span class="tag ${h.CurrentFlag==='1'?'active':''}">${h.CurrentFlag==='1'?'Current':'Historical'}</span><span class="tag">${h.HoselType||'Hosel?'}</span><span class="tag">${formatHoselSize(h.HoselSizeDefault)||'Size?'}</span><span class="tag">${h.BendRisk||'Risk?'}</span></div>`;div.onclick=()=>selectHead(h);els.cards.append(div);});}
-function selectHead(h){state.selected=h;renderCards();if(!h){els.selectedLabel.textContent='Select a head';els.detail.className='head-detail empty';els.detail.textContent='Choose a club head from the list to view the spec matrix.';els.thead.innerHTML='';els.tbody.innerHTML='';return}els.selectedLabel.textContent=h.HeadID;els.detail.className='head-detail';const kv=[['Model',titleFor(h)],['Year',h.ReleaseYear],['Club Type',h.ClubType],['Category',h.ModelCategory],['Hosel',hoselDetailFor(h)],['Bend Risk',h.BendRisk],['Launch / Spin',`${h.LaunchProfile||''} / ${h.SpinProfile||''}`],['Forgiveness',h.ForgivenessLevel],['Source',h.SourceStatus]];els.detail.innerHTML=`<div class="detail-grid">${kv.map(([k,v])=>`<div class="kv"><div class="k">${k}</div><div class="v">${v||'—'}</div></div>`).join('')}<div class="kv notes"><div class="k">Bend Notes</div><div class="v">${h.BendNotes||h.Notes||'—'}</div></div></div>`;renderSpecs(h.HeadID); if(window.matchMedia('(max-width: 980px)').matches){ document.querySelector('.specs-panel')?.scrollIntoView({behavior:'smooth', block:'start'}); }}
-function renderSpecs(headId){const rows=state.specs.filter(s=>s.HeadID===headId).sort((a,b)=>Number(a.ClubSort||0)-Number(b.ClubSort||0)||String(a.Club).localeCompare(String(b.Club),undefined,{numeric:true}));els.thead.innerHTML=`<tr>${fields.map(f=>`<th>${f}</th>`).join('')}</tr>`;const cell=(r,f)=>f==='HoselSize'?formatHoselSize(r[f]):(r[f]??'');els.tbody.innerHTML=rows.map(r=>`<tr>${fields.map(f=>`<td>${cell(r,f)}</td>`).join('')}</tr>`).join('')||`<tr><td colspan="${fields.length}">No specs found for this HeadID.</td></tr>`;}
-[els.clubType,els.brand,els.model,els.variant,els.year].forEach(el=>el.addEventListener('change',applyFilters));
-els.search.addEventListener('input',applyFilters);
-els.reset.onclick=()=>{[els.clubType,els.brand,els.model,els.variant,els.year].forEach(e=>e.value='');els.search.value='';state.selected=null;populateFilters();applyFilters();selectHead(null)};
-if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(()=>{}));}
-loadData().catch(err=>{els.version.textContent='Data load failed';els.detail.className='head-detail empty';els.detail.textContent='Data load failed. Use a local web server or hosted URL; browser file:// loading may block JSON fetches.';console.error(err)});
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#101827" />
+  <title>FIS Adapter Reference</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header adapter-header">
+    <div>
+      <div class="eyebrow">FIS Adapter Reference</div>
+      <h1 id="adapterTitle">Adapter Settings</h1>
+    </div>
+    <a class="adapter-back" href="index.html">Club Reference</a>
+  </header>
+  <main class="adapter-layout">
+    <section class="panel adapter-panel">
+      <div id="adapterMeta" class="adapter-meta">Loading adapter…</div>
+      <div id="adapterNotice" class="adapter-notice"></div>
+    </section>
+    <section class="panel adapter-panel">
+      <h2>Quick Reference</h2>
+      <div id="quickTable" class="table-wrap adapter-table"></div>
+    </section>
+    <section class="panel adapter-panel">
+      <h2>OEM Matrix</h2>
+      <div id="matrixTable" class="table-wrap adapter-table"></div>
+    </section>
+    <section class="panel adapter-panel">
+      <h2>Notes</h2>
+      <div id="adapterNotes" class="adapter-notes"></div>
+    </section>
+  </main>
+  <script src="adapter.js"></script>
+</body>
+</html>
