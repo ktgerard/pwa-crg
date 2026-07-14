@@ -56,3 +56,12 @@
   <footer class="app-footer">
     <span>Offline-first PWA shell. Data files are replaceable snapshots.</span>
   </footer>
+
+  <script src="app.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('./service-worker.js'));
+}
+</script>
+</body>
+</html>
