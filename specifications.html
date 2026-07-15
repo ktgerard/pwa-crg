@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FIS Club Specifications Sheet</title>
+  <link rel="stylesheet" href="specifications.css" />
+</head>
+<body>
+  <div class="screen-toolbar screen-only" role="toolbar" aria-label="Specifications worksheet controls">
+    <div>
+      <strong>FIS Specifications Worksheet</strong>
+      <span id="loadStatus">Loading selected head…</span>
+    </div>
+    <div class="toolbar-actions">
+      <button id="printBtn" type="button" disabled>Print</button>
+      <button id="closeBtn" type="button">Close</button>
+    </div>
+  </div>
+
+  <main id="sheet" class="sheet" aria-live="polite">
+    <header class="sheet-header">
+      <h1>CLUB SPECIFICATIONS SHEET</h1>
+      <div class="subtitle">(With Factory Standards)</div>
+    </header>
+
+    <section class="work-order-grid" aria-label="Customer and adjustment information">
+      <label class="field customer-field"><span>Customer's Name:</span><input id="customerName" type="text" /></label>
+      <label class="field ticket-field"><span>Ticket #:</span><input id="ticketNumber" type="text" /></label>
+      <label class="field"><span>Loft Adjust:</span><input id="loftAdjust" type="text" /></label>
+      <label class="field"><span>Lie Adjust:</span><input id="lieAdjust" type="text" /></label>
+      <label class="field"><span>Length Adjust:</span><input id="lengthAdjust" type="text" /></label>
+      <label class="field"><span>Swingweight Adjust:</span><input id="swingweightAdjust" type="text" /></label>
+    </section>
+
+    <section class="identity-grid" aria-label="Selected club head">
+      <div class="identity-item"><span>Club Type</span><strong id="clubType"></strong></div>
+      <div class="identity-item"><span>Club Brand</span><strong id="clubBrand"></strong></div>
+      <div class="identity-item"><span>Club Model</span><strong id="clubModel"></strong></div>
+      <div class="identity-item"><span>Variant</span><strong id="clubVariant"></strong></div>
+      <div class="identity-item"><span>Year</span><strong id="releaseYear"></strong></div>
+    </section>
+
+    <section class="reference-grid" aria-label="Factory head reference information">
+      <div class="reference-column">
+        <div><span>Category:</span><strong id="modelCategory"></strong></div>
+        <div><span>Construction:</span><strong id="construction"></strong></div>
+        <div><span>Face Tech:</span><strong id="faceTech"></strong></div>
+        <div><span>Core Tech:</span><strong id="coreTech"></strong></div>
+        <div><span>Hosel Type:</span><strong id="hoselType"></strong></div>
+        <div><span>Bend Risk:</span><strong id="bendRisk"></strong></div>
+      </div>
+      <div class="reference-column">
+        <div><span>Launch:</span><strong id="launchProfile"></strong></div>
+        <div><span>Spin:</span><strong id="spinProfile"></strong></div>
+        <div><span>Offset:</span><strong id="offsetProfile"></strong></div>
+        <div><span>Loft Structure:</span><strong id="loftStructure"></strong></div>
+        <div><span>Hosel Size:</span><strong id="hoselSize"></strong></div>
+        <div><span>Source:</span><strong id="sourceStatus"></strong></div>
+      </div>
+      <div class="reference-notes"><span>Bend Notes:</span><strong id="bendNotes"></strong></div>
+    </section>
+
+    <section class="specification-section" aria-label="Club specifications">
+      <table class="specification-table">
+        <colgroup>
+          <col class="club-col" />
+          <col span="12" class="measurement-col" />
+          <col span="2" class="wedge-col" />
+          <col class="notes-col" />
+        </colgroup>
+        <thead>
+          <tr class="group-header">
+            <th rowspan="2">Club</th>
+            <th colspan="3">Loft</th>
+            <th colspan="3">Lie</th>
+            <th colspan="3">Length</th>
+            <th colspan="3">Swingweight</th>
+            <th colspan="2">Wedge</th>
+            <th rowspan="2">Notes</th>
+          </tr>
+          <tr class="column-header">
+            <th>Current</th><th>Standard</th><th>Final</th>
+            <th>Current</th><th>Standard</th><th>Final</th>
+            <th>Current</th><th>Standard</th><th>Final</th>
+            <th>Current</th><th>Standard</th><th>Final</th>
+            <th>Bounce</th><th>Grind</th>
+          </tr>
+        </thead>
+        <tbody id="specBody"></tbody>
+      </table>
+    </section>
+
+    <section class="bottom-grid">
+      <label class="work-notes"><span>Work Notes:</span><textarea id="workNotes" rows="3"></textarea></label>
+    </section>
+
+    <div id="errorMessage" class="error-message" hidden></div>
+  </main>
+
+  <script src="specifications.js"></script>
+</body>
+</html>
