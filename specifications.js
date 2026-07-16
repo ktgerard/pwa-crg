@@ -30,10 +30,10 @@ function populateSpecs(rows){
   rows.forEach(row=>{
     const tr=document.createElement('tr');
     const club=document.createElement('td');club.className='club-cell';club.textContent=norm(row.Club);tr.append(club);
-    tr.append(inputCell('',formatMeasurement(row.Loft)),staticCell(row.Loft),inputCell());
-    tr.append(inputCell('',formatMeasurement(row.Lie)),staticCell(row.Lie),inputCell());
-    tr.append(inputCell('',formatMeasurement(row.Length)),staticCell(row.Length),inputCell());
-    tr.append(inputCell('',formatMeasurement(row.SwingWeight)),staticCell(row.SwingWeight),inputCell());
+    tr.append(inputCell(),staticCell(row.Loft),inputCell());
+    tr.append(inputCell(),staticCell(row.Lie),inputCell());
+    tr.append(inputCell(),staticCell(row.Length),inputCell());
+    tr.append(inputCell(),staticCell(row.SwingWeight),inputCell());
     tr.append(staticCell(row.Bounce),staticCell(extractGrind(row.Notes)));
     tr.append(inputCell('notes-input',notesWithoutSource(row.Notes)));
     els.specBody.append(tr);
