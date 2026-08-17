@@ -1,7 +1,8 @@
 {
-  "version": "v1.9",
-  "headRows": 929,
+  "version": "v1.9.6 / Phase 2B",
+  "headRows": 916,
+  "referenceHeadRows": 1826,
   "clubSpecRows": 5783,
-  "sourceWorkbook": "Club Reference Guide v1.9.5.xlsm",
-  "generatedAt": "2026-07-15 20:30:08"
+  "sourceWorkbook": "Latest uploaded CRG baseline",
+  "generatedAt": "2026-08-15"
 }

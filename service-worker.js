@@ -1,4 +1,4 @@
-const CACHE_NAME = "fis-crt-layout-v3-adapter-link-blue";
+const CACHE_NAME = "fis-crg-phase2b-oem-shafts-v1";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -12,6 +12,13 @@ const APP_SHELL = [
   "./data/adapter_data.json",
   "./adapter.js",
   "./adapter.html",
+  "./oem-shafts.html",
+  "./oem-shafts.css",
+  "./oem-shafts.js",
+  "./data/oem_shaft_xref.json",
+  "./data/shaft_families.json",
+  "./data/shaft_family_details.json",
+  "./data/head_reference.json",
   "./service-worker.js"
 ];
 
