@@ -1,4 +1,4 @@
-const CACHE_NAME = "fis-crg-phase2b-oem-shafts-v1";
+const CACHE_NAME = "fis-crg-phase2b-oem-shafts-v2";
 const APP_SHELL = [
   "./",
   "./index.html",

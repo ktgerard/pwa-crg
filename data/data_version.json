@@ -1,9 +1,12 @@
 {
-  "version": "v1.9.7",
-  "phase": "2B",
+  "version": "v1.9.6 / Phase 2B",
   "headRows": 916,
-  "headReferenceRows": 2742,
+  "referenceHeadRows": 1826,
   "clubSpecRows": 5783,
-  "sourceWorkbook": "Club Reference Guide v1.9.7.xlsm",
-  "generatedAt": "2026-08-16 20:42:53"
+  "sourceWorkbook": "Latest uploaded CRG baseline",
+  "generatedAt": "2026-08-15",
+  "phase": "2B Stock Shaft Refresh",
+  "shaftFamilyRows": 2627,
+  "oemShaftXRefRows": 3460,
+  "stockShaftRefresh": "2026-08-21"
 }
