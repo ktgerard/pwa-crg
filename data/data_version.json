@@ -1,11 +1,11 @@
 {
   "version": "Phase 2C DB Snapshot",
-  "headRows": 955,
-  "referenceHeadRows": 1903,
-  "clubSpecRows": 6148,
+  "headRows": 975,
+  "referenceHeadRows": 1965,
+  "clubSpecRows": 6315,
   "sourceWorkbook": "Supabase FIS Data Manager",
-  "generatedAt": "2026-08-30",
-  "generatedAtUtc": "2026-08-30T02:40:39.994Z",
+  "generatedAt": "2026-09-10",
+  "generatedAtUtc": "2026-09-10T23:47:25.848Z",
   "phase": "2C Database Snapshot",
-  "totalHeadRows": 2858
+  "totalHeadRows": 2940
 }

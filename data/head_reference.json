@@ -9227,6 +9227,18 @@
     "VisibleByDefaultFlag": "",
     "IdentificationConfidence": ""
   },
+  "CLE|2017|LAUNCHER CBX|||IRON": {
+    "HeadID": "CLE|2017|LAUNCHER CBX|||IRON",
+    "OEM": "Cleveland",
+    "Model": "Launcher CBX",
+    "Variant": "Standard",
+    "ReleaseYear": "2017",
+    "ClubType": "Iron",
+    "ModelCategory": "Game Improvement (Combo Iron Set)",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
   "CLE|2017|LAUNCHER HB|||DRIVER": {
     "HeadID": "CLE|2017|LAUNCHER HB|||DRIVER",
     "OEM": "Cleveland",
@@ -9331,6 +9343,18 @@
     "ReleaseYear": "2019",
     "ClubType": "Fairway",
     "ModelCategory": "Game Improvement Fairway",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
+  "CLE|2019|LAUNCHER UHX|||IRON": {
+    "HeadID": "CLE|2019|LAUNCHER UHX|||IRON",
+    "OEM": "Cleveland",
+    "Model": "Launcher UHX",
+    "Variant": "Standard",
+    "ReleaseYear": "2019",
+    "ClubType": "Iron",
+    "ModelCategory": "Game Improvement (Combo Iron Set)",
     "ReferenceTier": "",
     "VisibleByDefaultFlag": "",
     "IdentificationConfidence": ""
@@ -15083,6 +15107,258 @@
     "VisibleByDefaultFlag": "",
     "IdentificationConfidence": ""
   },
+  "MIZ|1974|ALL STAR|||IRON": {
+    "HeadID": "MIZ|1974|ALL STAR|||IRON",
+    "OEM": "Mizuno",
+    "Model": "All Star",
+    "Variant": "Standard",
+    "ReleaseYear": "1974",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "High"
+  },
+  "MIZ|1986|TP-3|||IRON": {
+    "HeadID": "MIZ|1986|TP-3|||IRON",
+    "OEM": "Mizuno",
+    "Model": "TP-3",
+    "Variant": "Standard",
+    "ReleaseYear": "1986",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1986|TP-5|||IRON": {
+    "HeadID": "MIZ|1986|TP-5|||IRON",
+    "OEM": "Mizuno",
+    "Model": "TP-5",
+    "Variant": "Standard",
+    "ReleaseYear": "1986",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1986|TP-9|||IRON": {
+    "HeadID": "MIZ|1986|TP-9|||IRON",
+    "OEM": "Mizuno",
+    "Model": "TP-9",
+    "Variant": "Standard",
+    "ReleaseYear": "1986",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1986|TP-ORIGINAL|||IRON": {
+    "HeadID": "MIZ|1986|TP-ORIGINAL|||IRON",
+    "OEM": "Mizuno",
+    "Model": "TP-Original",
+    "Variant": "Standard",
+    "ReleaseYear": "1986",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron (Blade)",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
+  "MIZ|1987|TN-87|||IRON": {
+    "HeadID": "MIZ|1987|TN-87|||IRON",
+    "OEM": "Mizuno",
+    "Model": "TN-87",
+    "Variant": "Standard",
+    "ReleaseYear": "1987",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1988|TP-11|||IRON": {
+    "HeadID": "MIZ|1988|TP-11|||IRON",
+    "OEM": "Mizuno",
+    "Model": "TP-11",
+    "Variant": "Standard",
+    "ReleaseYear": "1988",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "High"
+  },
+  "MIZ|1989|TT-89|||IRON": {
+    "HeadID": "MIZ|1989|TT-89|||IRON",
+    "OEM": "Mizuno",
+    "Model": "TT-89",
+    "Variant": "Standard",
+    "ReleaseYear": "1989",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1991|ASTRON G2|||IRON": {
+    "HeadID": "MIZ|1991|ASTRON G2|||IRON",
+    "OEM": "Mizuno",
+    "Model": "Astron G2",
+    "Variant": "Standard",
+    "ReleaseYear": "1991",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1991|TP-18|||IRON": {
+    "HeadID": "MIZ|1991|TP-18|||IRON",
+    "OEM": "Mizuno",
+    "Model": "TP-18",
+    "Variant": "Standard",
+    "ReleaseYear": "1991",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "High"
+  },
+  "MIZ|1991|ZP-1|||IRON": {
+    "HeadID": "MIZ|1991|ZP-1|||IRON",
+    "OEM": "Mizuno",
+    "Model": "ZP-1",
+    "Variant": "Standard",
+    "ReleaseYear": "1991",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1992|FALDO ID|||IRON": {
+    "HeadID": "MIZ|1992|FALDO ID|||IRON",
+    "OEM": "Mizuno",
+    "Model": "Faldo ID",
+    "Variant": "Standard",
+    "ReleaseYear": "1992",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1992|MP-29|||IRON": {
+    "HeadID": "MIZ|1992|MP-29|||IRON",
+    "OEM": "Mizuno",
+    "Model": "MP-29",
+    "Variant": "Standard",
+    "ReleaseYear": "1992",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron (Muscleback Blade)",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
+  "MIZ|1992|TCD|||IRON": {
+    "HeadID": "MIZ|1992|TCD|||IRON",
+    "OEM": "Mizuno",
+    "Model": "TCD",
+    "Variant": "Standard",
+    "ReleaseYear": "1992",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1992|TN-91|||IRON": {
+    "HeadID": "MIZ|1992|TN-91|||IRON",
+    "OEM": "Mizuno",
+    "Model": "TN-91",
+    "Variant": "Standard",
+    "ReleaseYear": "1992",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1993|PARAGON|||IRON": {
+    "HeadID": "MIZ|1993|PARAGON|||IRON",
+    "OEM": "Mizuno",
+    "Model": "Paragon",
+    "Variant": "Standard",
+    "ReleaseYear": "1993",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1993|TP-19|||IRON": {
+    "HeadID": "MIZ|1993|TP-19|||IRON",
+    "OEM": "Mizuno",
+    "Model": "TP-19",
+    "Variant": "Standard",
+    "ReleaseYear": "1993",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron (Blade)",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
+  "MIZ|1993|TP-2000|||IRON": {
+    "HeadID": "MIZ|1993|TP-2000|||IRON",
+    "OEM": "Mizuno",
+    "Model": "TP-2000",
+    "Variant": "Standard",
+    "ReleaseYear": "1993",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1994|ASTRON G3|||IRON": {
+    "HeadID": "MIZ|1994|ASTRON G3|||IRON",
+    "OEM": "Mizuno",
+    "Model": "Astron G3",
+    "Variant": "Standard",
+    "ReleaseYear": "1994",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1994|AXIS|||IRON": {
+    "HeadID": "MIZ|1994|AXIS|||IRON",
+    "OEM": "Mizuno",
+    "Model": "Axis",
+    "Variant": "Standard",
+    "ReleaseYear": "1994",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1994|TN-93|||IRON": {
+    "HeadID": "MIZ|1994|TN-93|||IRON",
+    "OEM": "Mizuno",
+    "Model": "TN-93",
+    "Variant": "Standard",
+    "ReleaseYear": "1994",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
   "MIZ|1996|GRAD|||IRON": {
     "HeadID": "MIZ|1996|GRAD|||IRON",
     "OEM": "Mizuno",
@@ -15107,17 +15383,29 @@
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
   },
-  "MIZ|1997|MP 29|||IRON": {
-    "HeadID": "MIZ|1997|MP 29|||IRON",
+  "MIZ|1996|STERLING|||IRON": {
+    "HeadID": "MIZ|1996|STERLING|||IRON",
     "OEM": "Mizuno",
-    "Model": "MP 29",
+    "Model": "Sterling",
     "Variant": "Standard",
-    "ReleaseYear": "1997",
+    "ReleaseYear": "1996",
     "ClubType": "Iron",
     "ModelCategory": "",
     "ReferenceTier": "Archive",
     "VisibleByDefaultFlag": "0",
-    "IdentificationConfidence": "High"
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1996|TP-21|||IRON": {
+    "HeadID": "MIZ|1996|TP-21|||IRON",
+    "OEM": "Mizuno",
+    "Model": "TP-21",
+    "Variant": "Standard",
+    "ReleaseYear": "1996",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
   },
   "MIZ|1997|T ZOID|||IRON": {
     "HeadID": "MIZ|1997|T ZOID|||IRON",
@@ -15130,6 +15418,30 @@
     "ReferenceTier": "Archive",
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "Medium-High"
+  },
+  "MIZ|1997|WIDEC|||IRON": {
+    "HeadID": "MIZ|1997|WIDEC|||IRON",
+    "OEM": "Mizuno",
+    "Model": "Widec",
+    "Variant": "Standard",
+    "ReleaseYear": "1997",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
+  "MIZ|1998|T-3|||IRON": {
+    "HeadID": "MIZ|1998|T-3|||IRON",
+    "OEM": "Mizuno",
+    "Model": "T-3",
+    "Variant": "Standard",
+    "ReleaseYear": "1998",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
   },
   "MIZ|1998|T ZOID PRO|||IRON": {
     "HeadID": "MIZ|1998|T ZOID PRO|||IRON",
@@ -15179,6 +15491,18 @@
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
   },
+  "MIZ|1999|SURE|||IRON": {
+    "HeadID": "MIZ|1999|SURE|||IRON",
+    "OEM": "Mizuno",
+    "Model": "Sure",
+    "Variant": "Standard",
+    "ReleaseYear": "1999",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
+  },
   "MIZ|1999|T ZOID T3 TITANIUM|||FAIRWAY": {
     "HeadID": "MIZ|1999|T ZOID T3 TITANIUM|||FAIRWAY",
     "OEM": "Mizuno",
@@ -15190,6 +15514,18 @@
     "ReferenceTier": "Archive",
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
+  },
+  "MIZ|2000|COMP CT|||IRON": {
+    "HeadID": "MIZ|2000|COMP CT|||IRON",
+    "OEM": "Mizuno",
+    "Model": "Comp CT",
+    "Variant": "Standard",
+    "ReleaseYear": "2000",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
   },
   "MIZ|2000|COMP EZ|||IRON": {
     "HeadID": "MIZ|2000|COMP EZ|||IRON",
@@ -15226,6 +15562,18 @@
     "ReferenceTier": "Archive",
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
+  },
+  "MIZ|2001|WIDEC II|||IRON": {
+    "HeadID": "MIZ|2001|WIDEC II|||IRON",
+    "OEM": "Mizuno",
+    "Model": "Widec II",
+    "Variant": "Standard",
+    "ReleaseYear": "2001",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
   },
   "MIZ|2002|300S II|||DRIVER": {
     "HeadID": "MIZ|2002|300S II|||DRIVER",
@@ -15346,6 +15694,18 @@
     "ReferenceTier": "Archive",
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "Medium-High"
+  },
+  "MIZ|2003|MP-30|||IRON": {
+    "HeadID": "MIZ|2003|MP-30|||IRON",
+    "OEM": "Mizuno",
+    "Model": "MP-30",
+    "Variant": "Standard",
+    "ReleaseYear": "2003",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron (Cavity Back)",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
   },
   "MIZ|2003|MP-32|||IRON": {
     "HeadID": "MIZ|2003|MP-32|||IRON",
@@ -15623,6 +15983,18 @@
     "VisibleByDefaultFlag": "",
     "IdentificationConfidence": ""
   },
+  "MIZ|2007|MP-67|||IRON": {
+    "HeadID": "MIZ|2007|MP-67|||IRON",
+    "OEM": "Mizuno",
+    "Model": "MP-67",
+    "Variant": "Standard",
+    "ReleaseYear": "2007",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron (Cavity Back)",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
   "MIZ|2007|MP600|||DRIVER": {
     "HeadID": "MIZ|2007|MP600|||DRIVER",
     "OEM": "Mizuno",
@@ -15659,6 +16031,18 @@
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "Medium-High"
   },
+  "MIZ|2008|MP-52|||IRON": {
+    "HeadID": "MIZ|2008|MP-52|||IRON",
+    "OEM": "Mizuno",
+    "Model": "MP-52",
+    "Variant": "Standard",
+    "ReleaseYear": "2008",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Distance Iron",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
   "MIZ|2008|MP-60|||IRON": {
     "HeadID": "MIZ|2008|MP-60|||IRON",
     "OEM": "Mizuno",
@@ -15667,6 +16051,18 @@
     "ReleaseYear": "2008",
     "ClubType": "Iron",
     "ModelCategory": "Players Distance",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
+  "MIZ|2008|MP-62|||IRON": {
+    "HeadID": "MIZ|2008|MP-62|||IRON",
+    "OEM": "Mizuno",
+    "Model": "MP-62",
+    "Variant": "Standard",
+    "ReleaseYear": "2008",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron (Cavity Back)",
     "ReferenceTier": "",
     "VisibleByDefaultFlag": "",
     "IdentificationConfidence": ""
@@ -15718,6 +16114,18 @@
     "ReferenceTier": "Archive",
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "Low"
+  },
+  "MIZ|2009|MP-58|||IRON": {
+    "HeadID": "MIZ|2009|MP-58|||IRON",
+    "OEM": "Mizuno",
+    "Model": "MP-58",
+    "Variant": "Standard",
+    "ReleaseYear": "2009",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron (Cavity Back)",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
   },
   "MIZ|2009|MP-68|||IRON": {
     "HeadID": "MIZ|2009|MP-68|||IRON",
@@ -15983,6 +16391,18 @@
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
   },
+  "MIZ|2011|MP-69|||IRON": {
+    "HeadID": "MIZ|2011|MP-69|||IRON",
+    "OEM": "Mizuno",
+    "Model": "MP-69",
+    "Variant": "Standard",
+    "ReleaseYear": "2011",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron (Cavity Back)",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
   "MIZ|2012|JPX 800|||DRIVER": {
     "HeadID": "MIZ|2012|JPX 800|||DRIVER",
     "OEM": "Mizuno",
@@ -16018,6 +16438,18 @@
     "ReferenceTier": "Archive",
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "Low"
+  },
+  "MIZ|2012|JPX 825|PRO||IRON": {
+    "HeadID": "MIZ|2012|JPX 825|PRO||IRON",
+    "OEM": "Mizuno",
+    "Model": "JPX 825",
+    "Variant": "Pro",
+    "ReleaseYear": "2012",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
   },
   "MIZ|2012|JPX 825|||IRON": {
     "HeadID": "MIZ|2012|JPX 825|||IRON",
@@ -16163,6 +16595,18 @@
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "Medium-High"
   },
+  "MIZ|2013|MP-4|||IRON": {
+    "HeadID": "MIZ|2013|MP-4|||IRON",
+    "OEM": "Mizuno",
+    "Model": "MP-4",
+    "Variant": "Standard",
+    "ReleaseYear": "2013",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron (Cavity Back)",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
   "MIZ|2013|MP-H4|||IRON": {
     "HeadID": "MIZ|2013|MP-H4|||IRON",
     "OEM": "Mizuno",
@@ -16247,6 +16691,18 @@
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
   },
+  "MIZ|2014|MP-15|||IRON": {
+    "HeadID": "MIZ|2014|MP-15|||IRON",
+    "OEM": "Mizuno",
+    "Model": "MP-15",
+    "Variant": "Standard",
+    "ReleaseYear": "2014",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron (Cavity Back)",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
   "MIZ|2014|MP-25|||IRON": {
     "HeadID": "MIZ|2014|MP-25|||IRON",
     "OEM": "Mizuno",
@@ -16267,6 +16723,18 @@
     "ReleaseYear": "2014",
     "ClubType": "Iron",
     "ModelCategory": "Players",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
+  "MIZ|2014|MP-H5|||IRON": {
+    "HeadID": "MIZ|2014|MP-H5|||IRON",
+    "OEM": "Mizuno",
+    "Model": "MP-H5",
+    "Variant": "Standard",
+    "ReleaseYear": "2014",
+    "ClubType": "Iron",
+    "ModelCategory": "Hybrid-Style Utility/Long Iron",
     "ReferenceTier": "",
     "VisibleByDefaultFlag": "",
     "IdentificationConfidence": ""
@@ -16319,6 +16787,18 @@
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
   },
+  "MIZ|2015|JPX EZ|FORGED||IRON": {
+    "HeadID": "MIZ|2015|JPX EZ|FORGED||IRON",
+    "OEM": "Mizuno",
+    "Model": "JPX EZ",
+    "Variant": "Forged",
+    "ReleaseYear": "2015",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
   "MIZ|2015|JPX EZ|||DRIVER": {
     "HeadID": "MIZ|2015|JPX EZ|||DRIVER",
     "OEM": "Mizuno",
@@ -16367,6 +16847,18 @@
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
   },
+  "MIZ|2015|MP-5|||IRON": {
+    "HeadID": "MIZ|2015|MP-5|||IRON",
+    "OEM": "Mizuno",
+    "Model": "MP-5",
+    "Variant": "Standard",
+    "ReleaseYear": "2015",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron (Cavity Back)",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
   "MIZ|2015|S5|BLUE ION AND WHITE SATIN||WEDGE": {
     "HeadID": "MIZ|2015|S5|BLUE ION AND WHITE SATIN||WEDGE",
     "OEM": "Mizuno",
@@ -16414,6 +16906,18 @@
     "ReferenceTier": "Archive",
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "Low"
+  },
+  "MIZ|2016|JPX 900|TOUR||IRON": {
+    "HeadID": "MIZ|2016|JPX 900|TOUR||IRON",
+    "OEM": "Mizuno",
+    "Model": "JPX 900",
+    "Variant": "Tour",
+    "ReleaseYear": "2016",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
   },
   "MIZ|2016|JPX 900 FORGED|||IRON": {
     "HeadID": "MIZ|2016|JPX 900 FORGED|||IRON",
@@ -16667,6 +17171,18 @@
     "VisibleByDefaultFlag": "",
     "IdentificationConfidence": ""
   },
+  "MIZ|2019|JPX 919 HOT METAL|PRO||IRON": {
+    "HeadID": "MIZ|2019|JPX 919 HOT METAL|PRO||IRON",
+    "OEM": "Mizuno",
+    "Model": "JPX 919 Hot Metal",
+    "Variant": "Pro",
+    "ReleaseYear": "2019",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
   "MIZ|2019|JPX 919 HOT METAL||STANDARD|IRON": {
     "HeadID": "MIZ|2019|JPX 919 HOT METAL||STANDARD|IRON",
     "OEM": "Mizuno",
@@ -16678,6 +17194,30 @@
     "ReferenceTier": "",
     "VisibleByDefaultFlag": "",
     "IdentificationConfidence": ""
+  },
+  "MIZ|2019|MP-20|HMB||IRON": {
+    "HeadID": "MIZ|2019|MP-20|HMB||IRON",
+    "OEM": "Mizuno",
+    "Model": "MP-20",
+    "Variant": "HMB",
+    "ReleaseYear": "2019",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "MIZ|2019|MP-20|SEL||IRON": {
+    "HeadID": "MIZ|2019|MP-20|SEL||IRON",
+    "OEM": "Mizuno",
+    "Model": "MP-20",
+    "Variant": "SEL",
+    "ReleaseYear": "2019",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
   },
   "MIZ|2019|ST 190|||DRIVER": {
     "HeadID": "MIZ|2019|ST 190|||DRIVER",
@@ -16738,6 +17278,18 @@
     "ReferenceTier": "Archive",
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
+  },
+  "MIZ|2020|JPX 921|TOUR||IRON": {
+    "HeadID": "MIZ|2020|JPX 921|TOUR||IRON",
+    "OEM": "Mizuno",
+    "Model": "JPX 921",
+    "Variant": "Tour",
+    "ReleaseYear": "2020",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
   },
   "MIZ|2020|JPX 921 FORGED|||IRON": {
     "HeadID": "MIZ|2020|JPX 921 FORGED|||IRON",
@@ -16967,6 +17519,30 @@
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
   },
+  "MIZ|2022|PRO 221|||IRON": {
+    "HeadID": "MIZ|2022|PRO 221|||IRON",
+    "OEM": "Mizuno",
+    "Model": "Pro 221",
+    "Variant": "Standard",
+    "ReleaseYear": "2022",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "MIZ|2022|PRO 225|||IRON": {
+    "HeadID": "MIZ|2022|PRO 225|||IRON",
+    "OEM": "Mizuno",
+    "Model": "Pro 225",
+    "Variant": "Standard",
+    "ReleaseYear": "2022",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
   "MIZ|2022|ST X 220|||DRIVER": {
     "HeadID": "MIZ|2022|ST X 220|||DRIVER",
     "OEM": "Mizuno",
@@ -17003,6 +17579,18 @@
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
   },
+  "MIZ|2023|JPX 923|TOUR||IRON": {
+    "HeadID": "MIZ|2023|JPX 923|TOUR||IRON",
+    "OEM": "Mizuno",
+    "Model": "JPX 923",
+    "Variant": "Tour",
+    "ReleaseYear": "2023",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
   "MIZ|2023|JPX 923 FLI HI|||HYBRID": {
     "HeadID": "MIZ|2023|JPX 923 FLI HI|||HYBRID",
     "OEM": "Mizuno",
@@ -17027,6 +17615,30 @@
     "VisibleByDefaultFlag": "",
     "IdentificationConfidence": ""
   },
+  "MIZ|2023|JPX 923 HOT METAL|HL||IRON": {
+    "HeadID": "MIZ|2023|JPX 923 HOT METAL|HL||IRON",
+    "OEM": "Mizuno",
+    "Model": "JPX 923 Hot Metal",
+    "Variant": "HL",
+    "ReleaseYear": "2023",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "MIZ|2023|JPX 923 HOT METAL|PRO||IRON": {
+    "HeadID": "MIZ|2023|JPX 923 HOT METAL|PRO||IRON",
+    "OEM": "Mizuno",
+    "Model": "JPX 923 Hot Metal",
+    "Variant": "Pro",
+    "ReleaseYear": "2023",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
   "MIZ|2023|JPX 923 HOT METAL||STANDARD|IRON": {
     "HeadID": "MIZ|2023|JPX 923 HOT METAL||STANDARD|IRON",
     "OEM": "Mizuno",
@@ -17038,6 +17650,18 @@
     "ReferenceTier": "",
     "VisibleByDefaultFlag": "",
     "IdentificationConfidence": ""
+  },
+  "MIZ|2023|PRO 225|BLACK||IRON": {
+    "HeadID": "MIZ|2023|PRO 225|BLACK||IRON",
+    "OEM": "Mizuno",
+    "Model": "Pro 225",
+    "Variant": "Black",
+    "ReleaseYear": "2023",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Low"
   },
   "MIZ|2023|ST 230||ST-X|DRIVER": {
     "HeadID": "MIZ|2023|ST 230||ST-X|DRIVER",
@@ -27299,18 +27923,6 @@
     "VisibleByDefaultFlag": "",
     "IdentificationConfidence": ""
   },
-  "TM|2026|TEST|||IRON": {
-    "HeadID": "TM|2026|TEST|||IRON",
-    "OEM": "TaylorMade",
-    "Model": "Test",
-    "Variant": "Standard",
-    "ReleaseYear": "2026",
-    "ClubType": "Iron",
-    "ModelCategory": "",
-    "ReferenceTier": "",
-    "VisibleByDefaultFlag": "",
-    "IdentificationConfidence": ""
-  },
   "TIT|1970|FINALIST FORGED|||IRON": {
     "HeadID": "TIT|1970|FINALIST FORGED|||IRON",
     "OEM": "Titleist",
@@ -32327,6 +32939,246 @@
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
   },
+  "WIL|1930|PINEHURST|||IRON": {
+    "HeadID": "WIL|1930|PINEHURST|||IRON",
+    "OEM": "Wilson",
+    "Model": "Pinehurst",
+    "Variant": "Standard",
+    "ReleaseYear": "1930",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "High"
+  },
+  "WIL|1932|WALKER CUP|||IRON": {
+    "HeadID": "WIL|1932|WALKER CUP|||IRON",
+    "OEM": "Wilson",
+    "Model": "Walker Cup",
+    "Variant": "Standard",
+    "ReleaseYear": "1932",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "High"
+  },
+  "WIL|1933|OGG MENTED|||IRON": {
+    "HeadID": "WIL|1933|OGG MENTED|||IRON",
+    "OEM": "Wilson",
+    "Model": "Ogg Mented",
+    "Variant": "Standard",
+    "ReleaseYear": "1933",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "High"
+  },
+  "WIL|1952|DYNA-WEIGHT|||IRON": {
+    "HeadID": "WIL|1952|DYNA-WEIGHT|||IRON",
+    "OEM": "Wilson",
+    "Model": "Dyna-Weight",
+    "Variant": "Standard",
+    "ReleaseYear": "1952",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "WIL|1956|DYNAPOWER STAFF|1956||IRON": {
+    "HeadID": "WIL|1956|DYNAPOWER STAFF|1956||IRON",
+    "OEM": "Wilson",
+    "Model": "Dynapower Staff",
+    "Variant": "1956",
+    "ReleaseYear": "1956",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "High"
+  },
+  "WIL|1960|DYNAPOWER STAFF|1960||IRON": {
+    "HeadID": "WIL|1960|DYNAPOWER STAFF|1960||IRON",
+    "OEM": "Wilson",
+    "Model": "Dynapower Staff",
+    "Variant": "1960",
+    "ReleaseYear": "1960",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "WIL|1960|K-28 HARMONIZED|||IRON": {
+    "HeadID": "WIL|1960|K-28 HARMONIZED|||IRON",
+    "OEM": "Wilson",
+    "Model": "K-28 Harmonized",
+    "Variant": "Standard",
+    "ReleaseYear": "1960",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "WIL|1962|DYNAPOWER STAFF|1962||IRON": {
+    "HeadID": "WIL|1962|DYNAPOWER STAFF|1962||IRON",
+    "OEM": "Wilson",
+    "Model": "Dynapower Staff",
+    "Variant": "1962",
+    "ReleaseYear": "1962",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "WIL|1966|SAM SNEAD BLUE RIDGE|||IRON": {
+    "HeadID": "WIL|1966|SAM SNEAD BLUE RIDGE|||IRON",
+    "OEM": "Wilson",
+    "Model": "Sam Snead Blue Ridge",
+    "Variant": "Standard",
+    "ReleaseYear": "1966",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "High"
+  },
+  "WIL|1970|DYNAPOWER STAFF|1970||IRON": {
+    "HeadID": "WIL|1970|DYNAPOWER STAFF|1970||IRON",
+    "OEM": "Wilson",
+    "Model": "Dynapower Staff",
+    "Variant": "1970",
+    "ReleaseYear": "1970",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "WIL|1971|DYNAPOWER STAFF|1971||IRON": {
+    "HeadID": "WIL|1971|DYNAPOWER STAFF|1971||IRON",
+    "OEM": "Wilson",
+    "Model": "Dynapower Staff",
+    "Variant": "1971",
+    "ReleaseYear": "1971",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "WIL|1971|X31|||IRON": {
+    "HeadID": "WIL|1971|X31|||IRON",
+    "OEM": "Wilson",
+    "Model": "X31",
+    "Variant": "Standard",
+    "ReleaseYear": "1971",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "WIL|1973|1200|||IRON": {
+    "HeadID": "WIL|1973|1200|||IRON",
+    "OEM": "Wilson",
+    "Model": "1200",
+    "Variant": "Standard",
+    "ReleaseYear": "1973",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "High"
+  },
+  "WIL|1973|DYNAPOWER STAFF|1973||IRON": {
+    "HeadID": "WIL|1973|DYNAPOWER STAFF|1973||IRON",
+    "OEM": "Wilson",
+    "Model": "Dynapower Staff",
+    "Variant": "1973",
+    "ReleaseYear": "1973",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "WIL|1978|1200 LT|||IRON": {
+    "HeadID": "WIL|1978|1200 LT|||IRON",
+    "OEM": "Wilson",
+    "Model": "1200 LT",
+    "Variant": "Standard",
+    "ReleaseYear": "1978",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "WIL|1984|HALE IRWIN|||IRON": {
+    "HeadID": "WIL|1984|HALE IRWIN|||IRON",
+    "OEM": "Wilson",
+    "Model": "Hale Irwin",
+    "Variant": "Standard",
+    "ReleaseYear": "1984",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "High"
+  },
+  "WIL|1985|STAFF TOUR BLADE|||IRON": {
+    "HeadID": "WIL|1985|STAFF TOUR BLADE|||IRON",
+    "OEM": "Wilson",
+    "Model": "Staff Tour Blade",
+    "Variant": "Standard",
+    "ReleaseYear": "1985",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "WIL|1988|STAFF GOOSE NECK|||IRON": {
+    "HeadID": "WIL|1988|STAFF GOOSE NECK|||IRON",
+    "OEM": "Wilson",
+    "Model": "Staff Goose Neck",
+    "Variant": "Standard",
+    "ReleaseYear": "1988",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "WIL|1990|STAFF FG-51|||IRON": {
+    "HeadID": "WIL|1990|STAFF FG-51|||IRON",
+    "OEM": "Wilson",
+    "Model": "Staff FG-51",
+    "Variant": "Standard",
+    "ReleaseYear": "1990",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "WIL|1991|STAFF FG-53|||IRON": {
+    "HeadID": "WIL|1991|STAFF FG-53|||IRON",
+    "OEM": "Wilson",
+    "Model": "Staff FG-53",
+    "Variant": "Standard",
+    "ReleaseYear": "1991",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
   "WIL|1996|MIDSIZE|||IRON": {
     "HeadID": "WIL|1996|MIDSIZE|||IRON",
     "OEM": "Wilson",
@@ -32603,6 +33455,18 @@
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "Medium-High"
   },
+  "WIL|2003|DEEP RED II|TOUR||IRON": {
+    "HeadID": "WIL|2003|DEEP RED II|TOUR||IRON",
+    "OEM": "Wilson",
+    "Model": "Deep Red II",
+    "Variant": "Tour",
+    "ReleaseYear": "2003",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron (Muscleback Cavity)",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
   "WIL|2003|DEEP RED II DISTANCE|||DRIVER": {
     "HeadID": "WIL|2003|DEEP RED II DISTANCE|||DRIVER",
     "OEM": "Wilson",
@@ -32662,6 +33526,18 @@
     "ReferenceTier": "Archive",
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
+  },
+  "WIL|2004|PRO STAFF MULTI METAL|||IRON": {
+    "HeadID": "WIL|2004|PRO STAFF MULTI METAL|||IRON",
+    "OEM": "Wilson",
+    "Model": "Pro Staff Multi Metal",
+    "Variant": "Standard",
+    "ReleaseYear": "2004",
+    "ClubType": "Iron",
+    "ModelCategory": "Game Improvement",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
   },
   "WIL|2005|DD5|||DRIVER": {
     "HeadID": "WIL|2005|DD5|||DRIVER",
@@ -33047,6 +33923,18 @@
     "VisibleByDefaultFlag": "",
     "IdentificationConfidence": ""
   },
+  "WIL|2012|FG TOUR V2|||IRON": {
+    "HeadID": "WIL|2012|FG TOUR V2|||IRON",
+    "OEM": "Wilson",
+    "Model": "FG Tour V2",
+    "Variant": "Standard",
+    "ReleaseYear": "2012",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
   "WIL|2013|D100|||DRIVER": {
     "HeadID": "WIL|2013|D100|||DRIVER",
     "OEM": "Wilson",
@@ -33203,6 +34091,18 @@
     "VisibleByDefaultFlag": "",
     "IdentificationConfidence": ""
   },
+  "WIL|2015|FG TOUR 100|||IRON": {
+    "HeadID": "WIL|2015|FG TOUR 100|||IRON",
+    "OEM": "Wilson",
+    "Model": "FG Tour 100",
+    "Variant": "Standard",
+    "ReleaseYear": "2015",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
   "WIL|2015|FG TOUR F5|||IRON": {
     "HeadID": "WIL|2015|FG TOUR F5|||IRON",
     "OEM": "Wilson",
@@ -33250,6 +34150,18 @@
     "ReferenceTier": "Archive",
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
+  },
+  "WIL|2015|FG TOUR V4|||IRON": {
+    "HeadID": "WIL|2015|FG TOUR V4|||IRON",
+    "OEM": "Wilson",
+    "Model": "FG Tour V4",
+    "Variant": "Standard",
+    "ReleaseYear": "2015",
+    "ClubType": "Iron",
+    "ModelCategory": "Players Iron",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
   },
   "WIL|2015|STAFF D200|||DRIVER": {
     "HeadID": "WIL|2015|STAFF D200|||DRIVER",
@@ -33455,6 +34367,42 @@
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "Medium"
   },
+  "WIL|2017|D300|||IRON": {
+    "HeadID": "WIL|2017|D300|||IRON",
+    "OEM": "Wilson",
+    "Model": "D300",
+    "Variant": "Standard",
+    "ReleaseYear": "2017",
+    "ClubType": "Iron",
+    "ModelCategory": "Game Improvement",
+    "ReferenceTier": "",
+    "VisibleByDefaultFlag": "",
+    "IdentificationConfidence": ""
+  },
+  "WIL|2017|D300|SUPERLITE||IRON": {
+    "HeadID": "WIL|2017|D300|SUPERLITE||IRON",
+    "OEM": "Wilson",
+    "Model": "D300",
+    "Variant": "SuperLite",
+    "ReleaseYear": "2017",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
+  "WIL|2017|DEEP RED|TOUR||IRON": {
+    "HeadID": "WIL|2017|DEEP RED|TOUR||IRON",
+    "OEM": "Wilson",
+    "Model": "Deep Red",
+    "Variant": "Tour",
+    "ReleaseYear": "2017",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
+  },
   "WIL|2017|STAFF TRITON DVD|||DRIVER": {
     "HeadID": "WIL|2017|STAFF TRITON DVD|||DRIVER",
     "OEM": "Wilson",
@@ -33466,6 +34414,18 @@
     "ReferenceTier": "Archive",
     "VisibleByDefaultFlag": "0",
     "IdentificationConfidence": "High"
+  },
+  "WIL|2017|ULTRA|2017||IRON": {
+    "HeadID": "WIL|2017|ULTRA|2017||IRON",
+    "OEM": "Wilson",
+    "Model": "Ultra",
+    "Variant": "2017",
+    "ReleaseYear": "2017",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "Medium"
   },
   "WIL|2018|FG TOUR V6|||WEDGE": {
     "HeadID": "WIL|2018|FG TOUR V6|||WEDGE",
@@ -33610,6 +34570,30 @@
     "ReferenceTier": "",
     "VisibleByDefaultFlag": "",
     "IdentificationConfidence": ""
+  },
+  "WIL|2019|PROFILE PLATINUM|||IRON": {
+    "HeadID": "WIL|2019|PROFILE PLATINUM|||IRON",
+    "OEM": "Wilson",
+    "Model": "Profile Platinum",
+    "Variant": "Standard",
+    "ReleaseYear": "2019",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "High"
+  },
+  "WIL|2019|PROFILE SGI|||IRON": {
+    "HeadID": "WIL|2019|PROFILE SGI|||IRON",
+    "OEM": "Wilson",
+    "Model": "Profile SGi",
+    "Variant": "Standard",
+    "ReleaseYear": "2019",
+    "ClubType": "Iron",
+    "ModelCategory": "",
+    "ReferenceTier": "Archive",
+    "VisibleByDefaultFlag": "0",
+    "IdentificationConfidence": "High"
   },
   "WIL|2019|STAFF|||HYBRID": {
     "HeadID": "WIL|2019|STAFF|||HYBRID",
