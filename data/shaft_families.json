@@ -237,6 +237,20 @@
     "SourceStatus": "ShaftDB",
     "Notes": ""
   },
+  "ACER|VELOCITY|VELOCITY": {
+    "ShaftFamilyID": "ACER|VELOCITY|VELOCITY",
+    "CanonicalShaftFamilyID": "ACER|VELOCITY|VELOCITY",
+    "OEM": "Acer",
+    "Series": "Velocity",
+    "FamilyName": "Velocity",
+    "Material": "Graphite",
+    "HasDetailedShaftDBRecord": "1",
+    "ShaftDBRecordCount": "4",
+    "ReferenceOnlyFlag": "0",
+    "ClubTypes": "Wood,Iron",
+    "SourceStatus": "Official Hireko",
+    "Notes": "Hireko configuration data; reviewed for FIS import. Source: https://www.hirekogolf.com/acer-velocity-graphite-shafts-black.html"
+  },
   "ADILA|OEM STOCK|RE AX 65": {
     "ShaftFamilyID": "ADILA|OEM STOCK|RE AX 65",
     "CanonicalShaftFamilyID": "",
@@ -3778,6 +3792,48 @@
     "ClubTypes": "Putter",
     "SourceStatus": "ShaftDB",
     "Notes": ""
+  },
+  "APOLLO|SHADOW FL|SHADOW FL": {
+    "ShaftFamilyID": "APOLLO|SHADOW FL|SHADOW FL",
+    "CanonicalShaftFamilyID": "APOLLO|SHADOW FL|SHADOW FL",
+    "OEM": "Apollo",
+    "Series": "Shadow FL",
+    "FamilyName": "Shadow FL",
+    "Material": "Graphite",
+    "HasDetailedShaftDBRecord": "1",
+    "ShaftDBRecordCount": "4",
+    "ReferenceOnlyFlag": "0",
+    "ClubTypes": "Wood,Iron",
+    "SourceStatus": "Official Hireko",
+    "Notes": "Hireko configuration data; reviewed for FIS import. Source: https://www.hirekogolf.com/apollo-shadow-fl-graphite-golf-shafts.html"
+  },
+  "APOLLO|SHADOW UL|SHADOW UL": {
+    "ShaftFamilyID": "APOLLO|SHADOW UL|SHADOW UL",
+    "CanonicalShaftFamilyID": "APOLLO|SHADOW UL|SHADOW UL",
+    "OEM": "Apollo",
+    "Series": "Shadow UL",
+    "FamilyName": "Shadow UL",
+    "Material": "Graphite",
+    "HasDetailedShaftDBRecord": "1",
+    "ShaftDBRecordCount": "4",
+    "ReferenceOnlyFlag": "0",
+    "ClubTypes": "Wood,Iron",
+    "SourceStatus": "Official Hireko",
+    "Notes": "Hireko configuration data; reviewed for FIS import. Source: https://www.hirekogolf.com/apollo-shadow-ul-graphite-golf-shafts.html"
+  },
+  "APOLLO|SHADOW|SHADOW": {
+    "ShaftFamilyID": "APOLLO|SHADOW|SHADOW",
+    "CanonicalShaftFamilyID": "APOLLO|SHADOW|SHADOW",
+    "OEM": "Apollo",
+    "Series": "Shadow",
+    "FamilyName": "Shadow",
+    "Material": "Graphite",
+    "HasDetailedShaftDBRecord": "1",
+    "ShaftDBRecordCount": "4",
+    "ReferenceOnlyFlag": "0",
+    "ClubTypes": "Wood,Iron",
+    "SourceStatus": "Official Hireko",
+    "Notes": "Hireko configuration data; reviewed for FIS import. Source: https://www.hirekogolf.com/apollo-shadow-graphite-golf-shafts.html"
   },
   "ARETERA|EC1|EC1 BLUE": {
     "ShaftFamilyID": "ARETERA|EC1|EC1 BLUE",

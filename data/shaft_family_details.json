@@ -493,6 +493,35 @@
     "currentRecordCount": 5,
     "recordCount": 5
   },
+  "ACER|VELOCITY|VELOCITY": {
+    "weights": [
+      "66",
+      "68",
+      "69"
+    ],
+    "weightClasses": [
+      "60s"
+    ],
+    "flexes": [
+      "A/L",
+      "R/S"
+    ],
+    "torqueMin": 4,
+    "torqueMax": 6,
+    "launch": [
+      "High"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335",
+      "0.37"
+    ],
+    "availability": [
+      "In Stock (Hireko direct)"
+    ],
+    "currentRecordCount": 4,
+    "recordCount": 4
+  },
   "AEROTECH|HLS HYBRID|HLS HYBRID 780 880": {
     "weights": [
       "75",
@@ -2153,6 +2182,92 @@
     ],
     "currentRecordCount": 2,
     "recordCount": 2
+  },
+  "APOLLO|SHADOW FL|SHADOW FL": {
+    "weights": [
+      "55"
+    ],
+    "weightClasses": [
+      "50s"
+    ],
+    "flexes": [
+      "A/L",
+      "R/S"
+    ],
+    "torqueMin": 5,
+    "torqueMax": 6.5,
+    "launch": [
+      "High"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335",
+      "0.37"
+    ],
+    "availability": [
+      "In Stock (Hireko direct)"
+    ],
+    "currentRecordCount": 4,
+    "recordCount": 4
+  },
+  "APOLLO|SHADOW UL|SHADOW UL": {
+    "weights": [
+      "61",
+      "63",
+      "64"
+    ],
+    "weightClasses": [
+      "60s"
+    ],
+    "flexes": [
+      "A/L",
+      "R/S"
+    ],
+    "torqueMin": 4.5,
+    "torqueMax": 5.5,
+    "launch": [
+      "Mid"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335",
+      "0.37"
+    ],
+    "availability": [
+      "In Stock (Hireko direct)"
+    ],
+    "currentRecordCount": 4,
+    "recordCount": 4
+  },
+  "APOLLO|SHADOW|SHADOW": {
+    "weights": [
+      "74",
+      "80",
+      "81"
+    ],
+    "weightClasses": [
+      "70s",
+      "80s"
+    ],
+    "flexes": [
+      "A/L",
+      "R/S"
+    ],
+    "torqueMin": 4.5,
+    "torqueMax": 5.5,
+    "launch": [
+      "Mid"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335",
+      "0.37"
+    ],
+    "availability": [
+      "In Stock (Hireko direct)"
+    ],
+    "currentRecordCount": 4,
+    "recordCount": 4
   },
   "ARETERA|EC1|EC1 BLUE": {
     "weights": [
