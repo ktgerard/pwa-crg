@@ -661,7 +661,7 @@
     "ShaftFamilyID": "ALDILA|ASCENT|ASCENT RED",
     "CanonicalShaftFamilyID": "ALDILA|ASCENT|ASCENT RED",
     "OEM": "ALDILA",
-    "Series": "ASCENT",
+    "Series": "Ascent",
     "FamilyName": "ASCENT Red",
     "Material": "Graphite",
     "HasDetailedShaftDBRecord": "1",
@@ -9522,7 +9522,7 @@
   "GRAFTECH|GT|GT 45 WOOD": {
     "ShaftFamilyID": "GRAFTECH|GT|GT 45 WOOD",
     "CanonicalShaftFamilyID": "GRAFTECH|GT|GT 45 WOOD",
-    "OEM": "Graftech",
+    "OEM": "GRAFTECH",
     "Series": "GT",
     "FamilyName": "GT 45 Wood",
     "Material": "Graphite",
@@ -9536,7 +9536,7 @@
   "GRAFTECH|GT|GT 55 WOOD": {
     "ShaftFamilyID": "GRAFTECH|GT|GT 55 WOOD",
     "CanonicalShaftFamilyID": "GRAFTECH|GT|GT 55 WOOD",
-    "OEM": "Graftech",
+    "OEM": "GRAFTECH",
     "Series": "GT",
     "FamilyName": "GT 55 Wood",
     "Material": "Graphite",
@@ -9550,7 +9550,7 @@
   "GRAFTECH|GT|GT 65 IRON": {
     "ShaftFamilyID": "GRAFTECH|GT|GT 65 IRON",
     "CanonicalShaftFamilyID": "GRAFTECH|GT|GT 65 IRON",
-    "OEM": "Graftech",
+    "OEM": "GRAFTECH",
     "Series": "GT",
     "FamilyName": "GT 65 Iron",
     "Material": "Graphite",
@@ -9564,7 +9564,7 @@
   "GRAFTECH|GT|GT 65 WOOD": {
     "ShaftFamilyID": "GRAFTECH|GT|GT 65 WOOD",
     "CanonicalShaftFamilyID": "GRAFTECH|GT|GT 65 WOOD",
-    "OEM": "Graftech",
+    "OEM": "GRAFTECH",
     "Series": "GT",
     "FamilyName": "GT 65 Wood",
     "Material": "Graphite",
@@ -9578,7 +9578,7 @@
   "GRAFTECH|GT|GT 75 IRON": {
     "ShaftFamilyID": "GRAFTECH|GT|GT 75 IRON",
     "CanonicalShaftFamilyID": "GRAFTECH|GT|GT 75 IRON",
-    "OEM": "Graftech",
+    "OEM": "GRAFTECH",
     "Series": "GT",
     "FamilyName": "GT 75 Iron",
     "Material": "Graphite",
@@ -9592,7 +9592,7 @@
   "GRAFTECH|GT|GT 75 WOOD": {
     "ShaftFamilyID": "GRAFTECH|GT|GT 75 WOOD",
     "CanonicalShaftFamilyID": "GRAFTECH|GT|GT 75 WOOD",
-    "OEM": "Graftech",
+    "OEM": "GRAFTECH",
     "Series": "GT",
     "FamilyName": "GT 75 Wood",
     "Material": "Graphite",
