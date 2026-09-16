@@ -1,5 +1,5 @@
 FIS Shaft PWA Snapshot
-Generated: 2026-09-16T02:16:04.015Z
+Generated: 2026-09-16T02:28:59.014Z
 
 Replace these three files in pwa-crg/data/:
   shaft_families.json
