@@ -2444,123 +2444,6 @@
     "currentRecordCount": 1,
     "recordCount": 1
   },
-  "FST|90|90": {
-    "weights": [
-      "100"
-    ],
-    "weightClasses": [
-      "100s"
-    ],
-    "flexes": [
-      "A/R"
-    ],
-    "torqueMin": 5,
-    "torqueMax": 5,
-    "launch": [],
-    "spin": [],
-    "tipSizes": [
-      "0.37"
-    ],
-    "availability": [
-      "GolfWorks current catalog"
-    ],
-    "currentRecordCount": 1,
-    "recordCount": 1
-  },
-  "FST|115|115": {
-    "weights": [
-      "115"
-    ],
-    "weightClasses": [
-      "110s"
-    ],
-    "flexes": [
-      "A/R",
-      "S/X"
-    ],
-    "torqueMin": 3.7,
-    "torqueMax": 5,
-    "launch": [],
-    "spin": [],
-    "tipSizes": [
-      "0.37"
-    ],
-    "availability": [
-      "GolfWorks current catalog"
-    ],
-    "currentRecordCount": 2,
-    "recordCount": 2
-  },
-  "FST|125|125": {
-    "weights": [
-      "125"
-    ],
-    "weightClasses": [
-      "120s"
-    ],
-    "flexes": [
-      "S/X"
-    ],
-    "torqueMin": 3.7,
-    "torqueMax": 3.7,
-    "launch": [],
-    "spin": [],
-    "tipSizes": [
-      "0.37"
-    ],
-    "availability": [
-      "GolfWorks current catalog"
-    ],
-    "currentRecordCount": 1,
-    "recordCount": 1
-  },
-  "FST|PRO 115|PRO 115 STEPLESS": {
-    "weights": [
-      "115"
-    ],
-    "weightClasses": [
-      "110s"
-    ],
-    "flexes": [
-      "A/R",
-      "S/X"
-    ],
-    "torqueMin": 3.7,
-    "torqueMax": 5,
-    "launch": [],
-    "spin": [],
-    "tipSizes": [
-      "0.37"
-    ],
-    "availability": [
-      "GolfWorks current catalog"
-    ],
-    "currentRecordCount": 2,
-    "recordCount": 2
-  },
-  "FST|PRO 125|PRO 125 STEPLESS": {
-    "weights": [
-      "125"
-    ],
-    "weightClasses": [
-      "120s"
-    ],
-    "flexes": [
-      "S/X"
-    ],
-    "torqueMin": 3,
-    "torqueMax": 3,
-    "launch": [],
-    "spin": [],
-    "tipSizes": [
-      "0.37"
-    ],
-    "availability": [
-      "GolfWorks current catalog"
-    ],
-    "currentRecordCount": 1,
-    "recordCount": 1
-  },
   "FUJIKURA|AIR SPEEDER|AIR SPEEDER 35": {
     "weights": [
       "40.5"
@@ -8574,6 +8457,76 @@
     "currentRecordCount": 8,
     "recordCount": 8
   },
+  "KBS|90|90": {
+    "weights": [
+      "100"
+    ],
+    "weightClasses": [
+      "100s"
+    ],
+    "flexes": [
+      "A/R"
+    ],
+    "torqueMin": 5,
+    "torqueMax": 5,
+    "launch": [],
+    "spin": [],
+    "tipSizes": [
+      "0.37"
+    ],
+    "availability": [
+      "GolfWorks current catalog"
+    ],
+    "currentRecordCount": 1,
+    "recordCount": 1
+  },
+  "KBS|115|115": {
+    "weights": [
+      "115"
+    ],
+    "weightClasses": [
+      "110s"
+    ],
+    "flexes": [
+      "A/R",
+      "S/X"
+    ],
+    "torqueMin": 3.7,
+    "torqueMax": 5,
+    "launch": [],
+    "spin": [],
+    "tipSizes": [
+      "0.37"
+    ],
+    "availability": [
+      "GolfWorks current catalog"
+    ],
+    "currentRecordCount": 2,
+    "recordCount": 2
+  },
+  "KBS|125|125": {
+    "weights": [
+      "125"
+    ],
+    "weightClasses": [
+      "120s"
+    ],
+    "flexes": [
+      "S/X"
+    ],
+    "torqueMin": 3.7,
+    "torqueMax": 3.7,
+    "launch": [],
+    "spin": [],
+    "tipSizes": [
+      "0.37"
+    ],
+    "availability": [
+      "GolfWorks current catalog"
+    ],
+    "currentRecordCount": 1,
+    "recordCount": 1
+  },
   "KBS|610 WEDGE|610 WEDGE": {
     "weights": [
       "110",
@@ -9083,6 +9036,53 @@
     ],
     "currentRecordCount": 7,
     "recordCount": 7
+  },
+  "KBS|PRO 115|PRO 115 STEPLESS": {
+    "weights": [
+      "115"
+    ],
+    "weightClasses": [
+      "110s"
+    ],
+    "flexes": [
+      "A/R",
+      "S/X"
+    ],
+    "torqueMin": 3.7,
+    "torqueMax": 5,
+    "launch": [],
+    "spin": [],
+    "tipSizes": [
+      "0.37"
+    ],
+    "availability": [
+      "GolfWorks current catalog"
+    ],
+    "currentRecordCount": 2,
+    "recordCount": 2
+  },
+  "KBS|PRO 125|PRO 125 STEPLESS": {
+    "weights": [
+      "125"
+    ],
+    "weightClasses": [
+      "120s"
+    ],
+    "flexes": [
+      "S/X"
+    ],
+    "torqueMin": 3,
+    "torqueMax": 3,
+    "launch": [],
+    "spin": [],
+    "tipSizes": [
+      "0.37"
+    ],
+    "availability": [
+      "GolfWorks current catalog"
+    ],
+    "currentRecordCount": 1,
+    "recordCount": 1
   },
   "KBS|PUTTER DIA.|PUTTER DIA WT LEN": {
     "weights": [
