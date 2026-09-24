@@ -10146,6 +10146,37 @@
     "currentRecordCount": 7,
     "recordCount": 7
   },
+  "MITSUBISHI CHEMICAL|BASSARA|GRAND BASSARA": {
+    "weights": [
+      "32",
+      "35",
+      "40",
+      "43",
+      "45",
+      "48"
+    ],
+    "weightClasses": [
+      "30s",
+      "40s"
+    ],
+    "flexes": [
+      "L",
+      "R",
+      "S"
+    ],
+    "torqueMin": 4.7,
+    "torqueMax": 11.8,
+    "launch": [],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 6
+  },
   "MITSUBISHI CHEMICAL|DIAMANA|BB": {
     "weights": [
       "44",
@@ -10276,38 +10307,96 @@
     "currentRecordCount": 11,
     "recordCount": 11
   },
+  "MITSUBISHI CHEMICAL|DIAMANA|DIAMANA D LIMITED GLOBAL RELAUNCH": {
+    "weights": [
+      "54",
+      "56",
+      "58",
+      "60",
+      "62",
+      "63",
+      "64",
+      "66",
+      "68",
+      "72",
+      "76",
+      "77",
+      "83",
+      "86",
+      "88"
+    ],
+    "weightClasses": [
+      "50s",
+      "60s",
+      "70s",
+      "80s"
+    ],
+    "flexes": [
+      "R",
+      "S",
+      "SR",
+      "TX",
+      "X"
+    ],
+    "torqueMin": 2.7,
+    "torqueMax": 5,
+    "launch": [
+      "High"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 16
+  },
   "MITSUBISHI CHEMICAL|DIAMANA|DIAMANA GT": {
     "weights": [
       "46",
+      "47",
       "48",
+      "49",
       "50",
       "55",
+      "56",
       "57",
       "59",
       "60",
+      "61",
+      "62",
       "63",
+      "65",
       "66",
       "68",
       "70",
+      "72",
       "73",
       "75",
-      "77"
+      "77",
+      "82",
+      "85",
+      "86"
     ],
     "weightClasses": [
       "40s",
       "50s",
       "60s",
-      "70s"
+      "70s",
+      "80s"
     ],
     "flexes": [
       "R",
       "R2",
       "S",
+      "SR",
       "TX",
       "X"
     ],
-    "torqueMin": 3,
-    "torqueMax": 5.5,
+    "torqueMin": 2.8,
+    "torqueMax": 5.6,
     "launch": [
       "Mid-Low"
     ],
@@ -10318,10 +10407,43 @@
       "0.335"
     ],
     "availability": [
+      "Secondary market / Archive",
       "Special Order / Authorized Dealer"
     ],
     "currentRecordCount": 14,
-    "recordCount": 14
+    "recordCount": 35
+  },
+  "MITSUBISHI CHEMICAL|DIAMANA|DIAMANA OG LTD 2024 ORIGINAL GRAPHICS LIMITED EDITION": {
+    "weights": [
+      "61",
+      "63",
+      "64",
+      "65",
+      "71",
+      "72"
+    ],
+    "weightClasses": [
+      "60s",
+      "70s"
+    ],
+    "flexes": [
+      "S",
+      "X"
+    ],
+    "torqueMin": 2.8,
+    "torqueMax": 3.6,
+    "launch": [
+      "High"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 6
   },
   "MITSUBISHI CHEMICAL|DIAMANA|DIAMANA PD": {
     "weights": [
@@ -10364,6 +10486,54 @@
     ],
     "currentRecordCount": 11,
     "recordCount": 11
+  },
+  "MITSUBISHI CHEMICAL|DIAMANA|DIAMANA PD SERIES 5TH GENERATION": {
+    "weights": [
+      "45",
+      "47",
+      "49",
+      "53",
+      "53.5",
+      "56",
+      "57",
+      "63",
+      "64",
+      "65",
+      "66",
+      "74",
+      "75",
+      "76",
+      "84"
+    ],
+    "weightClasses": [
+      "40s",
+      "50s",
+      "60s",
+      "70s",
+      "80s"
+    ],
+    "flexes": [
+      "R",
+      "R2",
+      "S",
+      "SR",
+      "TX",
+      "X"
+    ],
+    "torqueMin": 2.7,
+    "torqueMax": 6.1,
+    "launch": [
+      "Mid-High"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 21
   },
   "MITSUBISHI CHEMICAL|DIAMANA|DIAMANA RB": {
     "weights": [
@@ -10485,19 +10655,27 @@
       "43",
       "45",
       "47",
+      "49",
+      "51",
       "53",
       "55",
+      "56",
       "57",
       "59",
+      "60",
       "62",
       "64",
+      "65",
       "66",
       "68",
       "72",
       "74",
+      "75",
       "76",
       "81",
-      "83"
+      "83",
+      "86",
+      "87"
     ],
     "weightClasses": [
       "40s",
@@ -10510,11 +10688,12 @@
       "R",
       "R2",
       "S",
+      "SR",
       "TX",
       "X"
     ],
     "torqueMin": 2.8,
-    "torqueMax": 5.8,
+    "torqueMax": 6.2,
     "launch": [
       "Mid"
     ],
@@ -10525,10 +10704,11 @@
       "0.335"
     ],
     "availability": [
+      "Secondary market / Archive",
       "Special Order / Authorized Dealer"
     ],
     "currentRecordCount": 16,
-    "recordCount": 16
+    "recordCount": 37
   },
   "MITSUBISHI CHEMICAL|DIAMANA|DIAMANA WB": {
     "weights": [
@@ -10659,6 +10839,48 @@
     "currentRecordCount": 18,
     "recordCount": 18
   },
+  "MITSUBISHI CHEMICAL|DIAMANA|DIAMANA ZF SERIES": {
+    "weights": [
+      "44",
+      "46",
+      "50",
+      "55",
+      "58",
+      "62",
+      "64",
+      "65",
+      "69",
+      "74",
+      "80",
+      "83",
+      "89"
+    ],
+    "weightClasses": [
+      "40s",
+      "50s",
+      "60s",
+      "70s",
+      "80s"
+    ],
+    "flexes": [
+      "R",
+      "R2",
+      "S",
+      "TX"
+    ],
+    "torqueMin": 2.9,
+    "torqueMax": 5.6,
+    "launch": [],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 13
+  },
   "MITSUBISHI CHEMICAL|DIAMANA|WB": {
     "weights": [
       "43",
@@ -10714,6 +10936,116 @@
     ],
     "currentRecordCount": 21,
     "recordCount": 21
+  },
+  "MITSUBISHI CHEMICAL|FUBUKI|FUBUKI MV SERIES": {
+    "weights": [
+      "43",
+      "46",
+      "47",
+      "52"
+    ],
+    "weightClasses": [
+      "40s",
+      "50s"
+    ],
+    "flexes": [
+      "A",
+      "L",
+      "R",
+      "S"
+    ],
+    "torqueMin": 6.9,
+    "torqueMax": 7.6,
+    "launch": [],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 4
+  },
+  "MITSUBISHI CHEMICAL|FUBUKI|FUBUKI V SERIES": {
+    "weights": [
+      "47",
+      "48",
+      "52",
+      "54",
+      "58",
+      "61",
+      "65",
+      "68",
+      "74",
+      "76"
+    ],
+    "weightClasses": [
+      "40s",
+      "50s",
+      "60s",
+      "70s"
+    ],
+    "flexes": [
+      "L",
+      "R",
+      "S",
+      "X"
+    ],
+    "torqueMin": 3.7,
+    "torqueMax": 7.4,
+    "launch": [
+      "Mid"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 10
+  },
+  "MITSUBISHI CHEMICAL|FUBUKI|FUBUKI Z SERIES": {
+    "weights": [
+      "56",
+      "58",
+      "62",
+      "64",
+      "66",
+      "67",
+      "70",
+      "75",
+      "77",
+      "78",
+      "80",
+      "86",
+      "88"
+    ],
+    "weightClasses": [
+      "50s",
+      "60s",
+      "70s",
+      "80s"
+    ],
+    "flexes": [
+      "R",
+      "S",
+      "X"
+    ],
+    "torqueMin": 3.3,
+    "torqueMax": 5,
+    "launch": [],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 15
   },
   "MITSUBISHI CHEMICAL|KAI LI BLUE|KAI LI BLUE": {
     "weights": [
@@ -10778,6 +11110,251 @@
     ],
     "currentRecordCount": 5,
     "recordCount": 5
+  },
+  "MITSUBISHI CHEMICAL|KAI LI|KAI LI DARK WAVES BLUE": {
+    "weights": [
+      "55",
+      "57",
+      "64",
+      "66",
+      "68",
+      "72",
+      "74"
+    ],
+    "weightClasses": [
+      "50s",
+      "60s",
+      "70s"
+    ],
+    "flexes": [
+      "R",
+      "S",
+      "X"
+    ],
+    "torqueMin": 3.8,
+    "torqueMax": 5.3,
+    "launch": [
+      "High"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 7
+  },
+  "MITSUBISHI CHEMICAL|KAI LI|KAI LI DARK WAVES BLUE CB COUNTERBALANCED": {
+    "weights": [
+      "62",
+      "65",
+      "67",
+      "72",
+      "74",
+      "76"
+    ],
+    "weightClasses": [
+      "60s",
+      "70s"
+    ],
+    "flexes": [
+      "R",
+      "S",
+      "X"
+    ],
+    "torqueMin": 3.8,
+    "torqueMax": 4.2,
+    "launch": [
+      "High"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 6
+  },
+  "MITSUBISHI CHEMICAL|KAI LI|KAI LI DARK WAVES RED": {
+    "weights": [
+      "52",
+      "54",
+      "56",
+      "64",
+      "66",
+      "67",
+      "70",
+      "72"
+    ],
+    "weightClasses": [
+      "50s",
+      "60s",
+      "70s"
+    ],
+    "flexes": [
+      "A",
+      "R",
+      "S",
+      "X"
+    ],
+    "torqueMin": 3.9,
+    "torqueMax": 6.2,
+    "launch": [
+      "Low"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 8
+  },
+  "MITSUBISHI CHEMICAL|KAI LI|KAI LI DARK WAVES WHITE": {
+    "weights": [
+      "65",
+      "68",
+      "69",
+      "75",
+      "77"
+    ],
+    "weightClasses": [
+      "60s",
+      "70s"
+    ],
+    "flexes": [
+      "R",
+      "S",
+      "X"
+    ],
+    "torqueMin": 3.7,
+    "torqueMax": 4.2,
+    "launch": [
+      "High"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 5
+  },
+  "MITSUBISHI CHEMICAL|KURO KAGE|KURO KAGE BLACK 2ND GEN IRON": {
+    "weights": [
+      "73",
+      "75"
+    ],
+    "weightClasses": [
+      "70s",
+      "80s"
+    ],
+    "flexes": [
+      "A",
+      "R",
+      "S"
+    ],
+    "torqueMin": 3.5,
+    "torqueMax": 3.5,
+    "launch": [
+      "Mid"
+    ],
+    "spin": [
+      "Mid"
+    ],
+    "tipSizes": [
+      "0.37"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 3
+  },
+  "MITSUBISHI CHEMICAL|KURO KAGE|KURO KAGE XM": {
+    "weights": [
+      "53",
+      "55",
+      "58",
+      "62",
+      "63",
+      "66",
+      "72",
+      "75",
+      "76",
+      "81"
+    ],
+    "weightClasses": [
+      "50s",
+      "60s",
+      "70s",
+      "80s"
+    ],
+    "flexes": [
+      "S",
+      "SR",
+      "TX",
+      "X"
+    ],
+    "torqueMin": 2.9,
+    "torqueMax": 5,
+    "launch": [
+      "Mid"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 10
+  },
+  "MITSUBISHI CHEMICAL|KURO KAGE|KURO KAGE XT": {
+    "weights": [
+      "62",
+      "63",
+      "66",
+      "71",
+      "73",
+      "74",
+      "80",
+      "83"
+    ],
+    "weightClasses": [
+      "60s",
+      "70s",
+      "80s"
+    ],
+    "flexes": [
+      "S",
+      "SR",
+      "TX",
+      "X"
+    ],
+    "torqueMin": 3.1,
+    "torqueMax": 4,
+    "launch": [
+      "High"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 8
   },
   "MITSUBISHI CHEMICAL|MMT IRON|MMT IRON": {
     "weights": [
@@ -10862,6 +11439,43 @@
     "availability": [],
     "currentRecordCount": 10,
     "recordCount": 10
+  },
+  "MITSUBISHI CHEMICAL|OT|OT IRON": {
+    "weights": [
+      "75",
+      "80",
+      "84",
+      "90",
+      "91",
+      "97",
+      "105",
+      "109"
+    ],
+    "weightClasses": [
+      "70s",
+      "80s",
+      "90s",
+      "100s"
+    ],
+    "flexes": [
+      "R",
+      "S",
+      "X"
+    ],
+    "torqueMin": 2.7,
+    "torqueMax": 3.2,
+    "launch": [
+      "Mid"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.37"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 8
   },
   "MITSUBISHI CHEMICAL|TENSEI|1K PRO BLUE": {
     "weights": [
@@ -10954,6 +11568,190 @@
     ],
     "currentRecordCount": 14,
     "recordCount": 14
+  },
+  "MITSUBISHI CHEMICAL|TENSEI|TENSEI 1K BLACK": {
+    "weights": [
+      "67",
+      "68",
+      "69",
+      "76",
+      "78",
+      "79",
+      "89",
+      "90"
+    ],
+    "weightClasses": [
+      "70s",
+      "80s",
+      "90s"
+    ],
+    "flexes": [
+      "S",
+      "TX",
+      "X"
+    ],
+    "torqueMin": 2.8,
+    "torqueMax": 3.6,
+    "launch": [
+      "High"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 9
+  },
+  "MITSUBISHI CHEMICAL|TENSEI|TENSEI 1K BLACK HYBRID": {
+    "weights": [
+      "87",
+      "91",
+      "98",
+      "102"
+    ],
+    "weightClasses": [
+      "80s",
+      "90s",
+      "100s"
+    ],
+    "flexes": [
+      "S",
+      "X"
+    ],
+    "torqueMin": 2.3,
+    "torqueMax": 2.5,
+    "launch": [
+      "High"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.37"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 4
+  },
+  "MITSUBISHI CHEMICAL|TENSEI|TENSEI 1K BLUE 2024 VERSION": {
+    "weights": [
+      "55",
+      "57",
+      "59",
+      "61",
+      "63",
+      "65",
+      "66",
+      "67",
+      "75",
+      "76",
+      "77"
+    ],
+    "weightClasses": [
+      "50s",
+      "60s",
+      "70s"
+    ],
+    "flexes": [
+      "R",
+      "R2",
+      "S",
+      "TX",
+      "X"
+    ],
+    "torqueMin": 3,
+    "torqueMax": 5.3,
+    "launch": [
+      "Mid"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 11
+  },
+  "MITSUBISHI CHEMICAL|TENSEI|TENSEI 1K BLUE 2026 RIP TECH VERSION": {
+    "weights": [
+      "56",
+      "57",
+      "58",
+      "61",
+      "66",
+      "67",
+      "69",
+      "70",
+      "75",
+      "78",
+      "79"
+    ],
+    "weightClasses": [
+      "50s",
+      "60s",
+      "70s"
+    ],
+    "flexes": [
+      "R",
+      "R2",
+      "S",
+      "TX",
+      "X"
+    ],
+    "torqueMin": 3.1,
+    "torqueMax": 4.9,
+    "launch": [
+      "Mid"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 11
+  },
+  "MITSUBISHI CHEMICAL|TENSEI|TENSEI 1K BLUE HYBRID": {
+    "weights": [
+      "65",
+      "68",
+      "75",
+      "78",
+      "88",
+      "91"
+    ],
+    "weightClasses": [
+      "60s",
+      "70s",
+      "80s",
+      "90s"
+    ],
+    "flexes": [
+      "R",
+      "S",
+      "X"
+    ],
+    "torqueMin": 2.4,
+    "torqueMax": 3.5,
+    "launch": [
+      "Mid"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.37"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 6
   },
   "MITSUBISHI CHEMICAL|TENSEI|TENSEI 1K PRO BLUE": {
     "weights": [
@@ -11108,6 +11906,241 @@
     "currentRecordCount": 6,
     "recordCount": 6
   },
+  "MITSUBISHI CHEMICAL|TENSEI|TENSEI 1K RED": {
+    "weights": [
+      "46",
+      "49",
+      "51",
+      "54",
+      "58",
+      "61",
+      "64"
+    ],
+    "weightClasses": [
+      "40s",
+      "50s",
+      "60s"
+    ],
+    "flexes": [
+      "R",
+      "R2",
+      "R3",
+      "S"
+    ],
+    "torqueMin": 4.1,
+    "torqueMax": 6.8,
+    "launch": [
+      "Low"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 7
+  },
+  "MITSUBISHI CHEMICAL|TENSEI|TENSEI 1K WHITE": {
+    "weights": [
+      "66",
+      "70",
+      "71",
+      "75",
+      "78",
+      "79",
+      "87",
+      "90",
+      "91"
+    ],
+    "weightClasses": [
+      "60s",
+      "70s",
+      "80s",
+      "90s"
+    ],
+    "flexes": [
+      "S",
+      "TX",
+      "X"
+    ],
+    "torqueMin": 2.7,
+    "torqueMax": 3.6,
+    "launch": [
+      "High"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 9
+  },
+  "MITSUBISHI CHEMICAL|TENSEI|TENSEI AV BLUE AV WHITE 2021 XLINK REFRESH": {
+    "weights": [
+      "58",
+      "59",
+      "66",
+      "68",
+      "69",
+      "75",
+      "78",
+      "79",
+      "88",
+      "89"
+    ],
+    "weightClasses": [
+      "50s",
+      "60s",
+      "70s",
+      "80s"
+    ],
+    "flexes": [
+      "R",
+      "S",
+      "X"
+    ],
+    "torqueMin": 3,
+    "torqueMax": 5.4,
+    "launch": [
+      "High",
+      "Mid"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 10
+  },
+  "MITSUBISHI CHEMICAL|TENSEI|TENSEI AV RAW BLUE": {
+    "weights": [
+      "55",
+      "57",
+      "58",
+      "62",
+      "65",
+      "67",
+      "68",
+      "69",
+      "74",
+      "77",
+      "78",
+      "79",
+      "86"
+    ],
+    "weightClasses": [
+      "50s",
+      "60s",
+      "70s",
+      "80s"
+    ],
+    "flexes": [
+      "R",
+      "R2",
+      "S",
+      "TX",
+      "X"
+    ],
+    "torqueMin": 2.6,
+    "torqueMax": 5.5,
+    "launch": [
+      "Mid"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 13
+  },
+  "MITSUBISHI CHEMICAL|TENSEI|TENSEI AV RAW ORANGE": {
+    "weights": [
+      "57",
+      "60",
+      "62",
+      "66",
+      "69",
+      "70",
+      "75",
+      "77",
+      "78",
+      "82"
+    ],
+    "weightClasses": [
+      "50s",
+      "60s",
+      "70s",
+      "80s"
+    ],
+    "flexes": [
+      "R",
+      "S",
+      "TX",
+      "X"
+    ],
+    "torqueMin": 2.8,
+    "torqueMax": 6,
+    "launch": [
+      "High",
+      "Mid"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 12
+  },
+  "MITSUBISHI CHEMICAL|TENSEI|TENSEI AV RAW WHITE": {
+    "weights": [
+      "66",
+      "67",
+      "69",
+      "75",
+      "77",
+      "79",
+      "87",
+      "88"
+    ],
+    "weightClasses": [
+      "60s",
+      "70s",
+      "80s"
+    ],
+    "flexes": [
+      "S",
+      "TX",
+      "X"
+    ],
+    "torqueMin": 2.9,
+    "torqueMax": 4,
+    "launch": [
+      "High"
+    ],
+    "spin": [],
+    "tipSizes": [
+      "0.335"
+    ],
+    "availability": [
+      "Secondary market / Archive"
+    ],
+    "currentRecordCount": 0,
+    "recordCount": 9
+  },
   "MITSUBISHI CHEMICAL|TENSEI|TENSEI AV SERIES BLUE": {
     "weights": [
       "66",
@@ -11141,21 +12174,26 @@
     "weights": [
       "59",
       "60",
+      "63",
       "67",
       "70",
-      "72"
+      "72",
+      "76",
+      "77",
+      "81"
     ],
     "weightClasses": [
       "50s",
       "60s",
-      "70s"
+      "70s",
+      "80s"
     ],
     "flexes": [
       "R",
       "S",
       "X"
     ],
-    "torqueMin": 4.3,
+    "torqueMin": 3.7,
     "torqueMax": 5.9,
     "launch": [
       "Mid"
@@ -11165,10 +12203,11 @@
       "0.335"
     ],
     "availability": [
-      "GolfWorks current catalog"
+      "GolfWorks current catalog",
+      "Secondary market / Archive"
     ],
     "currentRecordCount": 5,
-    "recordCount": 5
+    "recordCount": 9
   },
   "MITSUBISHI CHEMICAL|TENSEI|TENSEI AV SERIES RED": {
     "weights": [
