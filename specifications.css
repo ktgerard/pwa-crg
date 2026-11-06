@@ -2,40 +2,58 @@
 
 
 
-/* CRG print layout v4: override mobile screen rules and request Letter landscape.
-   A wide table must not inherit the 980px screen-only min-width/scroll container. */
+/* CRG print layout v5 — iPad/Chrome consistent column widths and pagination. */
 @page { size: 11in 8.5in; margin: .32in .35in; }
 @media print {
-  html, body { width: auto !important; min-width: 0 !important;
-    margin: 0 !important; padding: 0 !important;
+  html, body { width: auto !important; min-width: 0 !important; margin: 0 !important;
+    padding: 0 !important; background: white !important;
     -webkit-text-size-adjust: 100% !important; text-size-adjust: 100% !important;
     font-size: 10pt !important; }
+  .screen-only { display: none !important; }
   .sheet { width: 100% !important; max-width: none !important; min-width: 0 !important;
     min-height: 0 !important; margin: 0 !important; padding: 0 !important;
     box-shadow: none !important; }
-  .screen-only { display: none !important; }
-  .work-order-grid { display: grid !important; grid-template-columns: 1fr 1fr !important; gap: 4px 20px !important; }
-  .identity-grid { display: grid !important; grid-template-columns: 1.05fr 1.35fr 1.35fr 1.1fr .7fr !important; }
+  .sheet-header { margin-bottom: 6px !important; }
+  .sheet-header h1 { font-size: 16pt !important; }
+  .work-order-grid { display: grid !important; grid-template-columns: 1fr 1fr !important;
+    gap: 3px 20px !important; margin: 4px 0 7px !important; }
+  .field { min-height: 20px !important; }
+  .field input { height: 19px !important; }
+  .identity-grid { display: grid !important;
+    grid-template-columns: 1.05fr 1.35fr 1.35fr 1.1fr .7fr !important; }
   .identity-item { border-bottom: 0 !important; }
   .identity-item:nth-child(2n) { border-right: 1px solid var(--line) !important; }
   .identity-item:last-child { border-right: 0 !important; }
-  .reference-grid { display: grid !important; grid-template-columns: 1fr 1fr !important; gap: 0 20px !important; }
-  .reference-notes { grid-column: 1 / -1 !important; }
-  .bottom-grid { display: block !important; }
+  .identity-item span { padding: 3px 2px !important; }
+  .identity-item strong { min-height: 21px !important; padding: 4px 3px !important; }
+  .reference-grid { display: grid !important; grid-template-columns: 1fr 1fr !important;
+    gap: 0 20px !important; margin: 7px 0 6px !important; }
+  .reference-column > div { min-height: 18px !important; }
+  .reference-notes { grid-column: 1 / -1 !important; min-height: 21px !important; }
   .specification-section { width: 100% !important; min-width: 0 !important;
     overflow: visible !important; }
   .specification-table { width: 100% !important; min-width: 0 !important;
     table-layout: fixed !important; font-size: 9pt !important; }
-  .specification-table th, .specification-table td { padding: 3px 2px !important;
-    height: 28px !important; overflow-wrap: anywhere; }
+  /* The original column widths totaled 107.3%, which Safari handles poorly.
+     These widths total exactly 100%: 7 + 12*5.6 + 2*5.4 + 15. */
+  .specification-table col.club-col { width: 7% !important; }
+  .specification-table col.measurement-col { width: 5.6% !important; }
+  .specification-table col.wedge-col { width: 5.4% !important; }
+  .specification-table col.notes-col { width: 15% !important; }
+  .specification-table th, .specification-table td { padding: 2px 1px !important;
+    height: 26px !important; overflow-wrap: normal !important; word-break: normal !important; }
   .specification-table input { font-size: 9pt !important; min-width: 0 !important;
-    height: 23px !important; }
-  .specification-table .static-value { font-size: 9pt !important; min-height: 22px !important; }
-  .group-header th { font-size: 9pt !important; }
-  .column-header th { font-size: 8pt !important; letter-spacing: -.015em; }
-  .sheet-header h1 { font-size: 16pt !important; }
+    height: 22px !important; }
+  .specification-table .static-value { font-size: 9pt !important;
+    min-height: 21px !important; }
+  .group-header th { font-size: 9pt !important; height: 24px !important; }
+  .column-header th { font-size: 7.5pt !important; height: 23px !important;
+    white-space: nowrap !important; letter-spacing: -.02em !important; }
   .specification-table thead { display: table-header-group !important; }
   .specification-table tbody { display: table-row-group !important; }
   .specification-table tr { break-inside: avoid; page-break-inside: avoid; }
-  .bottom-grid { break-inside: avoid; page-break-inside: avoid; }
+  .bottom-grid { display: block !important; margin-top: 7px !important;
+    break-inside: avoid; page-break-inside: avoid; }
+  .work-notes textarea { min-height: 58px !important; height: 58px !important;
+    resize: none !important; }
 }
