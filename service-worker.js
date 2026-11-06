@@ -1,4 +1,4 @@
-const CACHE_NAME = "fis-crg-phase2b-oem-shafts-v3";
+const CACHE_NAME = "fis-crg-spec-print-v4-20261105";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -8,6 +8,9 @@ const APP_SHELL = [
   "./data/data_version.json",
   "./data/heads.json",
   "./styles.css",
+  "./specifications.html",
+  "./specifications.css",
+  "./specifications.js",
   "./app.js",
   "./data/adapter_data.json",
   "./adapter.js",
