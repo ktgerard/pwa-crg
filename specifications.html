@@ -13,7 +13,7 @@
       <span id="loadStatus">Loading selected head…</span>
     </div>
     <div class="toolbar-actions">
-      <button id="printBtn" type="button" disabled>Print</button>
+      <label for="pdfOrientation" class="orientation-label">PDF layout</label><select id="pdfOrientation" aria-label="PDF orientation"><option value="landscape">Landscape</option><option value="portrait">Portrait</option></select><button id="printBtn" type="button" disabled>Open PDF</button>
       <button id="closeBtn" type="button">Close</button>
     </div>
   </div>
@@ -97,8 +97,6 @@
 
     <div id="errorMessage" class="error-message" hidden></div>
   </main>
-
-  <div id="printPages" class="print-pages" aria-hidden="true"></div>
 
   <script src="specifications.js"></script>
 </body>

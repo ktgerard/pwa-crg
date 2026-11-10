@@ -97,3 +97,5 @@
   .print-page .specification-table input { -webkit-appearance: none; appearance: none; border-radius: 0; }
   .print-page .bottom-grid { margin-top: 7px !important; }
 }
+
+.orientation-label{font-size:12px;font-weight:700}.toolbar-actions select{padding:7px;border-radius:6px;background:white;color:#101827;border:1px solid #ccc}
