@@ -57,3 +57,43 @@
   .work-notes textarea { min-height: 58px !important; height: 58px !important;
     resize: none !important; }
 }
+
+/* iPad-safe, explicitly paginated worksheet (v6).
+   Printed pages contain independent tables, so WebKit never needs to repeat
+   a fragmented THEAD or carry collapsed borders across a page boundary. */
+.print-pages { display: none; }
+@media print {
+  #sheet { display: none !important; }
+  .print-pages { display: block !important; width: 100% !important; }
+  .print-page {
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    break-after: page !important;
+    page-break-after: always !important;
+  }
+  .print-page:last-child { break-after: auto !important; page-break-after: auto !important; }
+  .print-page .sheet { display: block !important; }
+  .print-page .specification-section { overflow: visible !important; }
+  .print-page .specification-table {
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    width: 100% !important;
+  }
+  .print-page .specification-table th,
+  .print-page .specification-table td {
+    border: 0 !important;
+    border-right: 1px solid var(--line) !important;
+    border-bottom: 1px solid var(--line) !important;
+  }
+  .print-page .specification-table tr > :first-child {
+    border-left: 1px solid var(--line) !important;
+  }
+  .print-page .specification-table thead tr:first-child th {
+    border-top: 1px solid var(--line) !important;
+  }
+  .print-page .specification-table tbody tr { break-inside: avoid !important; }
+  .print-page .specification-table input { -webkit-appearance: none; appearance: none; border-radius: 0; }
+  .print-page .bottom-grid { margin-top: 7px !important; }
+}

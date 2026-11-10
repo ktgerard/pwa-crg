@@ -63,6 +63,63 @@ async function loadWorksheet(){
   }catch(error){console.error(error);showError('The worksheet data could not be loaded. Open it from the hosted CRG or a local web server, not directly from a file folder.');}
 }
 
-els.printBtn.addEventListener('click',()=>window.print());
+
+// Explicit print pagination: independent tables and headers on every page.
+// Keeps the editable on-screen worksheet untouched.
+const PRINT_FIRST_ROWS = 10;
+const PRINT_CONTINUATION_ROWS = 16;
+function syncClonedFields(original, clone) {
+  const from = original.querySelectorAll('input, textarea');
+  const to = clone.querySelectorAll('input, textarea');
+  from.forEach((field, i) => {
+    if (!to[i]) return;
+    if (field.type === 'checkbox' || field.type === 'radio') to[i].checked = field.checked;
+    else to[i].value = field.value;
+    if (to[i].tagName === 'TEXTAREA') to[i].textContent = field.value;
+    else to[i].setAttribute('value', field.value);
+  });
+}
+function buildPrintPages() {
+  const target = document.getElementById('printPages');
+  if (!target) return;
+  target.replaceChildren();
+  const liveSheet = document.getElementById('sheet');
+  const liveRows = [...els.specBody.querySelectorAll('tr')];
+  const chunks = [];
+  let start = 0;
+  while (start < liveRows.length) {
+    const size = chunks.length === 0 ? PRINT_FIRST_ROWS : PRINT_CONTINUATION_ROWS;
+    chunks.push(liveRows.slice(start, start + size));
+    start += size;
+  }
+  if (!chunks.length) chunks.push([]);
+  chunks.forEach((rows, index) => {
+    const page = document.createElement('div');
+    page.className = 'print-page';
+    const sheet = liveSheet.cloneNode(true);
+    sheet.removeAttribute('id');
+    sheet.removeAttribute('aria-live');
+    syncClonedFields(liveSheet, sheet);
+    if (index > 0) {
+      // Only page 1 needs the customer, model and factory reference fields.
+      ['.sheet-header', '.work-order-grid', '.identity-grid', '.reference-grid']
+        .forEach(selector => sheet.querySelector(selector)?.remove());
+    }
+    if (index !== chunks.length - 1) sheet.querySelector('.bottom-grid')?.remove();
+    const body = sheet.querySelector('#specBody');
+    body.removeAttribute('id');
+    body.replaceChildren(...rows.map(row => {
+      const clone = row.cloneNode(true);
+      syncClonedFields(row, clone);
+      return clone;
+    }));
+    sheet.querySelector('#errorMessage')?.remove();
+    page.append(sheet);
+    target.append(page);
+  });
+}
+window.addEventListener('beforeprint', buildPrintPages);
+
+els.printBtn.addEventListener('click',()=>{buildPrintPages();window.print();});
 els.closeBtn.addEventListener('click',()=>window.close());
 loadWorksheet();
