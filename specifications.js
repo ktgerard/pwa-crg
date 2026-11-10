@@ -66,7 +66,7 @@ async function loadWorksheet(){
 
 // Explicit print pagination: independent tables and headers on every page.
 // Keeps the editable on-screen worksheet untouched.
-const PRINT_FIRST_ROWS = 10;
+const PRINT_FIRST_ROWS = 12;
 const PRINT_CONTINUATION_ROWS = 16;
 function syncClonedFields(original, clone) {
   const from = original.querySelectorAll('input, textarea');
