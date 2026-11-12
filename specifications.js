@@ -66,7 +66,7 @@ async function loadWorksheet(){
 
 
 // Self-contained PDF writer: no CDN dependency and no HTML print pagination.
-const pdfText = v => String(v ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^\x20-\x7e]/g, '?');
+const pdfText = v => String(v ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[\u2013\u2014]/g,'-').replace(/[^\x20-\x7e]/g, '?');
 const pdfEscape = v => pdfText(v).replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
 function makePDF() {
   const landscape = document.getElementById('pdfOrientation').value === 'landscape';
@@ -80,47 +80,131 @@ function makePDF() {
   const line=(x1,y1,x2,y2)=>{stream+=`${x1.toFixed(2)} ${y1.toFixed(2)} m ${x2.toFixed(2)} ${y2.toFixed(2)} l S\n`;};
   const rect=(x,y,w,h)=>{stream+=`${x.toFixed(2)} ${y.toFixed(2)} ${w.toFixed(2)} ${h.toFixed(2)} re S\n`;};
   const text=(x,y,v,size=8,bold=false)=>{stream+=`BT /${bold?'F2':'F1'} ${size} Tf 1 0 0 1 ${x.toFixed(2)} ${y.toFixed(2)} Tm (${pdfEscape(v)}) Tj ET\n`;};
-  const trunc=(v,n)=>{const s=pdfText(v);return s.length>n?s.slice(0,Math.max(0,n-1))+'~':s;};
-  const header=()=>{
-    text(margin,H-39,'CLUB SPECIFICATIONS SHEET',15,true);
-    text(margin,H-53,'(With Factory Standards)',9,true);
-    text(margin,H-75,`Customer: ${trunc(meta('customerName'),27)}    Ticket #: ${trunc(meta('ticketNumber'),15)}`,9);
-    text(margin,H-89,`Loft Adjust: ${trunc(meta('loftAdjust'),12)}   Lie Adjust: ${trunc(meta('lieAdjust'),12)}   Length Adjust: ${trunc(meta('lengthAdjust'),12)}   Swingweight Adjust: ${trunc(meta('swingweightAdjust'),12)}`,8);
-    text(margin,H-107,`${trunc(meta('clubBrand'),16)}  ${trunc(meta('clubModel'),26)}  ${trunc(meta('clubVariant'),12)}  ${trunc(meta('releaseYear'),6)}  (${trunc(meta('clubType'),12)})`,10,true);
-    text(margin,H-121,`Hosel: ${trunc(meta('hoselSize'),9)}   Construction: ${trunc(meta('construction'),24)}   Bend risk: ${trunc(meta('bendRisk'),17)}`,8);
-    text(margin,H-135,`Bend Notes: ${trunc(meta('bendNotes'),landscape?110:77)}`,8);
-  };
-  const widths = landscape ? [47,...Array(12).fill(39),35,35,149] : [42,...Array(12).fill(28),30,30,116];
-  const scale=usable/widths.reduce((a,b)=>a+b,0);
-  const ws=widths.map(v=>v*scale);
-  const labels=['Club','Current','Std','Final','Current','Std','Final','Current','Std','Final','Current','Std','Final','Bounce','Grind','Notes'];
-  const groups=[['Loft',1,3],['Lie',4,3],['Length',7,3],['Swingweight',10,3],['Wedge',13,2]];
-  const drawTableHeader=(top)=>{
-    const gh=19,ch=19;rect(margin,top-gh-ch,usable,gh+ch);
-    let x=margin;for(let i=0;i<ws.length;i++){if(i)line(x,top-gh-ch,x,top);x+=ws[i];}
-    line(margin,top-gh,margin+usable,top-gh);
-    groups.forEach(([name,start,count])=>{const xx=margin+ws.slice(0,start).reduce((a,b)=>a+b,0);text(xx+3,top-13,name,8,true);});
-    let xx=margin;labels.forEach((v,i)=>{text(xx+2,top-gh-12,trunc(v,Math.max(3,Math.floor(ws[i]/4.1))),landscape?7:6,true);xx+=ws[i];});
-    return top-gh-ch;
-  };
-  const drawRow=(vals,top,rh)=>{rect(margin,top-rh,usable,rh);let x=margin;for(let i=0;i<ws.length;i++){if(i)line(x,top-rh,x,top);const v=vals[i]||'';const max=Math.max(2,Math.floor((ws[i]-4)/(i===0?4.4:4.0)));text(x+2,top-rh/2-3,trunc(v,max),landscape?7.6:6.8,i===0||[2,5,8,11].includes(i));x+=ws[i];}};
-  let idx=0, pageNo=0;
-  do {
-    stream='0 G 0.55 w\n';pageNo++;
-    header();
-    let y=H-150; y=drawTableHeader(y);
-    const rh=landscape?22:23;
-    const reserve=52;
-    while(idx<cells.length && y-rh>=margin+reserve){drawRow(cells[idx],y,rh);y-=rh;idx++;}
-    // Work notes on final page, with enough space for handwriting.
-    if(idx===cells.length){
-      text(margin,y-18,'Work Notes:',9,true);
-      rect(margin+68,y-44,usable-68,34);
-      text(margin+73,y-25,trunc(workNotes,landscape?112:78),8);
+  const ctx=document.createElement('canvas').getContext('2d');
+  const widthOf=(v,size=8,bold=false)=>{ctx.font=`${bold?'bold ':''}${size}px Arial`;return ctx.measureText(pdfText(v)).width*1.04;};
+  const wrap=(v,w,size=8,bold=false)=>{
+    const result=[];let current='';
+    for(const word of pdfText(v).split(/\s+/)){
+      if(!word)continue;
+      const candidate=current?current+' '+word:word;
+      if(widthOf(candidate,size,bold)<=w){current=candidate;continue;}
+      if(current){result.push(current);current='';}
+      if(widthOf(word,size,bold)<=w){current=word;continue;}
+      let part='';for(const ch of word){if(part&&widthOf(part+ch,size,bold)>w){result.push(part);part='';}part+=ch;}current=part;
     }
-    text(W-margin-72,17,`Page ${pageNo}`,8);
-    pages.push(stream);
-  } while(idx<cells.length);
+    if(current)result.push(current);
+    return result.length?result:[''];
+  };
+  const center=(x,w,y,v,size=8,bold=false)=>{text(x+(w-widthOf(v,size,bold))/2,y,v,size,bold);};
+  const widths=landscape?[47,...Array(12).fill(39),35,35,149]:[42,...Array(12).fill(28),30,30,116];
+  const scale=usable/widths.reduce((a,b)=>a+b,0),ws=widths.map(v=>v*scale);
+  const xAt=i=>margin+ws.slice(0,i).reduce((a,b)=>a+b,0);
+  const groups=[['Loft',1,3],['Lie',4,3],['Length',7,3],['Swingweight',10,3],['Wedge',13,2]];
+  const sublabels=['','Current','Standard','Final','Current','Standard','Final','Current','Standard','Final','Current','Standard','Final','Bounce','Grind',''];
+  const labelValue=(x,y,label,value,w,fs=7.8)=>{
+    const labelW=widthOf(label,fs,true)+5;text(x,y,label,fs,true);
+    const lines=wrap(value,Math.max(8,w-labelW),fs);
+    lines.forEach((v,i)=>text(x+labelW,y-i*(fs+2),v,fs));
+    return Math.max(1,lines.length)*(fs+2);
+  };
+  const drawMainHeader=()=>{
+    let y=H-35;text(margin,y,'CLUB SPECIFICATIONS SHEET',15,true);y-=14;
+    text(margin,y,'(With Factory Standards)',9,true);y-=22;
+    const customerHeight=labelValue(margin,y,'Customer:',meta('customerName'),usable*.62,8);
+    const ticketHeight=labelValue(margin+usable*.64,y,'Ticket #:',meta('ticketNumber'),usable*.36,8);
+    y-=Math.max(customerHeight,ticketHeight)+6;
+    const fields=[['Loft Adjust:','loftAdjust'],['Lie Adjust:','lieAdjust'],['Length Adjust:','lengthAdjust'],['Swingweight Adjust:','swingweightAdjust']];
+    const q=usable/4;let adjustmentHeight=0;
+    fields.forEach(([label,id],i)=>{adjustmentHeight=Math.max(adjustmentHeight,labelValue(margin+i*q,y,label,meta(id),q-4,7));});
+    y-=adjustmentHeight+8;
+    const identity=[['Club Type','clubType'],['Club Brand','clubBrand'],['Club Model','clubModel'],['Variant','clubVariant'],['Year','releaseYear']];
+    const proportions=[1.05,1.35,1.35,1.1,.7],sum=proportions.reduce((a,b)=>a+b,0),iw=proportions.map(v=>usable*v/sum);
+    const idLines=identity.map(([label,id],i)=>wrap(meta(id),iw[i]-8,8.2,true));
+    const ih=Math.max(36,23+Math.max(...idLines.map(a=>a.length))*10);
+    rect(margin,y-ih,usable,ih);line(margin,y-16,margin+usable,y-16);
+    let x=margin;
+    identity.forEach(([label,id],i)=>{
+      if(i)line(x,y-ih,x,y);
+      center(x,iw[i],y-11,label,7.5,true);
+      idLines[i].forEach((v,k)=>center(x,iw[i],y-27-k*10,v,8.2,true));x+=iw[i];
+    });
+    y-=ih+12;
+    const left=[['Category:','modelCategory'],['Construction:','construction'],['Face Tech:','faceTech'],['Core Tech:','coreTech'],['Hosel Type:','hoselType'],['Bend Risk:','bendRisk']];
+    const right=[['Launch:','launchProfile'],['Spin:','spinProfile'],['Offset:','offsetProfile'],['Loft Structure:','loftStructure'],['Hosel Size:','hoselSize'],['Source:','sourceStatus']];
+    const half=usable/2,fs=landscape?7.6:6.9;
+    for(let i=0;i<6;i++){
+      const a=labelValue(margin,y,left[i][0],meta(left[i][1]),half-10,fs);
+      const b=labelValue(margin+half,y,right[i][0],meta(right[i][1]),half-10,fs);
+      y-=Math.max(12,a,b)+2;
+    }
+    line(margin,y+5,margin+usable,y+5);
+    const bend=wrap('Bend Notes: '+meta('bendNotes'),usable-4,7.5);
+    bend.forEach(v=>{text(margin,y-5,v,7.5);y-=10;});
+    return y-14;
+  };
+  const drawContinuationHeader=(pageNo)=>{
+    const heading=`${meta('clubBrand')} ${meta('clubModel')} - Specifications (continued)`;
+    const lines=wrap(heading,usable-65,9.5,true);
+    let y=H-34;lines.forEach(v=>{text(margin,y,v,9.5,true);y-=11;});
+    text(W-margin-45,H-34,`Page ${pageNo}`,8);
+    return y-9;
+  };
+  const drawTableHeader=top=>{
+    const gh=20,ch=20,bottom=top-gh-ch;
+    rect(margin,bottom,usable,gh+ch);line(margin,top-gh,margin+usable,top-gh);
+    [1,4,7,10,13,15].forEach(i=>line(xAt(i),top-gh,xAt(i),top));
+    for(let i=1;i<16;i++)line(xAt(i),bottom,xAt(i),top-gh);
+    center(margin,ws[0],bottom+15,'Club',7.8,true);
+    center(xAt(15),ws[15],bottom+15,'Notes',7.8,true);
+    groups.forEach(([name,start,count])=>center(xAt(start),ws.slice(start,start+count).reduce((a,b)=>a+b,0),top-13,name,7.8,true));
+    for(let i=1;i<15;i++)center(xAt(i),ws[i],bottom+7,sublabels[i],landscape?6.8:5.5,true);
+    return bottom;
+  };
+  const valSize=landscape?7.4:6.6,noteSize=landscape?7.0:6.0;
+  const rowInfo=vals=>{
+    const notes=wrap(vals[15]||'',ws[15]-7,noteSize);
+    const other=vals.slice(0,15).map((v,i)=>wrap(v||'',ws[i]-5,valSize,i===0||[2,5,8,11].includes(i)));
+    const lines=Math.max(notes.length,...other.map(a=>a.length));
+    return {notes,other,height:Math.max(23,lines*(Math.max(noteSize,valSize)+2)+8)};
+  };
+  const drawRow=(vals,top,info)=>{
+    rect(margin,top-info.height,usable,info.height);
+    for(let i=1;i<16;i++)line(xAt(i),top-info.height,xAt(i),top);
+    for(let i=0;i<15;i++){
+      const arr=info.other[i],bold=i===0||[2,5,8,11].includes(i);
+      const topLine=top-(info.height-arr.length*(valSize+2))/2-valSize;
+      arr.forEach((v,k)=>center(xAt(i),ws[i],topLine-k*(valSize+2),v,valSize,bold));
+    }
+    info.notes.forEach((v,k)=>text(xAt(15)+3,top-9-k*(noteSize+2),v,noteSize));
+  };
+  let idx=0,pageNo=0;
+  while(true){
+    stream='0 G 0.55 w\n';pageNo++;
+    let y=pageNo===1?drawMainHeader():drawContinuationHeader(pageNo);
+    y=drawTableHeader(y);
+    const reserve=52;
+    while(idx<cells.length){
+      const info=rowInfo(cells[idx]);
+      if(y-info.height<margin+reserve)break;
+      drawRow(cells[idx],y,info);y-=info.height;idx++;
+    }
+    if(idx===cells.length){
+      const noteLines=wrap(workNotes,usable-89,8);
+      const noteHeight=Math.max(38,noteLines.length*10+12);
+      if(y-noteHeight-8<margin+10){
+        text(W-margin-55,16,`Page ${pageNo}`,8);pages.push(stream);
+        stream='0 G 0.55 w\n';pageNo++;
+        y=drawContinuationHeader(pageNo)-8;
+      }
+      text(margin,y-14,'Work Notes:',8.5,true);
+      rect(margin+79,y-noteHeight,usable-79,noteHeight-4);
+      noteLines.forEach((v,i)=>text(margin+83,y-16-i*10,v,8));
+    }
+    text(W-margin-55,16,`Page ${pageNo}`,8);pages.push(stream);
+    if(idx===cells.length)break;
+    // A row too tall for the available page area must not cause an endless loop.
+    if(pageNo>1 && idx<cells.length && rowInfo(cells[idx]).height>H-2*margin-120)throw new Error('Specification row exceeds printable page height');
+  }
   // Build PDF 1.4 objects and cross-reference offsets.
   const objects=[null];
   const add=s=>{objects.push(s);return objects.length-1;};
