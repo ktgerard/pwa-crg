@@ -108,8 +108,8 @@ function makePDF() {
     return Math.max(1,lines.length)*(fs+2);
   };
   const drawMainHeader=()=>{
-    let y=H-35;text(margin,y,'CLUB SPECIFICATIONS SHEET',15,true);y-=14;
-    text(margin,y,'(With Factory Standards)',9,true);y-=22;
+    let y=H-35;center(margin,usable,y,'CLUB SPECIFICATIONS SHEET',15,true);y-=14;
+    center(margin,usable,y,'(With Factory Standards)',9,true);y-=22;
     const customerHeight=labelValue(margin,y,'Customer:',meta('customerName'),usable*.62,8);
     const ticketHeight=labelValue(margin+usable*.64,y,'Ticket #:',meta('ticketNumber'),usable*.36,8);
     y-=Math.max(customerHeight,ticketHeight)+6;
