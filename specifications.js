@@ -66,8 +66,8 @@ async function loadWorksheet(){
 
 
 // Self-contained PDF writer: no CDN dependency and no HTML print pagination.
-const pdfText = v => String(v ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[\u2013\u2014]/g,'-').replace(/[^\x20-\x7e\u00b1]/g, '?');
-const pdfEscape = v => pdfText(v).replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)').replace(/\u00b1/g,'\\261');
+const pdfText = v => String(v ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[\u00b1\u2213]/g, '+/-').replace(/[\u2013\u2014]/g,'-').replace(/[^\x20-\x7e]/g, '?');
+const pdfEscape = v => pdfText(v).replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
 function makePDF() {
   const landscape = document.getElementById('pdfOrientation').value === 'landscape';
   const W = landscape ? 792 : 612, H = landscape ? 612 : 792;
