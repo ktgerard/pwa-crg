@@ -66,8 +66,8 @@ async function loadWorksheet(){
 
 
 // Self-contained PDF writer: no CDN dependency and no HTML print pagination.
-const pdfText = v => String(v ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[\u2013\u2014]/g,'-').replace(/[^\x20-\x7e]/g, '?');
-const pdfEscape = v => pdfText(v).replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)');
+const pdfText = v => String(v ?? '').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[\u2013\u2014]/g,'-').replace(/[^\x20-\x7e\u00b1]/g, '?');
+const pdfEscape = v => pdfText(v).replace(/\\/g,'\\\\').replace(/\(/g,'\\(').replace(/\)/g,'\\)').replace(/\u00b1/g,'\\261');
 function makePDF() {
   const landscape = document.getElementById('pdfOrientation').value === 'landscape';
   const W = landscape ? 792 : 612, H = landscape ? 612 : 792;
@@ -151,11 +151,13 @@ function makePDF() {
   };
   const drawTableHeader=top=>{
     const gh=20,ch=20,bottom=top-gh-ch;
-    rect(margin,bottom,usable,gh+ch);line(margin,top-gh,margin+usable,top-gh);
+    rect(margin,bottom,usable,gh+ch);
+    // Club and Notes span both header rows: do not draw a line through them.
+    line(xAt(1),top-gh,xAt(15),top-gh);
     [1,4,7,10,13,15].forEach(i=>line(xAt(i),top-gh,xAt(i),top));
     for(let i=1;i<16;i++)line(xAt(i),bottom,xAt(i),top-gh);
-    center(margin,ws[0],bottom+15,'Club',7.8,true);
-    center(xAt(15),ws[15],bottom+15,'Notes',7.8,true);
+    center(margin,ws[0],bottom+17,'Club',7.8,true);
+    center(xAt(15),ws[15],bottom+17,'Notes',7.8,true);
     groups.forEach(([name,start,count])=>center(xAt(start),ws.slice(start,start+count).reduce((a,b)=>a+b,0),top-13,name,7.8,true));
     for(let i=1;i<15;i++)center(xAt(i),ws[i],bottom+7,sublabels[i],landscape?6.8:5.5,true);
     return bottom;
